@@ -2044,3 +2044,9 @@ Processing MenuItemsController#new (for 127.0.0.1 at 2010-04-17 14:29:53) [GET]
 Rendering template within layouts/menu_items
 Rendering menu_items/new
 Completed in 16ms (View: 9, DB: 0) | 200 OK [http://localhost/menu_items/new]
+
+
+Processing MenuItemsController#new (for 127.0.0.1 at 2010-04-17 14:31:46) [GET]
+Rendering template within layouts/menu_items
+Rendering menu_items/new
+Completed in 17ms (View: 10, DB: 0) | 200 OK [http://localhost/menu_items/new]
