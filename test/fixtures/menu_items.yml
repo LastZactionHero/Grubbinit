@@ -1,0 +1,15 @@
+# Read about fixtures at http://ar.rubyonrails.org/classes/Fixtures.html
+
+one:
+  name: MyString
+  restaurant: MyString
+  price: MyString
+  preptime: 1
+  description: MyString
+
+two:
+  name: MyString
+  restaurant: MyString
+  price: MyString
+  preptime: 1
+  description: MyString

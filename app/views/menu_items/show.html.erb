@@ -1,0 +1,28 @@
+<p>
+  <b>Name:</b>
+  <%=h @menu_item.name %>
+</p>
+
+<p>
+  <b>Restaurant:</b>
+  <%=h @menu_item.restaurant %>
+</p>
+
+<p>
+  <b>Price:</b>
+  <%=h @menu_item.price %>
+</p>
+
+<p>
+  <b>Preptime:</b>
+  <%=h @menu_item.preptime %>
+</p>
+
+<p>
+  <b>Description:</b>
+  <%=h @menu_item.description %>
+</p>
+
+
+<%= link_to 'Edit', edit_menu_item_path(@menu_item) %> |
+<%= link_to 'Back', menu_items_path %>

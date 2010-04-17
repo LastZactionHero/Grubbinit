@@ -1,0 +1,28 @@
+<h1>Listing menu_items</h1>
+
+<table>
+  <tr>
+    <th>Name</th>
+    <th>Restaurant</th>
+    <th>Price</th>
+    <th>Preptime</th>
+    <th>Description</th>
+  </tr>
+
+<% @menu_items.each do |menu_item| %>
+  <tr>
+    <td><%=h menu_item.name %></td>
+    <td><%=h menu_item.restaurant %></td>
+    <td><%=h menu_item.price %></td>
+    <td><%=h menu_item.preptime %></td>
+    <td><%=h menu_item.description %></td>
+    <td><%= link_to 'Show', menu_item %></td>
+    <td><%= link_to 'Edit', edit_menu_item_path(menu_item) %></td>
+    <td><%= link_to 'Destroy', menu_item, :confirm => 'Are you sure?', :method => :delete %></td>
+  </tr>
+<% end %>
+</table>
+
+<br />
+
+<%= link_to 'New menu_item', new_menu_item_path %>

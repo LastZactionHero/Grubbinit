@@ -9,7 +9,17 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20100417191000) do
+ActiveRecord::Schema.define(:version => 20100417192807) do
+
+  create_table "menu_items", :force => true do |t|
+    t.string   "name"
+    t.string   "restaurant"
+    t.string   "price"
+    t.integer  "preptime"
+    t.string   "description"
+    t.datetime "created_at"
+    t.datetime "updated_at"
+  end
 
   create_table "restaurants", :force => true do |t|
     t.string   "name"

@@ -1942,3 +1942,105 @@ NameError (uninitialized constant HomeController):
 Rendered rescues/_trace (44.0ms)
 Rendered rescues/_request_and_response (0.4ms)
 Rendering rescues/layout (internal_server_error)
+  [4;36;1mSQL (0.6ms)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;35;1mSQL (0.2ms)[0m   [0mSELECT version FROM schema_migrations[0m
+Migrating to CreateRestaurants (20100417191000)
+Migrating to CreateMenuItems (20100417192807)
+  [4;36;1mSQL (0.1ms)[0m   [0;1mselect sqlite_version(*)[0m
+  [4;35;1mSQL (0.8ms)[0m   [0mCREATE TABLE "menu_items" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "name" varchar(255), "restaurant" varchar(255), "price" varchar(255), "preptime" integer, "description" varchar(255), "created_at" datetime, "updated_at" datetime) [0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1mINSERT INTO schema_migrations (version) VALUES ('20100417192807')[0m
+  [4;35;1mSQL (0.5ms)[0m   [0m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSELECT version FROM schema_migrations[0m
+  [4;35;1mSQL (0.2ms)[0m   [0m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mPRAGMA index_list("menu_items")[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mPRAGMA index_list("restaurants")[0m
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-04-17 14:28:19) [GET]
+
+NameError (uninitialized constant HomeController):
+  
+
+Rendered rescues/_trace (43.3ms)
+Rendered rescues/_request_and_response (0.4ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-04-17 14:28:27) [GET]
+
+ActionController::RoutingError (No route matches "/menuitems/" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-04-17 14:28:30) [GET]
+
+ActionController::RoutingError (No route matches "/menuitem/" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-04-17 14:28:37) [GET]
+
+ActionController::RoutingError (No route matches "/menu_item/" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing MenuItemsController#index (for 127.0.0.1 at 2010-04-17 14:29:00) [GET]
+  [4;36;1mMenuItem Load (0.5ms)[0m   [0;1mSELECT * FROM "menu_items" [0m
+Rendering template within layouts/menu_items
+Rendering menu_items/index
+Completed in 26ms (View: 18, DB: 1) | 200 OK [http://localhost/menu_items/]
+
+
+Processing MenuItemsController#new (for 127.0.0.1 at 2010-04-17 14:29:03) [GET]
+Rendering template within layouts/menu_items
+Rendering menu_items/new
+Completed in 24ms (View: 16, DB: 0) | 200 OK [http://localhost/menu_items/new]
+
+
+Processing RestaurantsController#index (for 127.0.0.1 at 2010-04-17 14:29:41) [GET]
+  [4;35;1mRestaurant Load (0.5ms)[0m   [0mSELECT * FROM "restaurants" [0m
+Rendering template within layouts/restaurants
+Rendering restaurants/index
+Completed in 16ms (View: 9, DB: 1) | 200 OK [http://localhost/restaurants/]
+
+
+Processing RestaurantsController#new (for 127.0.0.1 at 2010-04-17 14:29:43) [GET]
+Rendering template within layouts/restaurants
+Rendering restaurants/new
+Completed in 16ms (View: 8, DB: 0) | 200 OK [http://localhost/restaurants/new]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-04-17 14:29:50) [GET]
+
+ActionController::RoutingError (No route matches "/menu_item/" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing MenuItemsController#index (for 127.0.0.1 at 2010-04-17 14:29:52) [GET]
+  [4;36;1mMenuItem Load (0.5ms)[0m   [0;1mSELECT * FROM "menu_items" [0m
+Rendering template within layouts/menu_items
+Rendering menu_items/index
+Completed in 8ms (View: 2, DB: 1) | 200 OK [http://localhost/menu_items/]
+
+
+Processing MenuItemsController#new (for 127.0.0.1 at 2010-04-17 14:29:53) [GET]
+Rendering template within layouts/menu_items
+Rendering menu_items/new
+Completed in 16ms (View: 9, DB: 0) | 200 OK [http://localhost/menu_items/new]

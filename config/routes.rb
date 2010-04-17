@@ -1,4 +1,6 @@
 ActionController::Routing::Routes.draw do |map|
+  map.resources :menu_items
+
   map.resources :restaurants
 
   map.resources :restaurants
