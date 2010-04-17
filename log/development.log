@@ -1932,3 +1932,13 @@ Processing RestaurantsController#new (for 127.0.0.1 at 2010-04-17 14:17:12) [GET
 Rendering template within layouts/restaurants
 Rendering restaurants/new
 Completed in 132ms (View: 125, DB: 0) | 200 OK [http://localhost/restaurants/new]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-04-17 14:21:21) [GET]
+
+NameError (uninitialized constant HomeController):
+  
+
+Rendered rescues/_trace (44.0ms)
+Rendered rescues/_request_and_response (0.4ms)
+Rendering rescues/layout (internal_server_error)
