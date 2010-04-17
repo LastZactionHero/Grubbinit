@@ -1,17 +1,22 @@
-<h1>Grubb.in!</h1>
-<%=h "Search from a database of #{@restaurants.size} restaurants!" %><br><br>
-
-<form>
-Search: 
-<input type="text" name="search" />
-<input type="submit" value="Grubbit!" />
-</form>
-
-<br>
-<% @restaurants.each do |restaurant| %>
-<% if restaurant.name.include? @search_term %>
-<%=h "#{restaurant.name}: #{restaurant.address}" %>
-<br>
-<% end %>
-<br>
-<% end %>
+			<div class="subContent clearfix">
+				<p>Mauris mollis eleifend erat nec ullamcorper. Quisque porta laoreet tellus quis 
+commodo. Aliquam volutpat, nisl at elementum elementum, tellus eros viverra erat, sit amet sagittis nunc tortor vel nulla. Nam velit sapien, suscipit ut ornare nec, pretium eu magna.</p>
+			</div> 
+		</div>
+		<div id="lowerContentBlock" class="clearfix">
+			<div id="contentBlock" class="clearfix">
+				<div id="homepageSearch" class="clearfix">
+					<h2>search here:</h2>
+					<div class="searchRow">
+					<form name="index" action="search" method="get">
+						<input type="text" name="searchValue" id="searchValue" class="searchField" value="e.g. Thai, $15.99, Westport" />
+						<input type="text" name="zipValue" id="zipValue" class="zipcodeField" value="zipcode" />
+						<input type="submit" id="submit" class="sprite_buttons submitBtn" value="" />
+						<!-- <input type="text" name="user" />
+						<input type="submit" value="Submit" /> -->
+					</form>
+					</div>
+				</div>
+				<div id="homepageSignInBlock">&nbsp;</div>
+			</div>
+		</div>

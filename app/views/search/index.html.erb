@@ -1,0 +1,43 @@
+			<div class="subContent clearfix">
+				<p>Mauris mollis eleifend erat nec ullamcorper. Quisque porta laoreet tellus quis commodo. Aliquam volutpat, nisl at elementum elementum, tellus eros viverra erat, sit amet sagittis nunc tortor vel nulla. Nam velit sapien, suscipit ut ornare nec, pretium eu magna.</p>
+			</div> 
+		</div>
+		
+		
+		<!-- 
+			<div id="contentBlock" class="clearfix">
+				<div id="homepageSearch" class="clearfix">
+					<h2>search here:</h2>
+					<div class="searchRow">
+					<form name="index" action="search" method="get">
+						<input type="text" name="searchValue" id="searchValue" class="searchField" value="e.g. Thai, $15.99, Westport" />
+						<input type="text" name="zipValue" id="zipValue" class="zipcodeField" value="zipcode" />
+						<input type="submit" id="submit" class="sprite_buttons submitBtn" value="" />
+						<!-- <input type="text" name="user" />
+						<input type="submit" value="Submit" />
+					</form>
+					</div>
+				</div>
+				<div id="homepageSignInBlock">&nbsp;</div>
+			</div> -->
+			
+		<div id="lowerContentBlock" class="clearfix">
+			<div id="homepageSearch" class="clearfix">
+			
+		Your search for <%= "#{@search_term}" %> found <%= "#{@restaurants.size}" %> 
+		<% if @restaurants.size == 1 %>
+		  <%= "result." %>
+		<% else %>
+		  <%= "results." %>
+		<% end %>
+		
+		<br><br>
+		<% @restaurants.each do |restaurant| %>
+			<%= "#{restaurant.name}" %>
+		<br><br>
+		<% end %>
+		
+		
+			</div>
+		</div>
+		</div>
