@@ -2050,3 +2050,75 @@ Processing MenuItemsController#new (for 127.0.0.1 at 2010-04-17 14:31:46) [GET]
 Rendering template within layouts/menu_items
 Rendering menu_items/new
 Completed in 17ms (View: 10, DB: 0) | 200 OK [http://localhost/menu_items/new]
+  [4;36;1mSQL (0.7ms)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;35;1mSQL (0.3ms)[0m   [0mSELECT version FROM schema_migrations[0m
+Migrating to CreateRestaurants (20100417191000)
+Migrating to CreateMenuItems (20100417192807)
+Migrating to CreateCustomers (20100417194254)
+  [4;36;1mSQL (0.1ms)[0m   [0;1mselect sqlite_version(*)[0m
+  [4;35;1mSQL (0.8ms)[0m   [0mCREATE TABLE "customers" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "firstname" varchar(255), "lastname" varchar(255), "address" varchar(255), "phone" varchar(255), "email" varchar(255), "password" varchar(255), "created_at" datetime, "updated_at" datetime) [0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1mINSERT INTO schema_migrations (version) VALUES ('20100417194254')[0m
+  [4;35;1mSQL (0.5ms)[0m   [0m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSELECT version FROM schema_migrations[0m
+  [4;35;1mSQL (0.8ms)[0m   [0m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mPRAGMA index_list("customers")[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mPRAGMA index_list("menu_items")[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mPRAGMA index_list("restaurants")[0m
+
+
+Processing CustomersController#index (for 127.0.0.1 at 2010-04-17 14:43:15) [GET]
+  [4;35;1mCustomer Load (0.6ms)[0m   [0mSELECT * FROM "customers" [0m
+Rendering template within layouts/customers
+Rendering customers/index
+Completed in 26ms (View: 19, DB: 1) | 200 OK [http://localhost/customers]
+
+
+Processing CustomersController#new (for 127.0.0.1 at 2010-04-17 14:43:16) [GET]
+Rendering template within layouts/customers
+Rendering customers/new
+Completed in 25ms (View: 17, DB: 0) | 200 OK [http://localhost/customers/new]
+
+
+Processing CustomersController#new (for 127.0.0.1 at 2010-04-17 14:44:11) [GET]
+Rendering template within layouts/customers
+Rendering customers/new
+Completed in 24ms (View: 17, DB: 0) | 200 OK [http://localhost/customers/new]
+
+
+Processing CustomersController#create (for 127.0.0.1 at 2010-04-17 14:44:39) [POST]
+  Parameters: {"commit"=>"Create", "authenticity_token"=>"AKGCIClD7iaEoErCtyRqnwFmsvOEDTSWG21Y6Moa5/c=", "customer"=>{"address"=>"2222", "lastname"=>"Customer", "phone"=>"317-496-8472", "firstname"=>"Test", "password"=>"testpassword", "email"=>"zach@zach.com"}}
+  [4;36;1mCustomer Create (0.6ms)[0m   [0;1mINSERT INTO "customers" ("address", "created_at", "updated_at", "lastname", "firstname", "phone", "password", "email") VALUES('2222', '2010-04-17 19:44:39', '2010-04-17 19:44:39', 'Customer', 'Test', '317-496-8472', 'testpassword', 'zach@zach.com')[0m
+Redirected to http://localhost:3000/customers/1
+Completed in 70ms (DB: 1) | 302 Found [http://localhost/customers]
+
+
+Processing CustomersController#show (for 127.0.0.1 at 2010-04-17 14:44:39) [GET]
+  Parameters: {"id"=>"1"}
+  [4;35;1mCustomer Load (0.4ms)[0m   [0mSELECT * FROM "customers" WHERE ("customers"."id" = 1) [0m
+Rendering template within layouts/customers
+Rendering customers/show
+Completed in 135ms (View: 31, DB: 0) | 200 OK [http://localhost/customers/1]
+
+
+Processing CustomersController#index (for 127.0.0.1 at 2010-04-17 14:44:41) [GET]
+  [4;36;1mCustomer Load (0.8ms)[0m   [0;1mSELECT * FROM "customers" [0m
+Rendering template within layouts/customers
+Rendering customers/index
+Completed in 16ms (View: 9, DB: 1) | 200 OK [http://localhost/customers]
+
+
+Processing CustomersController#edit (for 127.0.0.1 at 2010-04-17 14:45:09) [GET]
+  Parameters: {"id"=>"1"}
+  [4;35;1mCustomer Load (0.4ms)[0m   [0mSELECT * FROM "customers" WHERE ("customers"."id" = 1) [0m
+Rendering template within layouts/customers
+Rendering customers/edit
+Completed in 27ms (View: 19, DB: 0) | 200 OK [http://localhost/customers/1/edit]
