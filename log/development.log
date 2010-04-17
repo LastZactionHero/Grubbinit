@@ -5035,3 +5035,192 @@ Processing RestaurantsController#index (for 127.0.0.1 at 2010-04-17 17:50:34) [G
 Rendering template within layouts/restaurants
 Rendering restaurants/index
 Completed in 25ms (View: 20, DB: 1) | 200 OK [http://localhost/restaurants/]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-04-17 17:53:25) [GET]
+Rendering template within layouts/application
+Rendering home/index
+Completed in 4ms (View: 1, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing SearchController#index (for 127.0.0.1 at 2010-04-17 17:53:28) [GET]
+  Parameters: {"searchValue"=>"italian", "zipValue"=>""}
+  [4;36;1mRestaurant Load (1.1ms)[0m   [0;1mSELECT * FROM "restaurants" [0m
+Rendering template within layouts/application
+Rendering search/index
+Completed in 6ms (View: 1, DB: 1) | 200 OK [http://localhost/search?searchValue=italian&zipValue=]
+
+
+Processing SearchController#index (for 127.0.0.1 at 2010-04-17 17:53:31) [GET]
+  Parameters: {"searchValue"=>"awfawef", "zipValue"=>""}
+  [4;35;1mRestaurant Load (1.1ms)[0m   [0mSELECT * FROM "restaurants" [0m
+Rendering template within layouts/application
+Rendering search/index
+Completed in 6ms (View: 2, DB: 1) | 200 OK [http://localhost/search?searchValue=awfawef&zipValue=]
+
+
+Processing SearchController#index (for 127.0.0.1 at 2010-04-17 17:53:35) [GET]
+  Parameters: {"searchValue"=>"thai", "zipValue"=>""}
+  [4;36;1mRestaurant Load (1.1ms)[0m   [0;1mSELECT * FROM "restaurants" [0m
+Rendering template within layouts/application
+Rendering search/index
+Completed in 6ms (View: 1, DB: 1) | 200 OK [http://localhost/search?searchValue=thai&zipValue=]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-04-17 17:57:03) [GET]
+Rendering template within layouts/application
+Rendering home/index
+Completed in 4ms (View: 1, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing SearchController#index (for 127.0.0.1 at 2010-04-17 17:57:06) [GET]
+  Parameters: {"searchValue"=>"thai", "zipValue"=>""}
+  [4;35;1mRestaurant Load (1.1ms)[0m   [0mSELECT * FROM "restaurants" [0m
+
+ArgumentError (wrong number of arguments (1 for 2)):
+  app/controllers/search_controller.rb:21:in `doesRestaurantContainSearch'
+  app/controllers/search_controller.rb:21:in `index'
+  app/controllers/search_controller.rb:21:in `select'
+  app/controllers/search_controller.rb:21:in `index'
+
+Rendered rescues/_trace (136.9ms)
+Rendered rescues/_request_and_response (0.4ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing SearchController#index (for 127.0.0.1 at 2010-04-17 17:58:18) [GET]
+  Parameters: {"searchValue"=>"thai", "zipValue"=>""}
+  [4;36;1mRestaurant Load (1.1ms)[0m   [0;1mSELECT * FROM "restaurants" [0m
+
+NoMethodError (Attempt to call private method):
+  app/controllers/search_controller.rb:21:in `index'
+  app/controllers/search_controller.rb:21:in `select'
+  app/controllers/search_controller.rb:21:in `index'
+
+Rendered rescues/_trace (51.5ms)
+Rendered rescues/_request_and_response (0.5ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-04-17 17:58:28) [GET]
+Rendering template within layouts/application
+Rendering home/index
+Completed in 4ms (View: 1, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing SearchController#index (for 127.0.0.1 at 2010-04-17 17:58:33) [GET]
+  Parameters: {"searchValue"=>"thai", "zipValue"=>""}
+  [4;35;1mRestaurant Load (1.1ms)[0m   [0mSELECT * FROM "restaurants" [0m
+
+NoMethodError (Attempt to call private method):
+  app/controllers/search_controller.rb:21:in `index'
+  app/controllers/search_controller.rb:21:in `select'
+  app/controllers/search_controller.rb:21:in `index'
+
+Rendered rescues/_trace (140.3ms)
+Rendered rescues/_request_and_response (0.4ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing SearchController#index (for 127.0.0.1 at 2010-04-17 17:58:49) [GET]
+  Parameters: {"searchValue"=>"thai", "zipValue"=>""}
+  [4;36;1mRestaurant Load (1.2ms)[0m   [0;1mSELECT * FROM "restaurants" [0m
+
+NoMethodError (Attempt to call private method):
+  app/controllers/search_controller.rb:21:in `index'
+  app/controllers/search_controller.rb:21:in `select'
+  app/controllers/search_controller.rb:21:in `index'
+
+Rendered rescues/_trace (51.9ms)
+Rendered rescues/_request_and_response (0.4ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing SearchController#index (for 127.0.0.1 at 2010-04-17 17:59:40) [GET]
+  Parameters: {"searchValue"=>"thai", "zipValue"=>""}
+  [4;35;1mRestaurant Load (1.1ms)[0m   [0mSELECT * FROM "restaurants" [0m
+
+NoMethodError (Attempt to call private method):
+  app/controllers/search_controller.rb:21:in `index'
+  app/controllers/search_controller.rb:21:in `select'
+  app/controllers/search_controller.rb:21:in `index'
+
+Rendered rescues/_trace (52.0ms)
+Rendered rescues/_request_and_response (0.4ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing SearchController#index (for 127.0.0.1 at 2010-04-17 17:59:42) [GET]
+  Parameters: {"searchValue"=>"thai", "zipValue"=>""}
+  [4;36;1mRestaurant Load (1.1ms)[0m   [0;1mSELECT * FROM "restaurants" [0m
+
+NoMethodError (Attempt to call private method):
+  app/controllers/search_controller.rb:21:in `index'
+  app/controllers/search_controller.rb:21:in `select'
+  app/controllers/search_controller.rb:21:in `index'
+
+Rendered rescues/_trace (143.6ms)
+Rendered rescues/_request_and_response (0.4ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing SearchController#index (for 127.0.0.1 at 2010-04-17 17:59:46) [GET]
+  Parameters: {"searchValue"=>"", "zipValue"=>"64112"}
+  [4;35;1mRestaurant Load (1.1ms)[0m   [0mSELECT * FROM "restaurants" [0m
+Rendering template within layouts/application
+Rendering search/index
+Completed in 6ms (View: 2, DB: 1) | 200 OK [http://localhost/search?searchValue=&zipValue=64112]
+
+
+Processing SearchController#index (for 127.0.0.1 at 2010-04-17 17:59:51) [GET]
+  Parameters: {"searchValue"=>"thai", "zipValue"=>""}
+  [4;36;1mRestaurant Load (1.1ms)[0m   [0;1mSELECT * FROM "restaurants" [0m
+
+NoMethodError (Attempt to call private method):
+  app/controllers/search_controller.rb:21:in `index'
+  app/controllers/search_controller.rb:21:in `select'
+  app/controllers/search_controller.rb:21:in `index'
+
+Rendered rescues/_trace (51.3ms)
+Rendered rescues/_request_and_response (0.4ms)
+Rendering rescues/layout (internal_server_error)
+  [4;36;1mRestaurant Load (1.0ms)[0m   [0;1mSELECT * FROM "restaurants" [0m
+  [4;35;1mRestaurant Load (1.0ms)[0m   [0mSELECT * FROM "restaurants" [0m
+
+
+Processing SearchController#index (for 127.0.0.1 at 2010-04-17 18:03:07) [GET]
+  Parameters: {"searchValue"=>"thai", "zipValue"=>""}
+  [4;36;1mRestaurant Load (1.2ms)[0m   [0;1mSELECT * FROM "restaurants" [0m
+Rendering template within layouts/application
+Rendering search/index
+Completed in 104ms (View: 83, DB: 1) | 200 OK [http://localhost/search?searchValue=thai&zipValue=]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-04-17 18:03:13) [GET]
+Rendering template within layouts/application
+Rendering home/index
+Completed in 88ms (View: 86, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing SearchController#index (for 127.0.0.1 at 2010-04-17 18:03:16) [GET]
+  Parameters: {"searchValue"=>"thai", "zipValue"=>""}
+  [4;35;1mRestaurant Load (1.1ms)[0m   [0mSELECT * FROM "restaurants" [0m
+Rendering template within layouts/application
+Rendering search/index
+Completed in 12ms (View: 2, DB: 1) | 200 OK [http://localhost/search?searchValue=thai&zipValue=]
+
+
+Processing SearchController#index (for 127.0.0.1 at 2010-04-17 18:03:20) [GET]
+  Parameters: {"searchValue"=>"64112", "zipValue"=>""}
+  [4;36;1mRestaurant Load (1.1ms)[0m   [0;1mSELECT * FROM "restaurants" [0m
+Rendering template within layouts/application
+Rendering search/index
+Completed in 35ms (View: 2, DB: 1) | 200 OK [http://localhost/search?searchValue=64112&zipValue=]
+
+
+Processing SearchController#index (for 127.0.0.1 at 2010-04-17 18:03:26) [GET]
+  Parameters: {"searchValue"=>"thai", "zipValue"=>"64112"}
+  [4;35;1mRestaurant Load (1.1ms)[0m   [0mSELECT * FROM "restaurants" [0m
+Rendering template within layouts/application
+Rendering search/index
+Completed in 12ms (View: 2, DB: 1) | 200 OK [http://localhost/search?searchValue=thai&zipValue=64112]

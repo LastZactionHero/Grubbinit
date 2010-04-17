@@ -1,4 +1,4 @@
-require 'restaurant'
+#require 'restaurant'
 
 class SearchController < ApplicationController
   def index
@@ -18,14 +18,14 @@ class SearchController < ApplicationController
 	
 	# Just search term, no zip
 	if !@search_term.empty? and @search_zip.empty?
-	  @restaurants = Restaurant.all.select{ |restaurant| doesRestaurantContainSearch( restaurant, search_terms ) == :true }
+	  @restaurants = Restaurant.all.select{ |restaurant| restaurant.doesRestaurantContainSearch( search_terms ) == true }
 	# Just zip, no search term
 	elsif @search_term.empty? and !@search_zip.empty?
 	  @restaurants = Restaurant.all.select{ |restaurant| restaurant.address.downcase.include? @search_zip.downcase }
 	# Search term and zip
 	else !@search_term.empty? and !@search_zip.empty?
 	  @restaurants = Restaurant.all.select{ |restaurant| 
-			doesRestaurantContainSearch( restaurant, search_terms ) == :true and
+			restaurant.doesRestaurantContainSearch( search_terms ) == true and
 			restaurant.address.downcase.include? @search_zip.downcase
 			}
 	end
