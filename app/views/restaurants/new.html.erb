@@ -1,0 +1,31 @@
+<h1>New restaurant</h1>
+
+<% form_for(@restaurant) do |f| %>
+  <%= f.error_messages %>
+
+  <p>
+    <%= f.label :name %><br />
+    <%= f.text_field :name %>
+  </p>
+  <p>
+    <%= f.label :address %><br />
+    <%= f.text_field :address %>
+  </p>
+  <p>
+    <%= f.label :cuisine %><br />
+    <%= f.text_field :cuisine %>
+  </p>
+  <p>
+    <%= f.label :starthour %><br />
+    <%= f.text_field :starthour %>
+  </p>
+  <p>
+    <%= f.label :endhour %><br />
+    <%= f.text_field :endhour %>
+  </p>
+  <p>
+    <%= f.submit 'Create' %>
+  </p>
+<% end %>
+
+<%= link_to 'Back', restaurants_path %>

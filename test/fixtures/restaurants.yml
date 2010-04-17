@@ -1,0 +1,15 @@
+# Read about fixtures at http://ar.rubyonrails.org/classes/Fixtures.html
+
+one:
+  name: MyString
+  address: MyString
+  cuisine: MyString
+  starthour: MyString
+  endhour: MyString
+
+two:
+  name: MyString
+  address: MyString
+  cuisine: MyString
+  starthour: MyString
+  endhour: MyString
