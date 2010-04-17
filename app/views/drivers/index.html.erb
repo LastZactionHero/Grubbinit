@@ -1,0 +1,30 @@
+<h1>Listing drivers</h1>
+
+<table>
+  <tr>
+    <th>Firstname</th>
+    <th>Lastname</th>
+    <th>Address</th>
+    <th>Phone</th>
+    <th>Lastclockin</th>
+    <th>Isactive</th>
+  </tr>
+
+<% @drivers.each do |driver| %>
+  <tr>
+    <td><%=h driver.firstname %></td>
+    <td><%=h driver.lastname %></td>
+    <td><%=h driver.address %></td>
+    <td><%=h driver.phone %></td>
+    <td><%=h driver.lastclockin %></td>
+    <td><%=h driver.isactive %></td>
+    <td><%= link_to 'Show', driver %></td>
+    <td><%= link_to 'Edit', edit_driver_path(driver) %></td>
+    <td><%= link_to 'Destroy', driver, :confirm => 'Are you sure?', :method => :delete %></td>
+  </tr>
+<% end %>
+</table>
+
+<br />
+
+<%= link_to 'New driver', new_driver_path %>

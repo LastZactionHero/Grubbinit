@@ -2122,3 +2122,69 @@ Processing CustomersController#edit (for 127.0.0.1 at 2010-04-17 14:45:09) [GET]
 Rendering template within layouts/customers
 Rendering customers/edit
 Completed in 27ms (View: 19, DB: 0) | 200 OK [http://localhost/customers/1/edit]
+  [4;36;1mSQL (0.8ms)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;35;1mSQL (0.4ms)[0m   [0mSELECT version FROM schema_migrations[0m
+Migrating to CreateRestaurants (20100417191000)
+Migrating to CreateMenuItems (20100417192807)
+Migrating to CreateCustomers (20100417194254)
+Migrating to CreateDrivers (20100417195519)
+  [4;36;1mSQL (0.2ms)[0m   [0;1mselect sqlite_version(*)[0m
+  [4;35;1mSQL (0.8ms)[0m   [0mCREATE TABLE "drivers" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "firstname" varchar(255), "lastname" varchar(255), "address" varchar(255), "phone" varchar(255), "lastclockin" datetime, "isactive" boolean, "created_at" datetime, "updated_at" datetime) [0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1mINSERT INTO schema_migrations (version) VALUES ('20100417195519')[0m
+  [4;35;1mSQL (0.5ms)[0m   [0m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;36;1mSQL (0.3ms)[0m   [0;1mSELECT version FROM schema_migrations[0m
+  [4;35;1mSQL (0.3ms)[0m   [0m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mPRAGMA index_list("customers")[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mPRAGMA index_list("drivers")[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mPRAGMA index_list("menu_items")[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mPRAGMA index_list("restaurants")[0m
+
+
+Processing DriversController#index (for 127.0.0.1 at 2010-04-17 14:55:32) [GET]
+  [4;36;1mDriver Load (0.6ms)[0m   [0;1mSELECT * FROM "drivers" [0m
+Rendering template within layouts/drivers
+Rendering drivers/index
+Completed in 24ms (View: 18, DB: 1) | 200 OK [http://localhost/drivers]
+
+
+Processing DriversController#new (for 127.0.0.1 at 2010-04-17 14:55:35) [GET]
+Rendering template within layouts/drivers
+Rendering drivers/new
+Completed in 257ms (View: 249, DB: 0) | 200 OK [http://localhost/drivers/new]
+
+
+Processing DriversController#create (for 127.0.0.1 at 2010-04-17 14:56:04) [POST]
+  Parameters: {"commit"=>"Create", "authenticity_token"=>"AKGCIClD7iaEoErCtyRqnwFmsvOEDTSWG21Y6Moa5/c=", "driver"=>{"lastclockin(4i)"=>"19", "address"=>"1111 W Drivingham Way", "lastclockin(5i)"=>"55", "isactive"=>"1", "lastname"=>"Driver", "phone"=>"317 496-8472", "firstname"=>"Test", "lastclockin(1i)"=>"2010", "lastclockin(2i)"=>"4", "lastclockin(3i)"=>"17"}}
+  [4;35;1mDriver Create (0.5ms)[0m   [0mINSERT INTO "drivers" ("address", "created_at", "updated_at", "lastname", "isactive", "firstname", "phone", "lastclockin") VALUES('1111 W Drivingham Way', '2010-04-17 19:56:04', '2010-04-17 19:56:04', 'Driver', 't', 'Test', '317 496-8472', '2010-04-17 19:55:00')[0m
+Redirected to http://localhost:3000/drivers/1
+Completed in 66ms (DB: 1) | 302 Found [http://localhost/drivers]
+
+
+Processing DriversController#show (for 127.0.0.1 at 2010-04-17 14:56:04) [GET]
+  Parameters: {"id"=>"1"}
+  [4;36;1mDriver Load (0.6ms)[0m   [0;1mSELECT * FROM "drivers" WHERE ("drivers"."id" = 1) [0m
+Rendering template within layouts/drivers
+Rendering drivers/show
+Completed in 24ms (View: 13, DB: 1) | 200 OK [http://localhost/drivers/1]
+
+
+Processing DriversController#index (for 127.0.0.1 at 2010-04-17 14:56:26) [GET]
+  [4;35;1mDriver Load (0.8ms)[0m   [0mSELECT * FROM "drivers" [0m
+Rendering template within layouts/drivers
+Rendering drivers/index
+Completed in 17ms (View: 10, DB: 1) | 200 OK [http://localhost/drivers]
+
+
+Processing DriversController#new (for 127.0.0.1 at 2010-04-17 14:56:28) [GET]
+Rendering template within layouts/drivers
+Rendering drivers/new
+Completed in 30ms (View: 22, DB: 0) | 200 OK [http://localhost/drivers/new]

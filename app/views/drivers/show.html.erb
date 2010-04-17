@@ -1,0 +1,33 @@
+<p>
+  <b>Firstname:</b>
+  <%=h @driver.firstname %>
+</p>
+
+<p>
+  <b>Lastname:</b>
+  <%=h @driver.lastname %>
+</p>
+
+<p>
+  <b>Address:</b>
+  <%=h @driver.address %>
+</p>
+
+<p>
+  <b>Phone:</b>
+  <%=h @driver.phone %>
+</p>
+
+<p>
+  <b>Lastclockin:</b>
+  <%=h @driver.lastclockin %>
+</p>
+
+<p>
+  <b>Isactive:</b>
+  <%=h @driver.isactive %>
+</p>
+
+
+<%= link_to 'Edit', edit_driver_path(@driver) %> |
+<%= link_to 'Back', drivers_path %>
