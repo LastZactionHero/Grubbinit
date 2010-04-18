@@ -9,17 +9,23 @@ class MenuController < ApplicationController
 	  subtotal += order_item.menu_item.price.to_f * order_item.order_count
 	end
 	
-	return subtotal
+	return (subtotal*100).round/100.0
   end
   
   def calculateService
-    service = 4.72
-	return service
+    subtotal = calculateSubtotal()
+	if subtotal == 0
+	  service = 0
+	else
+	  service = calculateSubtotal() * 0.15 + 2.00
+	end
+	
+	return (service*100).round/100.0
   end
   
   def calculateTotal
     total = calculateSubtotal() + calculateService()
-	return total
+	return (total*100).round/100.0
   end
   
   def calculateItemCount
