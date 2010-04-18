@@ -1,6 +1,27 @@
 require 'menu_item'
 
 class MenuController < ApplicationController
+  
+  def calculateSubtotal
+    subtotal = 0
+	
+	session[:items].each do |order_item|
+	  subtotal += order_item.menu_item.price.to_i * order_item.order_count
+	end
+	
+	return subtotal
+  end
+  
+  def calculateService
+    service = 4.72
+	return service
+  end
+  
+  def calculateTotal
+    total = calculateSubtotal() + calculateService()
+	return total
+  end
+  
   def index
     @restaurant_name = params[:id].to_s
 	
@@ -9,6 +30,10 @@ class MenuController < ApplicationController
 	end	  
 	
 	@items = MenuItem.all.select{ |item| item.restaurant == @restaurant_name }
+	
+	@costSubtotal = "$" + calculateSubtotal().to_s
+	@costService = "$" + calculateService().to_s
+	@costTotal = "$" + calculateTotal().to_s
   end
 
   def update

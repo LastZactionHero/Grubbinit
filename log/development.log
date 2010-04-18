@@ -14388,3 +14388,736 @@ Processing MenuController#index (for 127.0.0.1 at 2010-04-18 00:30:02) [GET]
 Rendering template within layouts/application
 Rendering menu/index
 Completed in 6ms (View: 2, DB: 1) | 200 OK [http://localhost/menu/Thai%20Restaurant]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-04-18 00:39:37) [GET]
+Rendering template within layouts/application
+Rendering home/index
+Completed in 11ms (View: 1, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing SearchController#index (for 127.0.0.1 at 2010-04-18 00:39:39) [GET]
+  Parameters: {"searchValue"=>"thai", "zipValue"=>"zipcode"}
+  [4;36;1mRestaurant Load (1.1ms)[0m   [0;1mSELECT * FROM "restaurants" [0m
+Rendering template within layouts/application
+Rendering search/index
+Completed in 11ms (View: 1, DB: 1) | 200 OK [http://localhost/search?searchValue=thai&zipValue=zipcode]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-04-18 00:39:39) [GET]
+
+ActionController::RoutingError (No route matches "/stylesheets/images/map.jpg" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing MenuController#index (for 127.0.0.1 at 2010-04-18 00:39:41) [GET]
+  Parameters: {"id"=>"Thai Restaurant"}
+  [4;35;1mMenuItem Load (0.8ms)[0m   [0mSELECT * FROM "menu_items" [0m
+Rendering template within layouts/application
+Rendering menu/index
+Completed in 14ms (View: 9, DB: 1) | 200 OK [http://localhost/menu/Thai%20Restaurant]
+
+
+Processing MenuController#index (for 127.0.0.1 at 2010-04-18 00:41:48) [GET]
+  Parameters: {"id"=>"Thai Restaurant"}
+  [4;36;1mMenuItem Load (0.8ms)[0m   [0;1mSELECT * FROM "menu_items" [0m
+Rendering template within layouts/application
+Rendering menu/index
+ERROR: compiling _run_erb_app47views47menu47index46html46erb RAISED compile error
+/Users/zachdicklin/www/grubbinit/app/views/menu/index.html.erb:77: syntax error, unexpected kENSURE, expecting ')'
+/Users/zachdicklin/www/grubbinit/app/views/menu/index.html.erb:79: syntax error, unexpected kEND, expecting ')'
+Function body:           def _run_erb_app47views47menu47index46html46erb(local_assigns)
+            old_output_buffer = output_buffer;;@output_buffer = '';  __in_erb_template=true ; @output_buffer.concat "<div class=\"innerSearch clearfix\">\n\t\t\t\t<h2>search here:</h2>\n\t\t\t\t\t<div class=\"searchRow\">\n\t\t\t\t\t\t<input type=\"text\" id=\"searchValue\" class=\"searchField\" value=\"e.g. Thai, $15.99, Westport\" />\n\t\t\t\t\t\t<input type=\"text\" id=\"zipValue\" class=\"zipcodeField\" value=\"zipcode\" />\n\t\t\t\t\t\t<input type=\"submit\" id=\"submit\" class=\"sprite_buttons goBtn\" value=\" \" />\n\t\t\t\t\t\t<a class=\"sprite_buttons helpBtn\" href=\"#\">help</a>\n\t\t\t\t\t\t<a class=\"sprite_buttons homeBtn\" href=\"#\">home</a>\n\t\t\t\t\t</div>\n\t\t\t</div>\n\t\t</div>\n\t\t\n\t\t<script>\n\t\t\tfunction updatecount( item_name )\n\t\t\t{\n\t\t\t\t"
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+; @output_buffer.concat(( "var update_url = \"update/#{@restaurant_name}\"" ).to_s); @output_buffer.concat "\n\t\t\t\tupdate_url = update_url + \"/\" + item_name + \"/\"\n\t\t\t\t\n\t\t\t\telementId = \"count\"\n\t\t\t\telementId += item_name\n\t\t\t\t\n\t\t\t\titemCount = document.getElementById( elementId ).value\n\t\t\t\t\n\t\t\t\tupdate_url = update_url + itemCount\n\t\t\t\t\n\t\t\t\twindow.location = update_url\n\t\t\t\t\n\t\t\t}\n\t\t</script>\n\n\t\t<div id=\"lowerContentBlock\" class=\"clearfix\">\n\t\t\t<div id=\"contentBlock\" class=\"clearfix\">\n\t\t\t\t<div class=\"searchResults\">\n\t\t\t\t\n\t\t\t\t\t<form name=\"updateForm\" action=\"update\" method=\"post\">\n\t\t\t\t\t<h3>"
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+; @output_buffer.concat(( "#{ @restaurant_name }" ).to_s); @output_buffer.concat "</h3>\n\t\t\t\t\t<div class=\"menuResults\">\n\t\t\t\t\t\n\t\t\t\t\t\t<ul class=\"menuItems\">\n\t\t\t\t\t\t\t<li class=\"heading\">Menu Items:</li>\n\t\t\t\t\t\t\t<li class=\"heading priceHeading\">Item Price:</li>\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t"
+
+
+
+
+
+
+;  @items.each do |item| ; @output_buffer.concat "\n\t\t\t\t\t\t\t\t<div class=\"menuDetails\">\n\t\t\t\t\t\t\t\t\t<li class=\"menuItemTitle\">"
+
+; @output_buffer.concat(( "#{item.name}" ).to_s); @output_buffer.concat "</li>\n\t\t\t\t\t\t\t\t\t<li class=\"menuItemDescription\">"
+; @output_buffer.concat(( "#{item.description}" ).to_s); @output_buffer.concat "</li>\n\t\t\t\t\t\t\t\t\t<li class=\"menuItemPrice\">\n\t\t\t\t\t\t\t\t\t<a class=\"sprite_buttons deleteBtn\" href=\"#\">&nbsp;</a>\n\t\t\t\t\t\t\t\t\t"
+
+
+; @output_buffer.concat(( "<a class=\"sprite_buttons updateBtn\" onclick=\'javascript:updatecount(\"#{item.name}\")\'>&nbsp;</a>" ).to_s); @output_buffer.concat "\n\t\t\t\t\t\t\t\t\t<!-- <input type=\"text\" id=\"menuPrice\" /> -->\n\t\t\t\t\t\t\t\t\t"
+
+; @output_buffer.concat(( "<input type=\"text\" id=\"count#{item.name}\" value=\"#{item.getSessionCount( session )}\">" ).to_s); @output_buffer.concat "\n\t\t\t\t\t\t\t\t\t<span class=\"menuPriceText\">"
+; @output_buffer.concat(( "#{item.price}" ).to_s); @output_buffer.concat "</span>\n\t\t\t\t\t\t\t\t</li>\n\t\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t"
+
+
+;  end ; @output_buffer.concat "\n\t\t\t\t\t\t</ul>\n\t\t\t\t\t\t\n\t\t\t\t\t\t<div class=\"totalsContainer clearfix\">\n\t\t\t\t\t\t\t<span class=\"subTotal\">Total Items: <span class=\"subItems\">#</span> Subtotal: <span class=\"subPrice\">"
+
+
+
+; @output_buffer.concat(( #{getCostSubtotal()} ).to_s); @output_buffer.concat "</span></span>\n\t\t\t\t\t\t\t<span class=\"serviceTotal\">Service Charge: <span>$4.72</span></span>\n\t\t\t\t\t\t\t<span class=\"totalPrice\">Total Price: <span>$21.20</span></span>\n\t\t\t\t\t\t</div>\n\t\t\t\t\t\t<div class=\"totalContainerButtons clearfix\">\n\t\t\t\t\t\t\t<a class=\"registerBubble\" href=\"#\">Register now &amp; save this for the future!</a>\n\t\t\t\t\t\t\t<input type=\"submit\" id=\"placeSubmit\" class=\"sprite_buttons placeOrderBtn\" value=\" \" />\n\t\t\t\t\t\t\t<span class=\"clearfix\">&nbsp;</span>\n\t\t\t\t\t\t\t<a class=\"startOverBtn\" href=\"#\">Start Over</a>\n\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\n\t\t\t\t\t</div>\n\t\t\t\t\t\n\t\t\t\t\t<div class=\"smallMapBlock\">&nbsp;</div>\n\t\t\t\t\t\n\t\t\t\t</div>\n\t\t\t</div>\n\t\t</div>"
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+; @output_buffer
+          ensure
+            self.output_buffer = old_output_buffer
+          end
+Backtrace: /Users/zachdicklin/www/grubbinit/app/views/menu/index.html.erb:79:in `compile!'
+/Users/zachdicklin/.gem/ruby/1.8/gems/actionpack-2.3.5/lib/action_view/renderable.rb:61:in `compile'
+/Users/zachdicklin/.gem/ruby/1.8/gems/actionpack-2.3.5/lib/action_view/renderable.rb:28:in `render'
+/Users/zachdicklin/.gem/ruby/1.8/gems/actionpack-2.3.5/lib/action_view/template.rb:205:in `render_template'
+/Users/zachdicklin/.gem/ruby/1.8/gems/actionpack-2.3.5/lib/action_view/base.rb:265:in `render'
+/Users/zachdicklin/.gem/ruby/1.8/gems/actionpack-2.3.5/lib/action_view/base.rb:348:in `_render_with_layout'
+/Users/zachdicklin/.gem/ruby/1.8/gems/actionpack-2.3.5/lib/action_view/base.rb:262:in `render'
+/Users/zachdicklin/.gem/ruby/1.8/gems/actionpack-2.3.5/lib/action_controller/base.rb:1250:in `render_for_file'
+/Users/zachdicklin/.gem/ruby/1.8/gems/actionpack-2.3.5/lib/action_controller/base.rb:945:in `render_without_benchmark'
+/Users/zachdicklin/.gem/ruby/1.8/gems/actionpack-2.3.5/lib/action_controller/benchmarking.rb:51:in `render'
+/Users/zachdicklin/.gem/ruby/1.8/gems/activesupport-2.3.5/lib/active_support/core_ext/benchmark.rb:17:in `ms'
+/System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/benchmark.rb:308:in `realtime'
+/Users/zachdicklin/.gem/ruby/1.8/gems/activesupport-2.3.5/lib/active_support/core_ext/benchmark.rb:17:in `ms'
+/Users/zachdicklin/.gem/ruby/1.8/gems/actionpack-2.3.5/lib/action_controller/benchmarking.rb:51:in `render'
+/Users/zachdicklin/.gem/ruby/1.8/gems/actionpack-2.3.5/lib/action_controller/base.rb:1326:in `default_render'
+/Users/zachdicklin/.gem/ruby/1.8/gems/actionpack-2.3.5/lib/action_controller/base.rb:1332:in `perform_action_without_filters'
+/Users/zachdicklin/.gem/ruby/1.8/gems/actionpack-2.3.5/lib/action_controller/filters.rb:617:in `call_filters'
+/Users/zachdicklin/.gem/ruby/1.8/gems/actionpack-2.3.5/lib/action_controller/filters.rb:610:in `perform_action_without_benchmark'
+/Users/zachdicklin/.gem/ruby/1.8/gems/actionpack-2.3.5/lib/action_controller/benchmarking.rb:68:in `perform_action_without_rescue'
+/Users/zachdicklin/.gem/ruby/1.8/gems/activesupport-2.3.5/lib/active_support/core_ext/benchmark.rb:17:in `ms'
+/System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/benchmark.rb:308:in `realtime'
+/Users/zachdicklin/.gem/ruby/1.8/gems/activesupport-2.3.5/lib/active_support/core_ext/benchmark.rb:17:in `ms'
+/Users/zachdicklin/.gem/ruby/1.8/gems/actionpack-2.3.5/lib/action_controller/benchmarking.rb:68:in `perform_action_without_rescue'
+/Users/zachdicklin/.gem/ruby/1.8/gems/actionpack-2.3.5/lib/action_controller/rescue.rb:160:in `perform_action_without_flash'
+/Users/zachdicklin/.gem/ruby/1.8/gems/actionpack-2.3.5/lib/action_controller/flash.rb:146:in `perform_action'
+/Users/zachdicklin/.gem/ruby/1.8/gems/actionpack-2.3.5/lib/action_controller/base.rb:532:in `send'
+/Users/zachdicklin/.gem/ruby/1.8/gems/actionpack-2.3.5/lib/action_controller/base.rb:532:in `process_without_filters'
+/Users/zachdicklin/.gem/ruby/1.8/gems/actionpack-2.3.5/lib/action_controller/filters.rb:606:in `process'
+/Users/zachdicklin/.gem/ruby/1.8/gems/actionpack-2.3.5/lib/action_controller/base.rb:391:in `process'
+/Users/zachdicklin/.gem/ruby/1.8/gems/actionpack-2.3.5/lib/action_controller/base.rb:386:in `call'
+/Users/zachdicklin/.gem/ruby/1.8/gems/actionpack-2.3.5/lib/action_controller/routing/route_set.rb:437:in `call'
+/Users/zachdicklin/.gem/ruby/1.8/gems/actionpack-2.3.5/lib/action_controller/dispatcher.rb:87:in `dispatch'
+/Users/zachdicklin/.gem/ruby/1.8/gems/actionpack-2.3.5/lib/action_controller/dispatcher.rb:121:in `_call'
+/Users/zachdicklin/.gem/ruby/1.8/gems/actionpack-2.3.5/lib/action_controller/dispatcher.rb:130:in `build_middleware_stack'
+/Users/zachdicklin/.gem/ruby/1.8/gems/activerecord-2.3.5/lib/active_record/query_cache.rb:29:in `call'
+/Users/zachdicklin/.gem/ruby/1.8/gems/activerecord-2.3.5/lib/active_record/query_cache.rb:29:in `call'
+/Users/zachdicklin/.gem/ruby/1.8/gems/activerecord-2.3.5/lib/active_record/connection_adapters/abstract/query_cache.rb:34:in `cache'
+/Users/zachdicklin/.gem/ruby/1.8/gems/activerecord-2.3.5/lib/active_record/query_cache.rb:9:in `cache'
+/Users/zachdicklin/.gem/ruby/1.8/gems/activerecord-2.3.5/lib/active_record/query_cache.rb:28:in `call'
+/Users/zachdicklin/.gem/ruby/1.8/gems/activerecord-2.3.5/lib/active_record/connection_adapters/abstract/connection_pool.rb:361:in `call'
+/Users/zachdicklin/.gem/ruby/1.8/gems/actionpack-2.3.5/lib/action_controller/string_coercion.rb:25:in `call'
+/Users/zachdicklin/.gem/ruby/1.8/gems/rack-1.0.1/lib/rack/head.rb:9:in `call'
+/Users/zachdicklin/.gem/ruby/1.8/gems/rack-1.0.1/lib/rack/methodoverride.rb:24:in `call'
+/Users/zachdicklin/.gem/ruby/1.8/gems/actionpack-2.3.5/lib/action_controller/params_parser.rb:15:in `call'
+/Users/zachdicklin/.gem/ruby/1.8/gems/actionpack-2.3.5/lib/action_controller/session/cookie_store.rb:93:in `call'
+/Users/zachdicklin/.gem/ruby/1.8/gems/actionpack-2.3.5/lib/action_controller/failsafe.rb:26:in `call'
+/Users/zachdicklin/.gem/ruby/1.8/gems/rack-1.0.1/lib/rack/lock.rb:11:in `call'
+/Users/zachdicklin/.gem/ruby/1.8/gems/rack-1.0.1/lib/rack/lock.rb:11:in `synchronize'
+/Users/zachdicklin/.gem/ruby/1.8/gems/rack-1.0.1/lib/rack/lock.rb:11:in `call'
+/Users/zachdicklin/.gem/ruby/1.8/gems/actionpack-2.3.5/lib/action_controller/dispatcher.rb:114:in `call'
+/Users/zachdicklin/.gem/ruby/1.8/gems/actionpack-2.3.5/lib/action_controller/reloader.rb:34:in `run'
+/Users/zachdicklin/.gem/ruby/1.8/gems/actionpack-2.3.5/lib/action_controller/dispatcher.rb:108:in `call'
+/Library/Ruby/Gems/1.8/gems/rails-2.3.5/lib/rails/rack/static.rb:31:in `call'
+/Users/zachdicklin/.gem/ruby/1.8/gems/rack-1.0.1/lib/rack/urlmap.rb:46:in `call'
+/Users/zachdicklin/.gem/ruby/1.8/gems/rack-1.0.1/lib/rack/urlmap.rb:40:in `each'
+/Users/zachdicklin/.gem/ruby/1.8/gems/rack-1.0.1/lib/rack/urlmap.rb:40:in `call'
+/Library/Ruby/Gems/1.8/gems/rails-2.3.5/lib/rails/rack/log_tailer.rb:17:in `call'
+/Users/zachdicklin/.gem/ruby/1.8/gems/rack-1.0.1/lib/rack/content_length.rb:13:in `call'
+/Users/zachdicklin/.gem/ruby/1.8/gems/rack-1.0.1/lib/rack/chunked.rb:15:in `call'
+/Users/zachdicklin/.gem/ruby/1.8/gems/rack-1.0.1/lib/rack/handler/mongrel.rb:64:in `process'
+/System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:159:in `process_client'
+/System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:158:in `each'
+/System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:158:in `process_client'
+/System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:285:in `run'
+/System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:285:in `initialize'
+/System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:285:in `new'
+/System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:285:in `run'
+/System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:268:in `initialize'
+/System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:268:in `new'
+/System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:268:in `run'
+/Users/zachdicklin/.gem/ruby/1.8/gems/rack-1.0.1/lib/rack/handler/mongrel.rb:34:in `run'
+/Library/Ruby/Gems/1.8/gems/rails-2.3.5/lib/commands/server.rb:111
+/Library/Ruby/Site/1.8/rubygems/custom_require.rb:31:in `gem_original_require'
+/Library/Ruby/Site/1.8/rubygems/custom_require.rb:31:in `require'
+script/server:3
+
+ActionView::TemplateError (compile error
+/Users/zachdicklin/www/grubbinit/app/views/menu/index.html.erb:77: syntax error, unexpected kENSURE, expecting ')'
+/Users/zachdicklin/www/grubbinit/app/views/menu/index.html.erb:79: syntax error, unexpected kEND, expecting ')') on line #77 of app/views/menu/index.html.erb:
+74: 				</div>
+75: 			</div>
+76: 		</div>
+
+    app/views/menu/index.html.erb:79:in `compile!'
+
+Rendered rescues/_trace (61.3ms)
+Rendered rescues/_request_and_response (1.8ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing MenuController#index (for 127.0.0.1 at 2010-04-18 00:42:00) [GET]
+  Parameters: {"id"=>"Thai Restaurant"}
+  [4;35;1mMenuItem Load (0.8ms)[0m   [0mSELECT * FROM "menu_items" [0m
+Rendering template within layouts/application
+Rendering menu/index
+
+ActionView::TemplateError (undefined method `getCostSubtotal' for #<ActionView::Base:0x2d305e8>) on line #59 of app/views/menu/index.html.erb:
+56: 						</ul>
+57: 						
+58: 						<div class="totalsContainer clearfix">
+59: 							<span class="subTotal">Total Items: <span class="subItems">#</span> Subtotal: <span class="subPrice"><%= "#{getCostSubtotal()}" %></span></span>
+60: 							<span class="serviceTotal">Service Charge: <span>$4.72</span></span>
+61: 							<span class="totalPrice">Total Price: <span>$21.20</span></span>
+62: 						</div>
+
+    app/views/menu/index.html.erb:59
+
+Rendered rescues/_trace (64.8ms)
+Rendered rescues/_request_and_response (0.4ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing MenuController#index (for 127.0.0.1 at 2010-04-18 00:43:04) [GET]
+  Parameters: {"id"=>"Thai Restaurant"}
+  [4;36;1mMenuItem Load (0.8ms)[0m   [0;1mSELECT * FROM "menu_items" [0m
+Rendering template within layouts/application
+Rendering menu/index
+Completed in 14ms (View: 10, DB: 1) | 200 OK [http://localhost/menu/Thai%20Restaurant]
+
+
+Processing MenuController#index (for 127.0.0.1 at 2010-04-18 00:44:54) [GET]
+  Parameters: {"id"=>"Thai Restaurant"}
+  [4;35;1mMenuItem Load (0.8ms)[0m   [0mSELECT * FROM "menu_items" [0m
+Rendering template within layouts/application
+Rendering menu/index
+Completed in 6ms (View: 2, DB: 1) | 200 OK [http://localhost/menu/Thai%20Restaurant]
+
+
+Processing MenuController#update (for 127.0.0.1 at 2010-04-18 00:44:58) [GET]
+  Parameters: {"restaurant"=>"Thai Restaurant", "count"=>"3", "item"=>"Noodles"}
+  [4;36;1mMenuItem Load (0.8ms)[0m   [0;1mSELECT * FROM "menu_items" [0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM "menu_items" [0m
+Redirected to http://localhost:3000/menu/Thai%20Restaurant
+Completed in 5ms (DB: 1) | 302 Found [http://localhost/menu/update/Thai%20Restaurant/Noodles/3]
+
+
+Processing MenuController#index (for 127.0.0.1 at 2010-04-18 00:44:58) [GET]
+  Parameters: {"id"=>"Thai Restaurant"}
+  [4;36;1mMenuItem Load (0.8ms)[0m   [0;1mSELECT * FROM "menu_items" [0m
+
+TypeError (String can't be coerced into Fixnum):
+  app/controllers/menu_controller.rb:9:in `+'
+  app/controllers/menu_controller.rb:9:in `calculateSubtotal'
+  app/controllers/menu_controller.rb:8:in `each'
+  app/controllers/menu_controller.rb:8:in `calculateSubtotal'
+  app/controllers/menu_controller.rb:25:in `index'
+
+Rendered rescues/_trace (51.4ms)
+Rendered rescues/_request_and_response (0.4ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing MenuController#index (for 127.0.0.1 at 2010-04-18 00:45:22) [GET]
+  Parameters: {"id"=>"Thai Restaurant"}
+  [4;35;1mMenuItem Load (0.9ms)[0m   [0mSELECT * FROM "menu_items" [0m
+
+TypeError (String can't be coerced into Fixnum):
+  app/controllers/menu_controller.rb:9:in `+'
+  app/controllers/menu_controller.rb:9:in `calculateSubtotal'
+  app/controllers/menu_controller.rb:8:in `each'
+  app/controllers/menu_controller.rb:8:in `calculateSubtotal'
+  app/controllers/menu_controller.rb:25:in `index'
+
+Rendered rescues/_trace (135.5ms)
+Rendered rescues/_request_and_response (0.4ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing MenuController#index (for 127.0.0.1 at 2010-04-18 00:45:32) [GET]
+  Parameters: {"id"=>"Thai Restaurant"}
+  [4;36;1mMenuItem Load (0.8ms)[0m   [0;1mSELECT * FROM "menu_items" [0m
+
+TypeError (String can't be coerced into Fixnum):
+  app/controllers/menu_controller.rb:9:in `+'
+  app/controllers/menu_controller.rb:9:in `calculateSubtotal'
+  app/controllers/menu_controller.rb:8:in `each'
+  app/controllers/menu_controller.rb:8:in `calculateSubtotal'
+  app/controllers/menu_controller.rb:25:in `index'
+
+Rendered rescues/_trace (50.7ms)
+Rendered rescues/_request_and_response (0.4ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing MenuController#index (for 127.0.0.1 at 2010-04-18 00:45:33) [GET]
+  Parameters: {"id"=>"Thai Restaurant"}
+  [4;35;1mMenuItem Load (0.8ms)[0m   [0mSELECT * FROM "menu_items" [0m
+
+TypeError (String can't be coerced into Fixnum):
+  app/controllers/menu_controller.rb:9:in `+'
+  app/controllers/menu_controller.rb:9:in `calculateSubtotal'
+  app/controllers/menu_controller.rb:8:in `each'
+  app/controllers/menu_controller.rb:8:in `calculateSubtotal'
+  app/controllers/menu_controller.rb:25:in `index'
+
+Rendered rescues/_trace (51.0ms)
+Rendered rescues/_request_and_response (0.4ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing MenuController#index (for 127.0.0.1 at 2010-04-18 00:45:33) [GET]
+  Parameters: {"id"=>"Thai Restaurant"}
+  [4;36;1mMenuItem Load (0.8ms)[0m   [0;1mSELECT * FROM "menu_items" [0m
+
+TypeError (String can't be coerced into Fixnum):
+  app/controllers/menu_controller.rb:9:in `+'
+  app/controllers/menu_controller.rb:9:in `calculateSubtotal'
+  app/controllers/menu_controller.rb:8:in `each'
+  app/controllers/menu_controller.rb:8:in `calculateSubtotal'
+  app/controllers/menu_controller.rb:25:in `index'
+
+Rendered rescues/_trace (51.3ms)
+Rendered rescues/_request_and_response (0.5ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing MenuController#index (for 127.0.0.1 at 2010-04-18 00:45:43) [GET]
+  Parameters: {"id"=>"Thai Restaurant"}
+  [4;35;1mMenuItem Load (1.0ms)[0m   [0mSELECT * FROM "menu_items" [0m
+Rendering template within layouts/application
+Rendering menu/index
+Completed in 6ms (View: 2, DB: 1) | 200 OK [http://localhost/menu/Thai%20Restaurant]
+
+
+Processing MenuController#index (for 127.0.0.1 at 2010-04-18 00:45:51) [GET]
+  Parameters: {"id"=>"Thai Restaurant"}
+  [4;36;1mMenuItem Load (0.8ms)[0m   [0;1mSELECT * FROM "menu_items" [0m
+
+NoMethodError (undefined method `subtotal' for "$":String):
+  app/controllers/menu_controller.rb:12:in `calculateSubtotal'
+  app/controllers/menu_controller.rb:25:in `index'
+
+Rendered rescues/_trace (49.3ms)
+Rendered rescues/_request_and_response (0.4ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing MenuController#index (for 127.0.0.1 at 2010-04-18 00:45:56) [GET]
+  Parameters: {"id"=>"Thai Restaurant"}
+  [4;35;1mMenuItem Load (0.8ms)[0m   [0mSELECT * FROM "menu_items" [0m
+Rendering template within layouts/application
+Rendering menu/index
+Completed in 6ms (View: 2, DB: 1) | 200 OK [http://localhost/menu/Thai%20Restaurant]
+
+
+Processing MenuController#index (for 127.0.0.1 at 2010-04-18 00:47:42) [GET]
+  Parameters: {"id"=>"Thai Restaurant"}
+  [4;36;1mMenuItem Load (1.0ms)[0m   [0;1mSELECT * FROM "menu_items" [0m
+Rendering template within layouts/application
+Rendering menu/index
+Completed in 7ms (View: 2, DB: 1) | 200 OK [http://localhost/menu/Thai%20Restaurant]
+
+
+Processing MenuController#index (for 127.0.0.1 at 2010-04-18 00:48:23) [GET]
+  Parameters: {"id"=>"Thai Restaurant"}
+  [4;35;1mMenuItem Load (0.8ms)[0m   [0mSELECT * FROM "menu_items" [0m
+Rendering template within layouts/application
+Rendering menu/index
+ERROR: compiling _run_erb_app47views47menu47index46html46erb RAISED compile error
+/Users/zachdicklin/www/grubbinit/app/views/menu/index.html.erb:77: syntax error, unexpected kENSURE, expecting ')'
+/Users/zachdicklin/www/grubbinit/app/views/menu/index.html.erb:79: syntax error, unexpected kEND, expecting ')'
+Function body:           def _run_erb_app47views47menu47index46html46erb(local_assigns)
+            old_output_buffer = output_buffer;;@output_buffer = '';  __in_erb_template=true ; @output_buffer.concat "<div class=\"innerSearch clearfix\">\n\t\t\t\t<h2>search here:</h2>\n\t\t\t\t\t<div class=\"searchRow\">\n\t\t\t\t\t\t<input type=\"text\" id=\"searchValue\" class=\"searchField\" value=\"e.g. Thai, $15.99, Westport\" />\n\t\t\t\t\t\t<input type=\"text\" id=\"zipValue\" class=\"zipcodeField\" value=\"zipcode\" />\n\t\t\t\t\t\t<input type=\"submit\" id=\"submit\" class=\"sprite_buttons goBtn\" value=\" \" />\n\t\t\t\t\t\t<a class=\"sprite_buttons helpBtn\" href=\"#\">help</a>\n\t\t\t\t\t\t<a class=\"sprite_buttons homeBtn\" href=\"#\">home</a>\n\t\t\t\t\t</div>\n\t\t\t</div>\n\t\t</div>\n\t\t\n\t\t<script>\n\t\t\tfunction updatecount( item_name )\n\t\t\t{\n\t\t\t\t"
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+; @output_buffer.concat(( "var update_url = \"update/#{@restaurant_name}\"" ).to_s); @output_buffer.concat "\n\t\t\t\tupdate_url = update_url + \"/\" + item_name + \"/\"\n\t\t\t\t\n\t\t\t\telementId = \"count\"\n\t\t\t\telementId += item_name\n\t\t\t\t\n\t\t\t\titemCount = document.getElementById( elementId ).value\n\t\t\t\t\n\t\t\t\tupdate_url = update_url + itemCount\n\t\t\t\t\n\t\t\t\twindow.location = update_url\n\t\t\t\t\n\t\t\t}\n\t\t</script>\n\n\t\t<div id=\"lowerContentBlock\" class=\"clearfix\">\n\t\t\t<div id=\"contentBlock\" class=\"clearfix\">\n\t\t\t\t<div class=\"searchResults\">\n\t\t\t\t\n\t\t\t\t\t<form name=\"updateForm\" action=\"update\" method=\"post\">\n\t\t\t\t\t<h3>"
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+; @output_buffer.concat(( "#{ @restaurant_name }" ).to_s); @output_buffer.concat "</h3>\n\t\t\t\t\t<div class=\"menuResults\">\n\t\t\t\t\t\n\t\t\t\t\t\t<ul class=\"menuItems\">\n\t\t\t\t\t\t\t<li class=\"heading\">Menu Items:</li>\n\t\t\t\t\t\t\t<li class=\"heading priceHeading\">Item Price:</li>\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t"
+
+
+
+
+
+
+;  @items.each do |item| ; @output_buffer.concat "\n\t\t\t\t\t\t\t\t<div class=\"menuDetails\">\n\t\t\t\t\t\t\t\t\t<li class=\"menuItemTitle\">"
+
+; @output_buffer.concat(( "#{item.name}" ).to_s); @output_buffer.concat "</li>\n\t\t\t\t\t\t\t\t\t<li class=\"menuItemDescription\">"
+; @output_buffer.concat(( "#{item.description}" ).to_s); @output_buffer.concat "</li>\n\t\t\t\t\t\t\t\t\t<li class=\"menuItemPrice\">\n\t\t\t\t\t\t\t\t\t<a class=\"sprite_buttons deleteBtn\" href=\"#\">&nbsp;</a>\n\t\t\t\t\t\t\t\t\t"
+
+
+; @output_buffer.concat(( "<a class=\"sprite_buttons updateBtn\" onclick=\'javascript:updatecount(\"#{item.name}\")\'>&nbsp;</a>" ).to_s); @output_buffer.concat "\n\t\t\t\t\t\t\t\t\t<!-- <input type=\"text\" id=\"menuPrice\" /> -->\n\t\t\t\t\t\t\t\t\t"
+
+; @output_buffer.concat(( "<input type=\"text\" id=\"count#{item.name}\" value=\"#{item.getSessionCount( session )}\">" ).to_s); @output_buffer.concat "\n\t\t\t\t\t\t\t\t\t<span class=\"menuPriceText\">"
+; @output_buffer.concat(( "#{item.price}" ).to_s); @output_buffer.concat "</span>\n\t\t\t\t\t\t\t\t</li>\n\t\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t"
+
+
+;  end ; @output_buffer.concat "\n\t\t\t\t\t\t</ul>\n\t\t\t\t\t\t\n\t\t\t\t\t\t<div class=\"totalsContainer clearfix\">\n\t\t\t\t\t\t\t<span class=\"subTotal\">Total Items: <span class=\"subItems\">#</span> Subtotal: <span class=\"subPrice\">"
+
+
+
+; @output_buffer.concat(( "#{@costSubtotal}" ).to_s); @output_buffer.concat "</span></span>\n\t\t\t\t\t\t\t<span class=\"serviceTotal\">Service Charge: <span>"
+; @output_buffer.concat(( "#{@costService}" ).to_s); @output_buffer.concat "</span></span>\n\t\t\t\t\t\t\t<span class=\"totalPrice\">Total Price: <span>"
+; @output_buffer.concat(( #"{@costTotal}" ).to_s); @output_buffer.concat "</span></span>\n\t\t\t\t\t\t</div>\n\t\t\t\t\t\t<div class=\"totalContainerButtons clearfix\">\n\t\t\t\t\t\t\t<a class=\"registerBubble\" href=\"#\">Register now &amp; save this for the future!</a>\n\t\t\t\t\t\t\t<input type=\"submit\" id=\"placeSubmit\" class=\"sprite_buttons placeOrderBtn\" value=\" \" />\n\t\t\t\t\t\t\t<span class=\"clearfix\">&nbsp;</span>\n\t\t\t\t\t\t\t<a class=\"startOverBtn\" href=\"#\">Start Over</a>\n\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\n\t\t\t\t\t</div>\n\t\t\t\t\t\n\t\t\t\t\t<div class=\"smallMapBlock\">&nbsp;</div>\n\t\t\t\t\t\n\t\t\t\t</div>\n\t\t\t</div>\n\t\t</div>"
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+; @output_buffer
+          ensure
+            self.output_buffer = old_output_buffer
+          end
+Backtrace: /Users/zachdicklin/www/grubbinit/app/views/menu/index.html.erb:79:in `compile!'
+/Users/zachdicklin/.gem/ruby/1.8/gems/actionpack-2.3.5/lib/action_view/renderable.rb:61:in `compile'
+/Users/zachdicklin/.gem/ruby/1.8/gems/actionpack-2.3.5/lib/action_view/renderable.rb:28:in `render'
+/Users/zachdicklin/.gem/ruby/1.8/gems/actionpack-2.3.5/lib/action_view/template.rb:205:in `render_template'
+/Users/zachdicklin/.gem/ruby/1.8/gems/actionpack-2.3.5/lib/action_view/base.rb:265:in `render'
+/Users/zachdicklin/.gem/ruby/1.8/gems/actionpack-2.3.5/lib/action_view/base.rb:348:in `_render_with_layout'
+/Users/zachdicklin/.gem/ruby/1.8/gems/actionpack-2.3.5/lib/action_view/base.rb:262:in `render'
+/Users/zachdicklin/.gem/ruby/1.8/gems/actionpack-2.3.5/lib/action_controller/base.rb:1250:in `render_for_file'
+/Users/zachdicklin/.gem/ruby/1.8/gems/actionpack-2.3.5/lib/action_controller/base.rb:945:in `render_without_benchmark'
+/Users/zachdicklin/.gem/ruby/1.8/gems/actionpack-2.3.5/lib/action_controller/benchmarking.rb:51:in `render'
+/Users/zachdicklin/.gem/ruby/1.8/gems/activesupport-2.3.5/lib/active_support/core_ext/benchmark.rb:17:in `ms'
+/System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/benchmark.rb:308:in `realtime'
+/Users/zachdicklin/.gem/ruby/1.8/gems/activesupport-2.3.5/lib/active_support/core_ext/benchmark.rb:17:in `ms'
+/Users/zachdicklin/.gem/ruby/1.8/gems/actionpack-2.3.5/lib/action_controller/benchmarking.rb:51:in `render'
+/Users/zachdicklin/.gem/ruby/1.8/gems/actionpack-2.3.5/lib/action_controller/base.rb:1326:in `default_render'
+/Users/zachdicklin/.gem/ruby/1.8/gems/actionpack-2.3.5/lib/action_controller/base.rb:1332:in `perform_action_without_filters'
+/Users/zachdicklin/.gem/ruby/1.8/gems/actionpack-2.3.5/lib/action_controller/filters.rb:617:in `call_filters'
+/Users/zachdicklin/.gem/ruby/1.8/gems/actionpack-2.3.5/lib/action_controller/filters.rb:610:in `perform_action_without_benchmark'
+/Users/zachdicklin/.gem/ruby/1.8/gems/actionpack-2.3.5/lib/action_controller/benchmarking.rb:68:in `perform_action_without_rescue'
+/Users/zachdicklin/.gem/ruby/1.8/gems/activesupport-2.3.5/lib/active_support/core_ext/benchmark.rb:17:in `ms'
+/System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/benchmark.rb:308:in `realtime'
+/Users/zachdicklin/.gem/ruby/1.8/gems/activesupport-2.3.5/lib/active_support/core_ext/benchmark.rb:17:in `ms'
+/Users/zachdicklin/.gem/ruby/1.8/gems/actionpack-2.3.5/lib/action_controller/benchmarking.rb:68:in `perform_action_without_rescue'
+/Users/zachdicklin/.gem/ruby/1.8/gems/actionpack-2.3.5/lib/action_controller/rescue.rb:160:in `perform_action_without_flash'
+/Users/zachdicklin/.gem/ruby/1.8/gems/actionpack-2.3.5/lib/action_controller/flash.rb:146:in `perform_action'
+/Users/zachdicklin/.gem/ruby/1.8/gems/actionpack-2.3.5/lib/action_controller/base.rb:532:in `send'
+/Users/zachdicklin/.gem/ruby/1.8/gems/actionpack-2.3.5/lib/action_controller/base.rb:532:in `process_without_filters'
+/Users/zachdicklin/.gem/ruby/1.8/gems/actionpack-2.3.5/lib/action_controller/filters.rb:606:in `process'
+/Users/zachdicklin/.gem/ruby/1.8/gems/actionpack-2.3.5/lib/action_controller/base.rb:391:in `process'
+/Users/zachdicklin/.gem/ruby/1.8/gems/actionpack-2.3.5/lib/action_controller/base.rb:386:in `call'
+/Users/zachdicklin/.gem/ruby/1.8/gems/actionpack-2.3.5/lib/action_controller/routing/route_set.rb:437:in `call'
+/Users/zachdicklin/.gem/ruby/1.8/gems/actionpack-2.3.5/lib/action_controller/dispatcher.rb:87:in `dispatch'
+/Users/zachdicklin/.gem/ruby/1.8/gems/actionpack-2.3.5/lib/action_controller/dispatcher.rb:121:in `_call'
+/Users/zachdicklin/.gem/ruby/1.8/gems/actionpack-2.3.5/lib/action_controller/dispatcher.rb:130:in `build_middleware_stack'
+/Users/zachdicklin/.gem/ruby/1.8/gems/activerecord-2.3.5/lib/active_record/query_cache.rb:29:in `call'
+/Users/zachdicklin/.gem/ruby/1.8/gems/activerecord-2.3.5/lib/active_record/query_cache.rb:29:in `call'
+/Users/zachdicklin/.gem/ruby/1.8/gems/activerecord-2.3.5/lib/active_record/connection_adapters/abstract/query_cache.rb:34:in `cache'
+/Users/zachdicklin/.gem/ruby/1.8/gems/activerecord-2.3.5/lib/active_record/query_cache.rb:9:in `cache'
+/Users/zachdicklin/.gem/ruby/1.8/gems/activerecord-2.3.5/lib/active_record/query_cache.rb:28:in `call'
+/Users/zachdicklin/.gem/ruby/1.8/gems/activerecord-2.3.5/lib/active_record/connection_adapters/abstract/connection_pool.rb:361:in `call'
+/Users/zachdicklin/.gem/ruby/1.8/gems/actionpack-2.3.5/lib/action_controller/string_coercion.rb:25:in `call'
+/Users/zachdicklin/.gem/ruby/1.8/gems/rack-1.0.1/lib/rack/head.rb:9:in `call'
+/Users/zachdicklin/.gem/ruby/1.8/gems/rack-1.0.1/lib/rack/methodoverride.rb:24:in `call'
+/Users/zachdicklin/.gem/ruby/1.8/gems/actionpack-2.3.5/lib/action_controller/params_parser.rb:15:in `call'
+/Users/zachdicklin/.gem/ruby/1.8/gems/actionpack-2.3.5/lib/action_controller/session/cookie_store.rb:93:in `call'
+/Users/zachdicklin/.gem/ruby/1.8/gems/actionpack-2.3.5/lib/action_controller/failsafe.rb:26:in `call'
+/Users/zachdicklin/.gem/ruby/1.8/gems/rack-1.0.1/lib/rack/lock.rb:11:in `call'
+/Users/zachdicklin/.gem/ruby/1.8/gems/rack-1.0.1/lib/rack/lock.rb:11:in `synchronize'
+/Users/zachdicklin/.gem/ruby/1.8/gems/rack-1.0.1/lib/rack/lock.rb:11:in `call'
+/Users/zachdicklin/.gem/ruby/1.8/gems/actionpack-2.3.5/lib/action_controller/dispatcher.rb:114:in `call'
+/Users/zachdicklin/.gem/ruby/1.8/gems/actionpack-2.3.5/lib/action_controller/reloader.rb:34:in `run'
+/Users/zachdicklin/.gem/ruby/1.8/gems/actionpack-2.3.5/lib/action_controller/dispatcher.rb:108:in `call'
+/Library/Ruby/Gems/1.8/gems/rails-2.3.5/lib/rails/rack/static.rb:31:in `call'
+/Users/zachdicklin/.gem/ruby/1.8/gems/rack-1.0.1/lib/rack/urlmap.rb:46:in `call'
+/Users/zachdicklin/.gem/ruby/1.8/gems/rack-1.0.1/lib/rack/urlmap.rb:40:in `each'
+/Users/zachdicklin/.gem/ruby/1.8/gems/rack-1.0.1/lib/rack/urlmap.rb:40:in `call'
+/Library/Ruby/Gems/1.8/gems/rails-2.3.5/lib/rails/rack/log_tailer.rb:17:in `call'
+/Users/zachdicklin/.gem/ruby/1.8/gems/rack-1.0.1/lib/rack/content_length.rb:13:in `call'
+/Users/zachdicklin/.gem/ruby/1.8/gems/rack-1.0.1/lib/rack/chunked.rb:15:in `call'
+/Users/zachdicklin/.gem/ruby/1.8/gems/rack-1.0.1/lib/rack/handler/mongrel.rb:64:in `process'
+/System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:159:in `process_client'
+/System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:158:in `each'
+/System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:158:in `process_client'
+/System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:285:in `run'
+/System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:285:in `initialize'
+/System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:285:in `new'
+/System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:285:in `run'
+/System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:268:in `initialize'
+/System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:268:in `new'
+/System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:268:in `run'
+/Users/zachdicklin/.gem/ruby/1.8/gems/rack-1.0.1/lib/rack/handler/mongrel.rb:34:in `run'
+/Library/Ruby/Gems/1.8/gems/rails-2.3.5/lib/commands/server.rb:111
+/Library/Ruby/Site/1.8/rubygems/custom_require.rb:31:in `gem_original_require'
+/Library/Ruby/Site/1.8/rubygems/custom_require.rb:31:in `require'
+script/server:3
+
+ActionView::TemplateError (compile error
+/Users/zachdicklin/www/grubbinit/app/views/menu/index.html.erb:77: syntax error, unexpected kENSURE, expecting ')'
+/Users/zachdicklin/www/grubbinit/app/views/menu/index.html.erb:79: syntax error, unexpected kEND, expecting ')') on line #77 of app/views/menu/index.html.erb:
+74: 				</div>
+75: 			</div>
+76: 		</div>
+
+    app/views/menu/index.html.erb:79:in `compile!'
+
+Rendered rescues/_trace (58.8ms)
+Rendered rescues/_request_and_response (0.4ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing MenuController#index (for 127.0.0.1 at 2010-04-18 00:48:33) [GET]
+  Parameters: {"id"=>"Thai Restaurant"}
+  [4;36;1mMenuItem Load (0.8ms)[0m   [0;1mSELECT * FROM "menu_items" [0m
+Rendering template within layouts/application
+Rendering menu/index
+Completed in 14ms (View: 10, DB: 1) | 200 OK [http://localhost/menu/Thai%20Restaurant]
+
+
+Processing MenuController#update (for 127.0.0.1 at 2010-04-18 00:48:38) [GET]
+  Parameters: {"restaurant"=>"Thai Restaurant", "count"=>"2", "item"=>"Noodles"}
+  [4;35;1mMenuItem Load (0.8ms)[0m   [0mSELECT * FROM "menu_items" [0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM "menu_items" [0m
+Redirected to http://localhost:3000/menu/Thai%20Restaurant
+Completed in 5ms (DB: 1) | 302 Found [http://localhost/menu/update/Thai%20Restaurant/Noodles/2]
+
+
+Processing MenuController#index (for 127.0.0.1 at 2010-04-18 00:48:38) [GET]
+  Parameters: {"id"=>"Thai Restaurant"}
+  [4;35;1mMenuItem Load (0.8ms)[0m   [0mSELECT * FROM "menu_items" [0m
+Rendering template within layouts/application
+Rendering menu/index
+Completed in 6ms (View: 2, DB: 1) | 200 OK [http://localhost/menu/Thai%20Restaurant]
+
+
+Processing MenuController#index (for 127.0.0.1 at 2010-04-18 00:49:45) [GET]
+  Parameters: {"id"=>"Thai Restaurant"}
+  [4;36;1mMenuItem Load (0.8ms)[0m   [0;1mSELECT * FROM "menu_items" [0m
+Rendering template within layouts/application
+Rendering menu/index
+Completed in 14ms (View: 10, DB: 1) | 200 OK [http://localhost/menu/Thai%20Restaurant]
+
+
+Processing MenuController#index (for 127.0.0.1 at 2010-04-18 00:49:53) [GET]
+  Parameters: {"id"=>"Thai Restaurant"}
+  [4;35;1mMenuItem Load (0.8ms)[0m   [0mSELECT * FROM "menu_items" [0m
+Rendering template within layouts/application
+Rendering menu/index
+Completed in 14ms (View: 10, DB: 1) | 200 OK [http://localhost/menu/Thai%20Restaurant]
+
+
+Processing MenuController#index (for 127.0.0.1 at 2010-04-18 00:49:58) [GET]
+  Parameters: {"id"=>"search", "searchValue"=>"thai", "zipValue"=>"zipcode"}
+  [4;36;1mMenuItem Load (0.8ms)[0m   [0;1mSELECT * FROM "menu_items" [0m
+Rendering template within layouts/application
+Rendering menu/index
+Completed in 5ms (View: 1, DB: 1) | 200 OK [http://localhost/menu/search?searchValue=thai&zipValue=zipcode]
+
+
+Processing SearchController#index (for 127.0.0.1 at 2010-04-18 00:50:09) [GET]
+  Parameters: {"searchValue"=>"thai", "zipValue"=>"zipcode"}
+  [4;35;1mRestaurant Load (1.3ms)[0m   [0mSELECT * FROM "restaurants" [0m
+Rendering template within layouts/application
+Rendering search/index
+Completed in 56ms (View: 2, DB: 1) | 200 OK [http://localhost/search?searchValue=thai&zipValue=zipcode]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-04-18 00:50:09) [GET]
+
+ActionController::RoutingError (No route matches "/stylesheets/images/map.jpg" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing MenuController#index (for 127.0.0.1 at 2010-04-18 00:50:16) [GET]
+  Parameters: {"id"=>"Thai Restaurant"}
+  [4;36;1mMenuItem Load (0.8ms)[0m   [0;1mSELECT * FROM "menu_items" [0m
+Rendering template within layouts/application
+Rendering menu/index
+Completed in 92ms (View: 88, DB: 1) | 200 OK [http://localhost/menu/Thai%20Restaurant]
+
+
+Processing SearchController#index (for 127.0.0.1 at 2010-04-18 00:50:18) [GET]
+  Parameters: {"searchValue"=>"thai", "zipValue"=>"zipcode"}
+  [4;35;1mRestaurant Load (1.1ms)[0m   [0mSELECT * FROM "restaurants" [0m
+Rendering template within layouts/application
+Rendering search/index
+Completed in 12ms (View: 2, DB: 1) | 200 OK [http://localhost/search?searchValue=thai&zipValue=zipcode]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-04-18 00:50:18) [GET]
+
+ActionController::RoutingError (No route matches "/stylesheets/images/map.jpg" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing MenuController#index (for 127.0.0.1 at 2010-04-18 00:50:19) [GET]
+  Parameters: {"id"=>"Thai Restaurant"}
+  [4;36;1mMenuItem Load (0.8ms)[0m   [0;1mSELECT * FROM "menu_items" [0m
+Rendering template within layouts/application
+Rendering menu/index
+Completed in 6ms (View: 2, DB: 1) | 200 OK [http://localhost/menu/Thai%20Restaurant]
+
+
+Processing SearchController#index (for 127.0.0.1 at 2010-04-18 00:50:22) [GET]
+  Parameters: {"searchValue"=>"thai", "zipValue"=>"zipcode"}
+  [4;35;1mRestaurant Load (1.1ms)[0m   [0mSELECT * FROM "restaurants" [0m
+Rendering template within layouts/application
+Rendering search/index
+Completed in 11ms (View: 2, DB: 1) | 200 OK [http://localhost/search?searchValue=thai&zipValue=zipcode]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-04-18 00:50:22) [GET]
+
+ActionController::RoutingError (No route matches "/stylesheets/images/map.jpg" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing MenuController#index (for 127.0.0.1 at 2010-04-18 00:50:24) [GET]
+  Parameters: {"id"=>"Thai Restaurant"}
+  [4;36;1mMenuItem Load (0.8ms)[0m   [0;1mSELECT * FROM "menu_items" [0m
+Rendering template within layouts/application
+Rendering menu/index
+Completed in 6ms (View: 2, DB: 1) | 200 OK [http://localhost/menu/Thai%20Restaurant]
+
+
+Processing SearchController#index (for 127.0.0.1 at 2010-04-18 00:50:27) [GET]
+  Parameters: {"searchValue"=>"e.g. Thai, $15.99, Westport", "zipValue"=>"64112"}
+  [4;35;1mRestaurant Load (1.1ms)[0m   [0mSELECT * FROM "restaurants" [0m
+Rendering template within layouts/application
+Rendering search/index
+Completed in 11ms (View: 1, DB: 1) | 200 OK [http://localhost/search?searchValue=e.g.+Thai%2C+%2415.99%2C+Westport&zipValue=64112]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-04-18 00:50:27) [GET]
+
+ActionController::RoutingError (No route matches "/stylesheets/images/map.jpg" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing MenuController#index (for 127.0.0.1 at 2010-04-18 00:50:29) [GET]
+  Parameters: {"id"=>"Other restaurant"}
+  [4;36;1mMenuItem Load (0.8ms)[0m   [0;1mSELECT * FROM "menu_items" [0m
+Rendering template within layouts/application
+Rendering menu/index
+Completed in 5ms (View: 1, DB: 1) | 200 OK [http://localhost/menu/Other%20restaurant]
+
+
+Processing SearchController#index (for 127.0.0.1 at 2010-04-18 00:50:31) [GET]
+  Parameters: {"searchValue"=>"thai", "zipValue"=>"zipcode"}
+  [4;35;1mRestaurant Load (1.1ms)[0m   [0mSELECT * FROM "restaurants" [0m
+Rendering template within layouts/application
+Rendering search/index
+Completed in 11ms (View: 2, DB: 1) | 200 OK [http://localhost/search?searchValue=thai&zipValue=zipcode]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-04-18 00:50:31) [GET]
+
+ActionController::RoutingError (No route matches "/stylesheets/images/map.jpg" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing MenuController#index (for 127.0.0.1 at 2010-04-18 00:50:33) [GET]
+  Parameters: {"id"=>"Fancy Restaurant"}
+  [4;36;1mMenuItem Load (0.9ms)[0m   [0;1mSELECT * FROM "menu_items" [0m
+Rendering template within layouts/application
+Rendering menu/index
+Completed in 6ms (View: 2, DB: 1) | 200 OK [http://localhost/menu/Fancy%20Restaurant]
+
+
+Processing SearchController#index (for 127.0.0.1 at 2010-04-18 00:50:38) [GET]
+  Parameters: {"searchValue"=>"e.g. Thai, $15.99, Westport", "zipValue"=>"64112"}
+  [4;35;1mRestaurant Load (1.1ms)[0m   [0mSELECT * FROM "restaurants" [0m
+Rendering template within layouts/application
+Rendering search/index
+Completed in 11ms (View: 1, DB: 1) | 200 OK [http://localhost/search?searchValue=e.g.+Thai%2C+%2415.99%2C+Westport&zipValue=64112]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-04-18 00:50:38) [GET]
+
+ActionController::RoutingError (No route matches "/stylesheets/images/map.jpg" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
