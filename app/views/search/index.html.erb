@@ -22,12 +22,12 @@ require "CGI"
 							<li>
 								<div class="leftResult">
 									<!-- <a class="businessName" href="#"><%= "#{restaurant.name}" %></a> -->
-									<%= "<a class=\"businessName\" href=\"menu?restaurant=#{CGI::escape(restaurant.name)}\">#{restaurant.name}</a>" %>
+									<%= "<a class=\"businessName\" href=\"menu/#{restaurant.name}\">#{restaurant.name}</a>" %>
 									<span class="description"><%= "#{restaurant.description}" %></span>
 								</div>
 								<div class="rightResult">
 									<!-- <a class="sprite_buttons viewMenu" href="menu" >View Menu</a> -->
-									<%= "<a class=\"sprite_buttons viewMenu\" href=\"menu?restaurant=#{CGI::escape(restaurant.name)}\" >View Menu</a>" %>
+									<%= "<a class=\"sprite_buttons viewMenu\" href=\"menu/#{restaurant.name}\" >View Menu</a>" %>
 									<span class="sprite_buttons ratings pos">&nbsp;</span>
 									<span class="sprite_buttons ratings pos">&nbsp;</span>
 									<span class="sprite_buttons ratings pos">&nbsp;</span>

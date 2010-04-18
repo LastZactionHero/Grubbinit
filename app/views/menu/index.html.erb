@@ -10,10 +10,30 @@
 			</div>
 		</div>
 		
+		<script>
+			function updatecount( item_name )
+			{
+				<%= "var update_url = \"update/#{@restaurant_name}\"" %>
+				update_url = update_url + "/" + item_name + "/"
+				
+				elementId = "count"
+				elementId += item_name
+				
+				itemCount = document.getElementById( elementId ).value
+				
+				update_url = update_url + itemCount
+				alert( update_url );
+				
+				window.location = update_url
+				
+			}
+		</script>
+
 		<div id="lowerContentBlock" class="clearfix">
 			<div id="contentBlock" class="clearfix">
 				<div class="searchResults">
 				
+					<form name="updateForm" action="update" method="post">
 					<h3><%= "#{ @restaurant_name }" %></h3>
 					<div class="menuResults">
 					
@@ -27,8 +47,9 @@
 									<li class="menuItemDescription"><%= "#{item.description}" %></li>
 									<li class="menuItemPrice">
 									<a class="sprite_buttons deleteBtn" href="#">&nbsp;</a>
-									<a class="sprite_buttons updateBtn" href="#">&nbsp;</a>
-									<input type="text" id="menuPrice" />
+									<%= "<a class=\"sprite_buttons updateBtn\" onclick=\'javascript:updatecount(\"#{item.name}\")\'>&nbsp;</a>" %>
+									<!-- <input type="text" id="menuPrice" /> -->
+									<%= "<input type=\"text\" id=\"count#{item.name}\" value=\"#{item.getSessionCount( session )}\">" %>
 									<span class="menuPriceText"><%= "#{item.price}" %></span>
 								</li>
 								</div>
