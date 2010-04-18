@@ -13,6 +13,7 @@ ActionController::Routing::Routes.draw do |map|
 
   map.restaurantsearch 'search', :controller => 'search', :action => 'index'
 
+  map.clearcart 'menu/clearcart', :controller => 'menu', :action => 'clearcart'
   map.orderupdate 'menu/update/:restaurant/:item/:count', :controller => 'menu', :action => 'update', :restaurant => ':restaurant', :item => ':item', :count => ':count'
   map.menu 'menu/:id', :controller => 'menu', :action => 'index', :id => ':id'
 

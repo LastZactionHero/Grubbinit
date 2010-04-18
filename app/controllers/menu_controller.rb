@@ -6,7 +6,7 @@ class MenuController < ApplicationController
     subtotal = 0
 	
 	session[:items].each do |order_item|
-	  subtotal += order_item.menu_item.price.to_i * order_item.order_count
+	  subtotal += order_item.menu_item.price.to_f * order_item.order_count
 	end
 	
 	return subtotal
@@ -22,6 +22,17 @@ class MenuController < ApplicationController
 	return total
   end
   
+  def calculateItemCount
+    item_count = 0
+	
+	session[:items].each do |order_item|
+	  item_count += order_item.order_count
+	end
+	
+	return item_count
+  end
+  
+  
   def index
     @restaurant_name = params[:id].to_s
 	
@@ -34,6 +45,7 @@ class MenuController < ApplicationController
 	@costSubtotal = "$" + calculateSubtotal().to_s
 	@costService = "$" + calculateService().to_s
 	@costTotal = "$" + calculateTotal().to_s
+	@itemCount = calculateItemCount().to_s
   end
 
   def update
@@ -86,4 +98,9 @@ class MenuController < ApplicationController
     redirect_to :action => "index", :id => restaurant_name
   end
 
+  def clearcart
+    session[:items] = []
+	redirect_to :controller => "home"
+  end
+  
 end

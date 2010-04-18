@@ -11,7 +11,7 @@
 		</div>
 		
 		<script>
-			function updatecount( item_name )
+			function updateCount( item_name )
 			{
 				<%= "var update_url = \"update/#{@restaurant_name}\"" %>
 				update_url = update_url + "/" + item_name + "/"
@@ -26,6 +26,22 @@
 				window.location = update_url
 				
 			}
+			
+			function updateCountClear( item_name )
+			{
+				<%= "var update_url = \"update/#{@restaurant_name}\"" %>
+				update_url = update_url + "/" + item_name + "/"
+				
+				elementId = "count"
+				elementId += item_name
+				
+				itemCount = 0
+				
+				update_url = update_url + itemCount
+				
+				window.location = update_url
+			}
+			
 		</script>
 
 		<div id="lowerContentBlock" class="clearfix">
@@ -45,18 +61,19 @@
 									<li class="menuItemTitle"><%= "#{item.name}" %></li>
 									<li class="menuItemDescription"><%= "#{item.description}" %></li>
 									<li class="menuItemPrice">
-									<a class="sprite_buttons deleteBtn" href="#">&nbsp;</a>
-									<%= "<a class=\"sprite_buttons updateBtn\" onclick=\'javascript:updatecount(\"#{item.name}\")\'>&nbsp;</a>" %>
+									<!-- <a class="sprite_buttons deleteBtn" href="#">&nbsp;</a> -->
+									<%= "<a class=\"sprite_buttons deleteBtn\" onclick=\'javascript:updateCountClear(\"#{item.name}\")\'>&nbsp;</a>" %>
+									<%= "<a class=\"sprite_buttons updateBtn\" onclick=\'javascript:updateCount(\"#{item.name}\")\'>&nbsp;</a>" %>
 									<!-- <input type="text" id="menuPrice" /> -->
 									<%= "<input type=\"text\" id=\"count#{item.name}\" value=\"#{item.getSessionCount( session )}\">" %>
-									<span class="menuPriceText"><%= "#{item.price}" %></span>
+									<span class="menuPriceText"><%= "$#{item.price}" %></span>
 								</li>
 								</div>
 							<% end %>
 						</ul>
 						
 						<div class="totalsContainer clearfix">
-							<span class="subTotal">Total Items: <span class="subItems">#</span> Subtotal: <span class="subPrice"><%= "#{@costSubtotal}" %></span></span>
+							<span class="subTotal">Total Items: <span class="subItems"><%= "#{@itemCount}" %></span> Subtotal: <span class="subPrice"><%= "#{@costSubtotal}" %></span></span>
 							<span class="serviceTotal">Service Charge: <span><%= "#{@costService}" %></span></span>
 							<span class="totalPrice">Total Price: <span><%= "#{@costTotal}" %></span></span>
 						</div>
@@ -64,7 +81,7 @@
 							<a class="registerBubble" href="#">Register now &amp; save this for the future!</a>
 							<input type="submit" id="placeSubmit" class="sprite_buttons placeOrderBtn" value=" " />
 							<span class="clearfix">&nbsp;</span>
-							<a class="startOverBtn" href="#">Start Over</a>
+							<%= "<a class=\"startOverBtn\" href=\"/menu/clearcart/\">Start Over</a>" %>
 						</div>
 						
 					</div>

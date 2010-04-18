@@ -20,6 +20,11 @@ h3 {
 	font: 32px "Trebuchet MS", Helvetica, sans-serif;
 	margin: 10px 0;
 }
+h5 {
+	color: #000;
+	font: 18px "Trebuchet MS", Helvetica, sans-serif;
+	margin: 10px 0;
+}
 p {margin: 10px 0;}
 div#outerWrapper {
 	background: transparent url(/images/top.gif) repeat-x scroll 0 0;
@@ -109,7 +114,16 @@ div#outerWrapper {
 			width: 55px;
 		}
 			input.submitBtn:hover {background-position: 0px -41px;}
-			
+		
+		input.seachSubmitBtn {
+			background-position: -139px -64px;
+			float: left;
+			height: 40px;
+			margin: 0px 32px 20px 10px;
+			width: 95px;
+		}
+			input.seachSubmitBtn:hover {background-position: -139px -105px;}
+				
 		input.goBtn {
 			background-position: 0px 0px;
 			float: left;

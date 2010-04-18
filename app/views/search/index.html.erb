@@ -1,4 +1,3 @@
-require "CGI"
 			<div class="innerSearch clearfix">
 				<h2>search here:</h2>
 					<div class="searchRow">
@@ -18,24 +17,32 @@ require "CGI"
 					<h3>your results:</h3>
 					<ol class="searchListing">
 					
-						<% @restaurants.each do |restaurant| %>
-							<li>
-								<div class="leftResult">
-									<!-- <a class="businessName" href="#"><%= "#{restaurant.name}" %></a> -->
-									<%= "<a class=\"businessName\" href=\"menu/#{restaurant.name}\">#{restaurant.name}</a>" %>
-									<span class="description"><%= "#{restaurant.description}" %></span>
-								</div>
-								<div class="rightResult">
-									<!-- <a class="sprite_buttons viewMenu" href="menu" >View Menu</a> -->
-									<%= "<a class=\"sprite_buttons viewMenu\" href=\"menu/#{restaurant.name}\" >View Menu</a>" %>
-									<span class="sprite_buttons ratings pos">&nbsp;</span>
-									<span class="sprite_buttons ratings pos">&nbsp;</span>
-									<span class="sprite_buttons ratings pos">&nbsp;</span>
-									<span class="sprite_buttons ratings pos">&nbsp;</span>
-									<span class="sprite_buttons ratings">&nbsp;</span>
-								</div>
-							</li>	
-						<% end %>						
+					    <% if !@restaurants.empty? %>
+							<% @restaurants.each do |restaurant| %>
+								<li>
+									<div class="leftResult">
+										<!-- <a class="businessName" href="#"><%= "#{restaurant.name}" %></a> -->
+										<%= "<a class=\"businessName\" href=\"menu/#{restaurant.name}\">#{restaurant.name}</a>" %>
+										<span class="description"><%= "#{restaurant.description}" %></span>
+									</div>
+									<div class="rightResult">
+										<!-- <a class="sprite_buttons viewMenu" href="menu" >View Menu</a> -->
+										<%= "<a class=\"sprite_buttons viewMenu\" href=\"menu/#{restaurant.name}\" >View Menu</a>" %>
+										<span class="sprite_buttons ratings pos">&nbsp;</span>
+										<span class="sprite_buttons ratings pos">&nbsp;</span>
+										<span class="sprite_buttons ratings pos">&nbsp;</span>
+										<span class="sprite_buttons ratings pos">&nbsp;</span>
+										<span class="sprite_buttons ratings">&nbsp;</span>
+									</div>
+								</li>	
+							<% end %>
+						<% else %>
+						  <h5>Sorry! No restaurants were found in your area.<br>Suggest a restaurant and we will inquire about adding it to our list!</h5>
+						  <form name="index" action="home" >
+							<input type="text" id="searchValue" class="searchField" value="Suggest a Restaurant!" />
+							<input type="submit" id="submit" class="sprite_buttons seachSubmitBtn" value="" />
+						  </form>
+						<% end %>
 					</ol>
 					
 					<div class="mapBlock">&nbsp;</div>
