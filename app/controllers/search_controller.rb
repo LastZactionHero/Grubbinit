@@ -11,6 +11,10 @@ class SearchController < ApplicationController
 	  @search_zip = value.to_s if key.to_s == "zipValue"
 	end
 	
+	#Remove default values
+	@search_term = "" if @search_term == "e.g. Thai, $15.99, Westport"
+	@search_zip = "" if @search_zip == "zipcode"
+	
 	search_terms = @search_term.split
 	
 	# Select restaurant list

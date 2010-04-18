@@ -13,6 +13,8 @@ ActionController::Routing::Routes.draw do |map|
 
   map.restaurantsearch 'search', :controller => 'search', :action => 'index'
 
+  map.menu 'menu/:id', :controller => 'menu', :action => 'index'
+
   # The priority is based upon order of creation: first created -> highest priority.
 
   # Sample of regular route:

@@ -2,7 +2,6 @@ class MenuItemsController < ApplicationController
   # GET /menu_items
   # GET /menu_items.xml
   def index
-    @restaurant = Restaurants.find(params[:restaurant_id])
     @menu_items = MenuItem.all
 
     respond_to do |format|
@@ -14,7 +13,6 @@ class MenuItemsController < ApplicationController
   # GET /menu_items/1
   # GET /menu_items/1.xml
   def show
-    @restaurant = Post.find(params[:restaurant_id])
     @menu_item = MenuItem.find(params[:id])
 
     respond_to do |format|

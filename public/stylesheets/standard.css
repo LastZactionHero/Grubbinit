@@ -213,6 +213,160 @@ div#outerWrapper {
 				margin-bottom: 50px;
 				width: 339px;
 			}
+	/* ======================= */
+	
+	/* Menu Items Specifically */
+	.smallMapBlock {
+		background: transparent url(/images/small_map.png) no-repeat scroll right top;
+		float: right;
+		height: 339px;
+		margin-bottom: 50px;
+		width: 339px;
+	}
+	
+	.menuResults {
+		float: left;
+		position: relative;
+		width: 541px;
+	}
+	.menuResults ul.menuItems {
+		border-bottom: 1px solid #ccc;
+		float: left; 
+		margin-bottom: 20px;
+		width: 100%;
+	}
+		.menuResults li.heading {
+			color: #000;
+			float: left;
+			font: bold 16px "Trebuchet MS", Helvetica, sans-serif;
+			margin-bottom: 20px;
+		}
+			.menuResults li.priceHeading {float: right;}
+		ul.menuItems .menuDetails {
+			display: block;
+			float: left;
+			margin-bottom: 20px;
+		}
+		ul.menuItems .menuItemTitle {
+			color: #0a8ebc;
+			display: block;
+			float: left;
+			font: bold 16px "Trebuchet MS", Helvetica, sans-serif;
+			line-height: 25px;
+			margin-right: 20px;
+			width: 341px;
+		}
+		ul.menuItems .menuItemDescription {
+			color: #000;
+			display: block;
+			float: left;
+			font: 12px "Trebuchet MS", Helvetica, sans-serif;
+			width: 341px;
+		}
+
+		li.menuItemPrice {float: right; position: relative;}
+			li.menuItemPrice a.deleteBtn, li.menuItemPrice a.updateBtn {
+				cursor: pointer;
+				display: block;
+				float: left;
+				height: 15px;
+				margin: 8px 5px 0 5px;
+				width: 15px;
+			}
+				li.menuItemPrice a.deleteBtn {background-position: -267px -20px;}
+					li.menuItemPrice a.deleteBtn:hover {background-position: -267px -36px;}
+				li.menuItemPrice a.updateBtn {background-position: -286px -20px;}
+					li.menuItemPrice a.updateBtn:hover {background-position: -286px -36px;}
+			li.menuItemPrice input {
+				background: transparent url(/images/quantity_field.png) no-repeat scroll 0 0;
+				float: left;
+				height: 22px;
+				margin-right: 5px;
+				padding: 5px 10px;
+				width: 31px;
+			}
+			li.menuItemPrice span.menuPriceText {
+				color: #4f9906;
+				display: block;
+				float: left;
+				font: bold 14px "Trebuchet MS", Helvetica, sans-serif;
+				padding: 5px;
+			}
+			
+			/* total container styles */
+			.totalsContainer {
+				border-bottom: 1px solid #ccc;
+				float: left;
+				margin-bottom: 20px;
+				padding-bottom: 20px;
+				position: relative;
+				text-align: right;
+				width: 541px;
+			}
+				.totalsContainer span.subTotal {
+					color: #000;
+					display: block;
+					float: right;
+					font: 18px "Trebuchet MS", Helvetica, sans-serif;
+					width: 100%;
+				}
+					span.subTotal .subItems {color: #54c3d6; font-style: italic;}
+				.totalsContainer span.serviceTotal {
+					border-bottom: 1px solid #ccc;
+					color: #333;
+					display: block;
+					float: right;
+					font: 16px "Trebuchet MS", Helvetica, sans-serif;
+					margin: 5px 0;
+					padding-bottom: 10px;
+					width: 170px;
+				}
+					span.subTotal .subPrice, span.serviceTotal span, span.totalPrice span {color: #4f9906; font-style: italic;}
+				.totalsContainer span.totalPrice {
+					color: #333;
+					display: block;
+					float: right;
+					font: 24px "Trebuchet MS", Helvetica, sans-serif;
+					width: 100%;
+				}
+	
+	.totalContainerButtons {
+		float: left;
+		margin-bottom: 20px;
+		padding-bottom: 30px;
+		position: relative;
+		width: 541px;
+	}
+		a.registerBubble {
+			background: transparent url(/images/register_bubble.png) no-repeat scroll 0 0;
+			color: #54c3d6;
+			cursor: pointer;
+			display: block;
+			float: left;
+			font: 14px "Trebuchet MS", Helvetica, sans-serif;
+			height: 24px;
+			padding: 10px 15px 0;
+			width: 261px;
+		}
+		input.placeOrderBtn {
+			background-position: -139px -1px;
+			display: block;
+			float: right;
+			height: 30px;
+			width: 125px;
+		}
+			input.placeOrderBtn:hover {background-position: -139px -32px;}
+		a.startOverBtn {
+			color: #333;
+			cursor: pointer;
+			display: block;
+			float: right;
+			font: 12px "Trebuchet MS", Helvetica, sans-serif;
+			text-decoration: underline;
+			width: auto;
+		}
+			a.startOverBtn:hover {color: #a10000; text-decoration: underline;}
+	
 	
 	
 	

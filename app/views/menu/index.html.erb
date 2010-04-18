@@ -1,0 +1,56 @@
+<div class="innerSearch clearfix">
+				<h2>search here:</h2>
+					<div class="searchRow">
+						<input type="text" id="searchValue" class="searchField" value="e.g. Thai, $15.99, Westport" />
+						<input type="text" id="zipValue" class="zipcodeField" value="zipcode" />
+						<input type="submit" id="submit" class="sprite_buttons goBtn" value=" " />
+						<a class="sprite_buttons helpBtn" href="#">help</a>
+						<a class="sprite_buttons homeBtn" href="#">home</a>
+					</div>
+			</div>
+		</div>
+		
+		<div id="lowerContentBlock" class="clearfix">
+			<div id="contentBlock" class="clearfix">
+				<div class="searchResults">
+				
+					<h3>Lulu's Thai Noodle Soup - order 1:</h3>
+					<div class="menuResults">
+					
+						<ul class="menuItems">
+							<li class="heading">Menu Items:</li>
+							<li class="heading priceHeading">Item Price:</li>
+							
+							<% @items.each do |item| %>
+								<div class="menuDetails">
+									<li class="menuItemTitle"><%= "#{item.name}" %></li>
+									<li class="menuItemDescription"><%= "#{item.description}" %></li>
+									<li class="menuItemPrice">
+									<a class="sprite_buttons deleteBtn" href="#">&nbsp;</a>
+									<a class="sprite_buttons updateBtn" href="#">&nbsp;</a>
+									<input type="text" id="menuPrice" />
+									<span class="menuPriceText"><%= "#{item.price}" %></span>
+								</li>
+								</div>
+							<% end %>
+						</ul>
+						
+						<div class="totalsContainer clearfix">
+							<span class="subTotal">Total Items: <span class="subItems">#</span> Subtotal: <span class="subPrice">$16.48</span></span>
+							<span class="serviceTotal">Service Charge: <span>$4.72</span></span>
+							<span class="totalPrice">Total Price: <span>$21.20</span></span>
+						</div>
+						<div class="totalContainerButtons clearfix">
+							<a class="registerBubble" href="#">Register now &amp; save this for the future!</a>
+							<input type="submit" id="placeSubmit" class="sprite_buttons placeOrderBtn" value=" " />
+							<span class="clearfix">&nbsp;</span>
+							<a class="startOverBtn" href="#">Start Over</a>
+						</div>
+						
+					</div>
+					
+					<div class="smallMapBlock">&nbsp;</div>
+					
+				</div>
+			</div>
+		</div>
