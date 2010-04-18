@@ -32387,3 +32387,2988 @@ Processing OrderConfirmController#index (for 127.0.0.1 at 2010-04-18 14:04:09) [
 Rendering template within layouts/application
 Rendering order_confirm/index
 Completed in 4ms (View: 2, DB: 0) | 200 OK [http://localhost/orderconfirm]
+
+
+Processing OrderConfirmController#update (for 127.0.0.1 at 2010-04-18 14:04:14) [GET]
+Redirected to http://localhost:3000/orderconfirm
+Completed in 3ms (DB: 0) | 302 Found [http://localhost/orderconfirm/update]
+
+
+Processing OrderConfirmController#index (for 127.0.0.1 at 2010-04-18 14:04:14) [GET]
+Rendering template within layouts/application
+Rendering order_confirm/index
+Completed in 6ms (View: 2, DB: 0) | 200 OK [http://localhost/orderconfirm]
+
+
+Processing OrderConfirmController#update (for 127.0.0.1 at 2010-04-18 14:04:19) [GET]
+Redirected to http://localhost:3000/orderconfirm
+Completed in 3ms (DB: 0) | 302 Found [http://localhost/orderconfirm/update]
+
+
+Processing OrderConfirmController#index (for 127.0.0.1 at 2010-04-18 14:04:19) [GET]
+Rendering template within layouts/application
+Rendering order_confirm/index
+Completed in 5ms (View: 2, DB: 0) | 200 OK [http://localhost/orderconfirm]
+
+
+Processing OrderConfirmController#update (for 127.0.0.1 at 2010-04-18 14:04:24) [GET]
+Redirected to http://localhost:3000/orderconfirm
+Completed in 3ms (DB: 0) | 302 Found [http://localhost/orderconfirm/update]
+
+
+Processing OrderConfirmController#index (for 127.0.0.1 at 2010-04-18 14:04:24) [GET]
+Rendering template within layouts/application
+Rendering order_confirm/index
+Completed in 5ms (View: 2, DB: 0) | 200 OK [http://localhost/orderconfirm]
+
+
+Processing OrderConfirmController#update (for 127.0.0.1 at 2010-04-18 14:04:30) [GET]
+Redirected to http://localhost:3000/orderconfirm
+Completed in 3ms (DB: 0) | 302 Found [http://localhost/orderconfirm/update]
+
+
+Processing OrderConfirmController#index (for 127.0.0.1 at 2010-04-18 14:04:30) [GET]
+Rendering template within layouts/application
+Rendering order_confirm/index
+Completed in 4ms (View: 1, DB: 0) | 200 OK [http://localhost/orderconfirm]
+
+
+Processing OrderConfirmController#update (for 127.0.0.1 at 2010-04-18 14:04:35) [GET]
+Redirected to http://localhost:3000/orderconfirm
+Completed in 3ms (DB: 0) | 302 Found [http://localhost/orderconfirm/update]
+
+
+Processing OrderConfirmController#index (for 127.0.0.1 at 2010-04-18 14:04:35) [GET]
+Rendering template within layouts/application
+Rendering order_confirm/index
+Completed in 6ms (View: 2, DB: 0) | 200 OK [http://localhost/orderconfirm]
+
+
+Processing OrderConfirmController#update (for 127.0.0.1 at 2010-04-18 14:04:40) [GET]
+Redirected to http://localhost:3000/orderconfirm
+Completed in 3ms (DB: 0) | 302 Found [http://localhost/orderconfirm/update]
+
+
+Processing OrderConfirmController#index (for 127.0.0.1 at 2010-04-18 14:04:40) [GET]
+Rendering template within layouts/application
+Rendering order_confirm/index
+Completed in 5ms (View: 1, DB: 0) | 200 OK [http://localhost/orderconfirm]
+
+
+Processing OrderConfirmController#update (for 127.0.0.1 at 2010-04-18 14:04:45) [GET]
+Redirected to http://localhost:3000/orderconfirm
+Completed in 3ms (DB: 0) | 302 Found [http://localhost/orderconfirm/update]
+
+
+Processing OrderConfirmController#index (for 127.0.0.1 at 2010-04-18 14:04:45) [GET]
+Rendering template within layouts/application
+Rendering order_confirm/index
+Completed in 4ms (View: 1, DB: 0) | 200 OK [http://localhost/orderconfirm]
+
+
+Processing OrderConfirmController#update (for 127.0.0.1 at 2010-04-18 14:04:50) [GET]
+Redirected to http://localhost:3000/orderconfirm
+Completed in 3ms (DB: 0) | 302 Found [http://localhost/orderconfirm/update]
+
+
+Processing OrderConfirmController#index (for 127.0.0.1 at 2010-04-18 14:04:50) [GET]
+Rendering template within layouts/application
+Rendering order_confirm/index
+Completed in 6ms (View: 2, DB: 0) | 200 OK [http://localhost/orderconfirm]
+
+
+Processing OrderConfirmController#update (for 127.0.0.1 at 2010-04-18 14:04:55) [GET]
+Redirected to http://localhost:3000/orderconfirm
+Completed in 3ms (DB: 0) | 302 Found [http://localhost/orderconfirm/update]
+
+
+Processing OrderConfirmController#index (for 127.0.0.1 at 2010-04-18 14:04:55) [GET]
+Rendering template within layouts/application
+Rendering order_confirm/index
+Completed in 5ms (View: 2, DB: 0) | 200 OK [http://localhost/orderconfirm]
+
+
+Processing OrderConfirmController#update (for 127.0.0.1 at 2010-04-18 14:05:00) [GET]
+Redirected to http://localhost:3000/orderconfirm
+Completed in 3ms (DB: 0) | 302 Found [http://localhost/orderconfirm/update]
+
+
+Processing OrderConfirmController#index (for 127.0.0.1 at 2010-04-18 14:05:01) [GET]
+Rendering template within layouts/application
+Rendering order_confirm/index
+Completed in 4ms (View: 1, DB: 0) | 200 OK [http://localhost/orderconfirm]
+
+
+Processing OrderConfirmController#update (for 127.0.0.1 at 2010-04-18 14:05:06) [GET]
+Redirected to http://localhost:3000/orderconfirm
+Completed in 3ms (DB: 0) | 302 Found [http://localhost/orderconfirm/update]
+
+
+Processing OrderConfirmController#index (for 127.0.0.1 at 2010-04-18 14:05:06) [GET]
+Rendering template within layouts/application
+Rendering order_confirm/index
+Completed in 4ms (View: 1, DB: 0) | 200 OK [http://localhost/orderconfirm]
+
+
+Processing OrderConfirmController#update (for 127.0.0.1 at 2010-04-18 14:05:11) [GET]
+Redirected to http://localhost:3000/orderconfirm
+Completed in 3ms (DB: 0) | 302 Found [http://localhost/orderconfirm/update]
+
+
+Processing OrderConfirmController#index (for 127.0.0.1 at 2010-04-18 14:05:11) [GET]
+Rendering template within layouts/application
+Rendering order_confirm/index
+Completed in 5ms (View: 2, DB: 0) | 200 OK [http://localhost/orderconfirm]
+
+
+Processing OrderConfirmController#update (for 127.0.0.1 at 2010-04-18 14:05:16) [GET]
+Redirected to http://localhost:3000/orderconfirm
+Completed in 3ms (DB: 0) | 302 Found [http://localhost/orderconfirm/update]
+
+
+Processing OrderConfirmController#index (for 127.0.0.1 at 2010-04-18 14:05:16) [GET]
+Rendering template within layouts/application
+Rendering order_confirm/index
+Completed in 5ms (View: 2, DB: 0) | 200 OK [http://localhost/orderconfirm]
+
+
+Processing OrderConfirmController#update (for 127.0.0.1 at 2010-04-18 14:05:21) [GET]
+Redirected to http://localhost:3000/orderconfirm
+Completed in 3ms (DB: 0) | 302 Found [http://localhost/orderconfirm/update]
+
+
+Processing OrderConfirmController#index (for 127.0.0.1 at 2010-04-18 14:05:21) [GET]
+Rendering template within layouts/application
+Rendering order_confirm/index
+Completed in 5ms (View: 2, DB: 0) | 200 OK [http://localhost/orderconfirm]
+
+
+Processing OrderConfirmController#update (for 127.0.0.1 at 2010-04-18 14:05:26) [GET]
+Redirected to http://localhost:3000/orderconfirm
+Completed in 4ms (DB: 0) | 302 Found [http://localhost/orderconfirm/update]
+
+
+Processing OrderConfirmController#index (for 127.0.0.1 at 2010-04-18 14:05:26) [GET]
+Rendering template within layouts/application
+Rendering order_confirm/index
+Completed in 4ms (View: 1, DB: 0) | 200 OK [http://localhost/orderconfirm]
+
+
+Processing OrderConfirmController#update (for 127.0.0.1 at 2010-04-18 14:05:31) [GET]
+Redirected to http://localhost:3000/orderconfirm
+Completed in 3ms (DB: 0) | 302 Found [http://localhost/orderconfirm/update]
+
+
+Processing OrderConfirmController#index (for 127.0.0.1 at 2010-04-18 14:05:31) [GET]
+Rendering template within layouts/application
+Rendering order_confirm/index
+Completed in 6ms (View: 2, DB: 0) | 200 OK [http://localhost/orderconfirm]
+
+
+Processing OrderConfirmController#update (for 127.0.0.1 at 2010-04-18 14:05:36) [GET]
+Redirected to http://localhost:3000/orderconfirm
+Completed in 3ms (DB: 0) | 302 Found [http://localhost/orderconfirm/update]
+
+
+Processing OrderConfirmController#index (for 127.0.0.1 at 2010-04-18 14:05:37) [GET]
+Rendering template within layouts/application
+Rendering order_confirm/index
+Completed in 5ms (View: 2, DB: 0) | 200 OK [http://localhost/orderconfirm]
+
+
+Processing OrderConfirmController#update (for 127.0.0.1 at 2010-04-18 14:05:42) [GET]
+Redirected to http://localhost:3000/orderconfirm
+Completed in 3ms (DB: 0) | 302 Found [http://localhost/orderconfirm/update]
+
+
+Processing OrderConfirmController#index (for 127.0.0.1 at 2010-04-18 14:05:42) [GET]
+Rendering template within layouts/application
+Rendering order_confirm/index
+Completed in 5ms (View: 2, DB: 0) | 200 OK [http://localhost/orderconfirm]
+
+
+Processing OrderConfirmController#update (for 127.0.0.1 at 2010-04-18 14:05:47) [GET]
+Redirected to http://localhost:3000/orderconfirm
+Completed in 3ms (DB: 0) | 302 Found [http://localhost/orderconfirm/update]
+
+
+Processing OrderConfirmController#index (for 127.0.0.1 at 2010-04-18 14:05:47) [GET]
+Rendering template within layouts/application
+Rendering order_confirm/index
+Completed in 4ms (View: 2, DB: 0) | 200 OK [http://localhost/orderconfirm]
+
+
+Processing OrderConfirmController#update (for 127.0.0.1 at 2010-04-18 14:05:52) [GET]
+Redirected to http://localhost:3000/orderconfirm
+Completed in 3ms (DB: 0) | 302 Found [http://localhost/orderconfirm/update]
+
+
+Processing OrderConfirmController#index (for 127.0.0.1 at 2010-04-18 14:05:52) [GET]
+Rendering template within layouts/application
+Rendering order_confirm/index
+Completed in 4ms (View: 2, DB: 0) | 200 OK [http://localhost/orderconfirm]
+
+
+Processing OrderConfirmController#update (for 127.0.0.1 at 2010-04-18 14:05:57) [GET]
+Redirected to http://localhost:3000/orderconfirm
+Completed in 3ms (DB: 0) | 302 Found [http://localhost/orderconfirm/update]
+
+
+Processing OrderConfirmController#index (for 127.0.0.1 at 2010-04-18 14:05:57) [GET]
+Rendering template within layouts/application
+Rendering order_confirm/index
+Completed in 5ms (View: 2, DB: 0) | 200 OK [http://localhost/orderconfirm]
+
+
+Processing OrderConfirmController#update (for 127.0.0.1 at 2010-04-18 14:06:02) [GET]
+Redirected to http://localhost:3000/orderconfirm
+Completed in 3ms (DB: 0) | 302 Found [http://localhost/orderconfirm/update]
+
+
+Processing OrderConfirmController#index (for 127.0.0.1 at 2010-04-18 14:06:02) [GET]
+Rendering template within layouts/application
+Rendering order_confirm/index
+Completed in 4ms (View: 2, DB: 0) | 200 OK [http://localhost/orderconfirm]
+
+
+Processing OrderConfirmController#update (for 127.0.0.1 at 2010-04-18 14:06:07) [GET]
+Redirected to http://localhost:3000/orderconfirm
+Completed in 3ms (DB: 0) | 302 Found [http://localhost/orderconfirm/update]
+
+
+Processing OrderConfirmController#index (for 127.0.0.1 at 2010-04-18 14:06:07) [GET]
+Rendering template within layouts/application
+Rendering order_confirm/index
+Completed in 5ms (View: 2, DB: 0) | 200 OK [http://localhost/orderconfirm]
+
+
+Processing OrderConfirmController#update (for 127.0.0.1 at 2010-04-18 14:06:12) [GET]
+Redirected to http://localhost:3000/orderconfirm
+Completed in 3ms (DB: 0) | 302 Found [http://localhost/orderconfirm/update]
+
+
+Processing OrderConfirmController#index (for 127.0.0.1 at 2010-04-18 14:06:13) [GET]
+Rendering template within layouts/application
+Rendering order_confirm/index
+Completed in 5ms (View: 2, DB: 0) | 200 OK [http://localhost/orderconfirm]
+
+
+Processing OrderConfirmController#update (for 127.0.0.1 at 2010-04-18 14:06:18) [GET]
+Redirected to http://localhost:3000/orderconfirm
+Completed in 4ms (DB: 0) | 302 Found [http://localhost/orderconfirm/update]
+
+
+Processing OrderConfirmController#index (for 127.0.0.1 at 2010-04-18 14:06:18) [GET]
+Rendering template within layouts/application
+Rendering order_confirm/index
+Completed in 6ms (View: 2, DB: 0) | 200 OK [http://localhost/orderconfirm]
+
+
+Processing OrderConfirmController#update (for 127.0.0.1 at 2010-04-18 14:06:23) [GET]
+Redirected to http://localhost:3000/orderconfirm
+Completed in 3ms (DB: 0) | 302 Found [http://localhost/orderconfirm/update]
+
+
+Processing OrderConfirmController#index (for 127.0.0.1 at 2010-04-18 14:06:23) [GET]
+Rendering template within layouts/application
+Rendering order_confirm/index
+Completed in 5ms (View: 2, DB: 0) | 200 OK [http://localhost/orderconfirm]
+
+
+Processing OrderConfirmController#update (for 127.0.0.1 at 2010-04-18 14:06:28) [GET]
+Redirected to http://localhost:3000/orderconfirm
+Completed in 3ms (DB: 0) | 302 Found [http://localhost/orderconfirm/update]
+
+
+Processing OrderConfirmController#index (for 127.0.0.1 at 2010-04-18 14:06:28) [GET]
+Rendering template within layouts/application
+Rendering order_confirm/index
+Completed in 5ms (View: 2, DB: 0) | 200 OK [http://localhost/orderconfirm]
+
+
+Processing OrderConfirmController#update (for 127.0.0.1 at 2010-04-18 14:06:33) [GET]
+Redirected to http://localhost:3000/orderconfirm
+Completed in 3ms (DB: 0) | 302 Found [http://localhost/orderconfirm/update]
+
+
+Processing OrderConfirmController#index (for 127.0.0.1 at 2010-04-18 14:06:33) [GET]
+Rendering template within layouts/application
+Rendering order_confirm/index
+Completed in 5ms (View: 2, DB: 0) | 200 OK [http://localhost/orderconfirm]
+
+
+Processing OrderConfirmController#update (for 127.0.0.1 at 2010-04-18 14:06:38) [GET]
+Redirected to http://localhost:3000/orderconfirm
+Completed in 3ms (DB: 0) | 302 Found [http://localhost/orderconfirm/update]
+
+
+Processing OrderConfirmController#index (for 127.0.0.1 at 2010-04-18 14:06:38) [GET]
+Rendering template within layouts/application
+Rendering order_confirm/index
+Completed in 5ms (View: 2, DB: 0) | 200 OK [http://localhost/orderconfirm]
+
+
+Processing OrderConfirmController#update (for 127.0.0.1 at 2010-04-18 14:06:43) [GET]
+Redirected to http://localhost:3000/orderconfirm
+Completed in 3ms (DB: 0) | 302 Found [http://localhost/orderconfirm/update]
+
+
+Processing OrderConfirmController#index (for 127.0.0.1 at 2010-04-18 14:06:43) [GET]
+Rendering template within layouts/application
+Rendering order_confirm/index
+Completed in 5ms (View: 2, DB: 0) | 200 OK [http://localhost/orderconfirm]
+
+
+Processing OrderConfirmController#update (for 127.0.0.1 at 2010-04-18 14:06:48) [GET]
+Redirected to http://localhost:3000/orderconfirm
+Completed in 3ms (DB: 0) | 302 Found [http://localhost/orderconfirm/update]
+
+
+Processing OrderConfirmController#index (for 127.0.0.1 at 2010-04-18 14:06:48) [GET]
+Rendering template within layouts/application
+Rendering order_confirm/index
+Completed in 4ms (View: 1, DB: 0) | 200 OK [http://localhost/orderconfirm]
+
+
+Processing OrderConfirmController#update (for 127.0.0.1 at 2010-04-18 14:06:54) [GET]
+Redirected to http://localhost:3000/orderconfirm
+Completed in 3ms (DB: 0) | 302 Found [http://localhost/orderconfirm/update]
+
+
+Processing OrderConfirmController#index (for 127.0.0.1 at 2010-04-18 14:06:54) [GET]
+Rendering template within layouts/application
+Rendering order_confirm/index
+Completed in 5ms (View: 2, DB: 0) | 200 OK [http://localhost/orderconfirm]
+
+
+Processing OrderConfirmController#update (for 127.0.0.1 at 2010-04-18 14:06:59) [GET]
+Redirected to http://localhost:3000/orderconfirm
+Completed in 3ms (DB: 0) | 302 Found [http://localhost/orderconfirm/update]
+
+
+Processing OrderConfirmController#index (for 127.0.0.1 at 2010-04-18 14:06:59) [GET]
+Rendering template within layouts/application
+Rendering order_confirm/index
+Completed in 5ms (View: 2, DB: 0) | 200 OK [http://localhost/orderconfirm]
+
+
+Processing OrderConfirmController#update (for 127.0.0.1 at 2010-04-18 14:07:04) [GET]
+Redirected to http://localhost:3000/orderconfirm
+Completed in 4ms (DB: 0) | 302 Found [http://localhost/orderconfirm/update]
+
+
+Processing OrderConfirmController#index (for 127.0.0.1 at 2010-04-18 14:07:04) [GET]
+Rendering template within layouts/application
+Rendering order_confirm/index
+Completed in 5ms (View: 2, DB: 0) | 200 OK [http://localhost/orderconfirm]
+
+
+Processing OrderConfirmController#update (for 127.0.0.1 at 2010-04-18 14:07:09) [GET]
+Redirected to http://localhost:3000/orderconfirm
+Completed in 3ms (DB: 0) | 302 Found [http://localhost/orderconfirm/update]
+
+
+Processing OrderConfirmController#index (for 127.0.0.1 at 2010-04-18 14:07:09) [GET]
+Rendering template within layouts/application
+Rendering order_confirm/index
+Completed in 5ms (View: 2, DB: 0) | 200 OK [http://localhost/orderconfirm]
+
+
+Processing OrderConfirmController#update (for 127.0.0.1 at 2010-04-18 14:07:14) [GET]
+Redirected to http://localhost:3000/orderconfirm
+Completed in 4ms (DB: 0) | 302 Found [http://localhost/orderconfirm/update]
+
+
+Processing OrderConfirmController#index (for 127.0.0.1 at 2010-04-18 14:07:14) [GET]
+Rendering template within layouts/application
+Rendering order_confirm/index
+Completed in 4ms (View: 1, DB: 0) | 200 OK [http://localhost/orderconfirm]
+
+
+Processing OrderConfirmController#update (for 127.0.0.1 at 2010-04-18 14:07:19) [GET]
+Redirected to http://localhost:3000/orderconfirm
+Completed in 3ms (DB: 0) | 302 Found [http://localhost/orderconfirm/update]
+
+
+Processing OrderConfirmController#index (for 127.0.0.1 at 2010-04-18 14:07:19) [GET]
+Rendering template within layouts/application
+Rendering order_confirm/index
+Completed in 5ms (View: 2, DB: 0) | 200 OK [http://localhost/orderconfirm]
+
+
+Processing OrderConfirmController#update (for 127.0.0.1 at 2010-04-18 14:07:24) [GET]
+Redirected to http://localhost:3000/orderconfirm
+Completed in 3ms (DB: 0) | 302 Found [http://localhost/orderconfirm/update]
+
+
+Processing OrderConfirmController#index (for 127.0.0.1 at 2010-04-18 14:07:24) [GET]
+Rendering template within layouts/application
+Rendering order_confirm/index
+Completed in 5ms (View: 2, DB: 0) | 200 OK [http://localhost/orderconfirm]
+
+
+Processing OrderConfirmController#update (for 127.0.0.1 at 2010-04-18 14:07:30) [GET]
+Redirected to http://localhost:3000/orderconfirm
+Completed in 3ms (DB: 0) | 302 Found [http://localhost/orderconfirm/update]
+
+
+Processing OrderConfirmController#index (for 127.0.0.1 at 2010-04-18 14:07:30) [GET]
+Rendering template within layouts/application
+Rendering order_confirm/index
+Completed in 6ms (View: 2, DB: 0) | 200 OK [http://localhost/orderconfirm]
+
+
+Processing OrderConfirmController#update (for 127.0.0.1 at 2010-04-18 14:07:35) [GET]
+Redirected to http://localhost:3000/orderconfirm
+Completed in 3ms (DB: 0) | 302 Found [http://localhost/orderconfirm/update]
+
+
+Processing OrderConfirmController#index (for 127.0.0.1 at 2010-04-18 14:07:35) [GET]
+Rendering template within layouts/application
+Rendering order_confirm/index
+Completed in 5ms (View: 2, DB: 0) | 200 OK [http://localhost/orderconfirm]
+
+
+Processing OrderConfirmController#update (for 127.0.0.1 at 2010-04-18 14:07:40) [GET]
+Redirected to http://localhost:3000/orderconfirm
+Completed in 3ms (DB: 0) | 302 Found [http://localhost/orderconfirm/update]
+
+
+Processing OrderConfirmController#index (for 127.0.0.1 at 2010-04-18 14:07:40) [GET]
+Rendering template within layouts/application
+Rendering order_confirm/index
+Completed in 4ms (View: 1, DB: 0) | 200 OK [http://localhost/orderconfirm]
+
+
+Processing OrderConfirmController#update (for 127.0.0.1 at 2010-04-18 14:07:45) [GET]
+Redirected to http://localhost:3000/orderconfirm
+Completed in 4ms (DB: 0) | 302 Found [http://localhost/orderconfirm/update]
+
+
+Processing OrderConfirmController#index (for 127.0.0.1 at 2010-04-18 14:07:45) [GET]
+Rendering template within layouts/application
+Rendering order_confirm/index
+Completed in 5ms (View: 2, DB: 0) | 200 OK [http://localhost/orderconfirm]
+
+
+Processing OrderConfirmController#update (for 127.0.0.1 at 2010-04-18 14:07:50) [GET]
+Redirected to http://localhost:3000/orderconfirm
+Completed in 3ms (DB: 0) | 302 Found [http://localhost/orderconfirm/update]
+
+
+Processing OrderConfirmController#index (for 127.0.0.1 at 2010-04-18 14:07:50) [GET]
+Rendering template within layouts/application
+Rendering order_confirm/index
+Completed in 6ms (View: 2, DB: 0) | 200 OK [http://localhost/orderconfirm]
+
+
+Processing OrderConfirmController#update (for 127.0.0.1 at 2010-04-18 14:07:55) [GET]
+Redirected to http://localhost:3000/orderconfirm
+Completed in 3ms (DB: 0) | 302 Found [http://localhost/orderconfirm/update]
+
+
+Processing OrderConfirmController#index (for 127.0.0.1 at 2010-04-18 14:07:55) [GET]
+Rendering template within layouts/application
+Rendering order_confirm/index
+Completed in 7ms (View: 2, DB: 0) | 200 OK [http://localhost/orderconfirm]
+
+
+Processing OrderConfirmController#update (for 127.0.0.1 at 2010-04-18 14:08:01) [GET]
+Redirected to http://localhost:3000/orderconfirm
+Completed in 3ms (DB: 0) | 302 Found [http://localhost/orderconfirm/update]
+
+
+Processing OrderConfirmController#index (for 127.0.0.1 at 2010-04-18 14:08:01) [GET]
+Rendering template within layouts/application
+Rendering order_confirm/index
+Completed in 4ms (View: 2, DB: 0) | 200 OK [http://localhost/orderconfirm]
+
+
+Processing OrderConfirmController#update (for 127.0.0.1 at 2010-04-18 14:08:06) [GET]
+Redirected to http://localhost:3000/orderconfirm
+Completed in 3ms (DB: 0) | 302 Found [http://localhost/orderconfirm/update]
+
+
+Processing OrderConfirmController#index (for 127.0.0.1 at 2010-04-18 14:08:06) [GET]
+Rendering template within layouts/application
+Rendering order_confirm/index
+Completed in 7ms (View: 3, DB: 0) | 200 OK [http://localhost/orderconfirm]
+
+
+Processing OrderConfirmController#update (for 127.0.0.1 at 2010-04-18 14:08:11) [GET]
+Redirected to http://localhost:3000/orderconfirm
+Completed in 3ms (DB: 0) | 302 Found [http://localhost/orderconfirm/update]
+
+
+Processing OrderConfirmController#index (for 127.0.0.1 at 2010-04-18 14:08:11) [GET]
+Rendering template within layouts/application
+Rendering order_confirm/index
+Completed in 7ms (View: 2, DB: 0) | 200 OK [http://localhost/orderconfirm]
+
+
+Processing OrderConfirmController#update (for 127.0.0.1 at 2010-04-18 14:08:16) [GET]
+Redirected to http://localhost:3000/orderconfirm
+Completed in 3ms (DB: 0) | 302 Found [http://localhost/orderconfirm/update]
+
+
+Processing OrderConfirmController#index (for 127.0.0.1 at 2010-04-18 14:08:16) [GET]
+Rendering template within layouts/application
+Rendering order_confirm/index
+Completed in 7ms (View: 2, DB: 0) | 200 OK [http://localhost/orderconfirm]
+
+
+Processing OrderConfirmController#update (for 127.0.0.1 at 2010-04-18 14:08:21) [GET]
+Redirected to http://localhost:3000/orderconfirm
+Completed in 3ms (DB: 0) | 302 Found [http://localhost/orderconfirm/update]
+
+
+Processing OrderConfirmController#index (for 127.0.0.1 at 2010-04-18 14:08:21) [GET]
+Rendering template within layouts/application
+Rendering order_confirm/index
+Completed in 7ms (View: 2, DB: 0) | 200 OK [http://localhost/orderconfirm]
+
+
+Processing OrderConfirmController#update (for 127.0.0.1 at 2010-04-18 14:08:26) [GET]
+Redirected to http://localhost:3000/orderconfirm
+Completed in 3ms (DB: 0) | 302 Found [http://localhost/orderconfirm/update]
+
+
+Processing OrderConfirmController#index (for 127.0.0.1 at 2010-04-18 14:08:26) [GET]
+Rendering template within layouts/application
+Rendering order_confirm/index
+Completed in 4ms (View: 2, DB: 0) | 200 OK [http://localhost/orderconfirm]
+
+
+Processing OrderConfirmController#update (for 127.0.0.1 at 2010-04-18 14:08:31) [GET]
+Redirected to http://localhost:3000/orderconfirm
+Completed in 3ms (DB: 0) | 302 Found [http://localhost/orderconfirm/update]
+
+
+Processing OrderConfirmController#index (for 127.0.0.1 at 2010-04-18 14:08:31) [GET]
+Rendering template within layouts/application
+Rendering order_confirm/index
+Completed in 6ms (View: 2, DB: 0) | 200 OK [http://localhost/orderconfirm]
+
+
+Processing OrderConfirmController#update (for 127.0.0.1 at 2010-04-18 14:08:36) [GET]
+Redirected to http://localhost:3000/orderconfirm
+Completed in 5ms (DB: 0) | 302 Found [http://localhost/orderconfirm/update]
+
+
+Processing OrderConfirmController#index (for 127.0.0.1 at 2010-04-18 14:08:37) [GET]
+Rendering template within layouts/application
+Rendering order_confirm/index
+Completed in 4ms (View: 2, DB: 0) | 200 OK [http://localhost/orderconfirm]
+
+
+Processing OrderConfirmController#update (for 127.0.0.1 at 2010-04-18 14:08:42) [GET]
+Redirected to http://localhost:3000/orderconfirm
+Completed in 3ms (DB: 0) | 302 Found [http://localhost/orderconfirm/update]
+
+
+Processing OrderConfirmController#index (for 127.0.0.1 at 2010-04-18 14:08:42) [GET]
+Rendering template within layouts/application
+Rendering order_confirm/index
+Completed in 92ms (View: 2, DB: 0) | 200 OK [http://localhost/orderconfirm]
+
+
+Processing OrderConfirmController#update (for 127.0.0.1 at 2010-04-18 14:08:47) [GET]
+Redirected to http://localhost:3000/orderconfirm
+Completed in 3ms (DB: 0) | 302 Found [http://localhost/orderconfirm/update]
+
+
+Processing OrderConfirmController#index (for 127.0.0.1 at 2010-04-18 14:08:47) [GET]
+Rendering template within layouts/application
+Rendering order_confirm/index
+Completed in 4ms (View: 1, DB: 0) | 200 OK [http://localhost/orderconfirm]
+
+
+Processing OrderConfirmController#update (for 127.0.0.1 at 2010-04-18 14:08:52) [GET]
+Redirected to http://localhost:3000/orderconfirm
+Completed in 3ms (DB: 0) | 302 Found [http://localhost/orderconfirm/update]
+
+
+Processing OrderConfirmController#index (for 127.0.0.1 at 2010-04-18 14:08:52) [GET]
+Rendering template within layouts/application
+Rendering order_confirm/index
+Completed in 4ms (View: 2, DB: 0) | 200 OK [http://localhost/orderconfirm]
+
+
+Processing OrderConfirmController#update (for 127.0.0.1 at 2010-04-18 14:08:57) [GET]
+Redirected to http://localhost:3000/orderconfirm
+Completed in 3ms (DB: 0) | 302 Found [http://localhost/orderconfirm/update]
+
+
+Processing OrderConfirmController#index (for 127.0.0.1 at 2010-04-18 14:08:57) [GET]
+Rendering template within layouts/application
+Rendering order_confirm/index
+Completed in 5ms (View: 2, DB: 0) | 200 OK [http://localhost/orderconfirm]
+
+
+Processing OrderConfirmController#update (for 127.0.0.1 at 2010-04-18 14:09:02) [GET]
+Redirected to http://localhost:3000/orderconfirm
+Completed in 3ms (DB: 0) | 302 Found [http://localhost/orderconfirm/update]
+
+
+Processing OrderConfirmController#index (for 127.0.0.1 at 2010-04-18 14:09:02) [GET]
+Rendering template within layouts/application
+Rendering order_confirm/index
+Completed in 5ms (View: 2, DB: 0) | 200 OK [http://localhost/orderconfirm]
+
+
+Processing OrderConfirmController#update (for 127.0.0.1 at 2010-04-18 14:09:07) [GET]
+Redirected to http://localhost:3000/orderconfirm
+Completed in 3ms (DB: 0) | 302 Found [http://localhost/orderconfirm/update]
+
+
+Processing OrderConfirmController#index (for 127.0.0.1 at 2010-04-18 14:09:07) [GET]
+Rendering template within layouts/application
+Rendering order_confirm/index
+Completed in 5ms (View: 2, DB: 0) | 200 OK [http://localhost/orderconfirm]
+
+
+Processing OrderConfirmController#update (for 127.0.0.1 at 2010-04-18 14:09:13) [GET]
+Redirected to http://localhost:3000/orderconfirm
+Completed in 3ms (DB: 0) | 302 Found [http://localhost/orderconfirm/update]
+
+
+Processing OrderConfirmController#index (for 127.0.0.1 at 2010-04-18 14:09:13) [GET]
+Rendering template within layouts/application
+Rendering order_confirm/index
+Completed in 5ms (View: 2, DB: 0) | 200 OK [http://localhost/orderconfirm]
+
+
+Processing OrderConfirmController#update (for 127.0.0.1 at 2010-04-18 14:09:18) [GET]
+Redirected to http://localhost:3000/orderconfirm
+Completed in 3ms (DB: 0) | 302 Found [http://localhost/orderconfirm/update]
+
+
+Processing OrderConfirmController#index (for 127.0.0.1 at 2010-04-18 14:09:18) [GET]
+Rendering template within layouts/application
+Rendering order_confirm/index
+Completed in 6ms (View: 2, DB: 0) | 200 OK [http://localhost/orderconfirm]
+
+
+Processing OrderConfirmController#update (for 127.0.0.1 at 2010-04-18 14:09:23) [GET]
+Redirected to http://localhost:3000/orderconfirm
+Completed in 3ms (DB: 0) | 302 Found [http://localhost/orderconfirm/update]
+
+
+Processing OrderConfirmController#index (for 127.0.0.1 at 2010-04-18 14:09:23) [GET]
+Rendering template within layouts/application
+Rendering order_confirm/index
+Completed in 5ms (View: 2, DB: 0) | 200 OK [http://localhost/orderconfirm]
+
+
+Processing OrderConfirmController#update (for 127.0.0.1 at 2010-04-18 14:09:28) [GET]
+Redirected to http://localhost:3000/orderconfirm
+Completed in 3ms (DB: 0) | 302 Found [http://localhost/orderconfirm/update]
+
+
+Processing OrderConfirmController#index (for 127.0.0.1 at 2010-04-18 14:09:28) [GET]
+Rendering template within layouts/application
+Rendering order_confirm/index
+Completed in 4ms (View: 2, DB: 0) | 200 OK [http://localhost/orderconfirm]
+
+
+Processing OrderConfirmController#update (for 127.0.0.1 at 2010-04-18 14:09:33) [GET]
+Redirected to http://localhost:3000/orderconfirm
+Completed in 3ms (DB: 0) | 302 Found [http://localhost/orderconfirm/update]
+
+
+Processing OrderConfirmController#index (for 127.0.0.1 at 2010-04-18 14:09:33) [GET]
+Rendering template within layouts/application
+Rendering order_confirm/index
+Completed in 5ms (View: 2, DB: 0) | 200 OK [http://localhost/orderconfirm]
+
+
+Processing OrderConfirmController#update (for 127.0.0.1 at 2010-04-18 14:09:38) [GET]
+Redirected to http://localhost:3000/orderconfirm
+Completed in 3ms (DB: 0) | 302 Found [http://localhost/orderconfirm/update]
+
+
+Processing OrderConfirmController#index (for 127.0.0.1 at 2010-04-18 14:09:38) [GET]
+Rendering template within layouts/application
+Rendering order_confirm/index
+Completed in 5ms (View: 2, DB: 0) | 200 OK [http://localhost/orderconfirm]
+
+
+Processing OrderConfirmController#update (for 127.0.0.1 at 2010-04-18 14:09:43) [GET]
+Redirected to http://localhost:3000/orderconfirm
+Completed in 3ms (DB: 0) | 302 Found [http://localhost/orderconfirm/update]
+
+
+Processing OrderConfirmController#index (for 127.0.0.1 at 2010-04-18 14:09:43) [GET]
+Rendering template within layouts/application
+Rendering order_confirm/index
+Completed in 5ms (View: 1, DB: 0) | 200 OK [http://localhost/orderconfirm]
+
+
+Processing OrderConfirmController#update (for 127.0.0.1 at 2010-04-18 14:09:48) [GET]
+Redirected to http://localhost:3000/orderconfirm
+Completed in 3ms (DB: 0) | 302 Found [http://localhost/orderconfirm/update]
+
+
+Processing OrderConfirmController#index (for 127.0.0.1 at 2010-04-18 14:09:48) [GET]
+Rendering template within layouts/application
+Rendering order_confirm/index
+Completed in 5ms (View: 2, DB: 0) | 200 OK [http://localhost/orderconfirm]
+
+
+Processing OrderConfirmController#update (for 127.0.0.1 at 2010-04-18 14:09:54) [GET]
+Redirected to http://localhost:3000/orderconfirm
+Completed in 3ms (DB: 0) | 302 Found [http://localhost/orderconfirm/update]
+
+
+Processing OrderConfirmController#index (for 127.0.0.1 at 2010-04-18 14:09:54) [GET]
+Rendering template within layouts/application
+Rendering order_confirm/index
+Completed in 5ms (View: 2, DB: 0) | 200 OK [http://localhost/orderconfirm]
+
+
+Processing OrderConfirmController#update (for 127.0.0.1 at 2010-04-18 14:09:59) [GET]
+Redirected to http://localhost:3000/orderconfirm
+Completed in 3ms (DB: 0) | 302 Found [http://localhost/orderconfirm/update]
+
+
+Processing OrderConfirmController#index (for 127.0.0.1 at 2010-04-18 14:09:59) [GET]
+Rendering template within layouts/application
+Rendering order_confirm/index
+Completed in 5ms (View: 2, DB: 0) | 200 OK [http://localhost/orderconfirm]
+
+
+Processing OrderConfirmController#update (for 127.0.0.1 at 2010-04-18 14:10:04) [GET]
+Redirected to http://localhost:3000/orderconfirm
+Completed in 3ms (DB: 0) | 302 Found [http://localhost/orderconfirm/update]
+
+
+Processing OrderConfirmController#index (for 127.0.0.1 at 2010-04-18 14:10:04) [GET]
+Rendering template within layouts/application
+Rendering order_confirm/index
+Completed in 5ms (View: 2, DB: 0) | 200 OK [http://localhost/orderconfirm]
+
+
+Processing OrderConfirmController#update (for 127.0.0.1 at 2010-04-18 14:10:09) [GET]
+Redirected to http://localhost:3000/orderconfirm
+Completed in 4ms (DB: 0) | 302 Found [http://localhost/orderconfirm/update]
+
+
+Processing OrderConfirmController#index (for 127.0.0.1 at 2010-04-18 14:10:09) [GET]
+Rendering template within layouts/application
+Rendering order_confirm/index
+Completed in 5ms (View: 2, DB: 0) | 200 OK [http://localhost/orderconfirm]
+
+
+Processing OrderConfirmController#update (for 127.0.0.1 at 2010-04-18 14:10:14) [GET]
+Redirected to http://localhost:3000/orderconfirm
+Completed in 3ms (DB: 0) | 302 Found [http://localhost/orderconfirm/update]
+
+
+Processing OrderConfirmController#index (for 127.0.0.1 at 2010-04-18 14:10:14) [GET]
+Rendering template within layouts/application
+Rendering order_confirm/index
+Completed in 6ms (View: 2, DB: 0) | 200 OK [http://localhost/orderconfirm]
+
+
+Processing OrderConfirmController#update (for 127.0.0.1 at 2010-04-18 14:10:19) [GET]
+Redirected to http://localhost:3000/orderconfirm
+Completed in 3ms (DB: 0) | 302 Found [http://localhost/orderconfirm/update]
+
+
+Processing OrderConfirmController#index (for 127.0.0.1 at 2010-04-18 14:10:19) [GET]
+Rendering template within layouts/application
+Rendering order_confirm/index
+Completed in 5ms (View: 2, DB: 0) | 200 OK [http://localhost/orderconfirm]
+
+
+Processing OrderConfirmController#update (for 127.0.0.1 at 2010-04-18 14:10:24) [GET]
+Redirected to http://localhost:3000/orderconfirm
+Completed in 3ms (DB: 0) | 302 Found [http://localhost/orderconfirm/update]
+
+
+Processing OrderConfirmController#index (for 127.0.0.1 at 2010-04-18 14:10:25) [GET]
+Rendering template within layouts/application
+Rendering order_confirm/index
+Completed in 4ms (View: 2, DB: 0) | 200 OK [http://localhost/orderconfirm]
+
+
+Processing OrderConfirmController#update (for 127.0.0.1 at 2010-04-18 14:10:30) [GET]
+Redirected to http://localhost:3000/orderconfirm
+Completed in 4ms (DB: 0) | 302 Found [http://localhost/orderconfirm/update]
+
+
+Processing OrderConfirmController#index (for 127.0.0.1 at 2010-04-18 14:10:30) [GET]
+Rendering template within layouts/application
+Rendering order_confirm/index
+Completed in 5ms (View: 2, DB: 0) | 200 OK [http://localhost/orderconfirm]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-04-18 14:10:45) [GET]
+Rendering template within layouts/application
+Rendering home/index
+Completed in 4ms (View: 1, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing SearchController#index (for 127.0.0.1 at 2010-04-18 14:10:48) [GET]
+  Parameters: {"searchValue"=>"thai", "zipValue"=>"zipcode"}
+  [4;35;1mRestaurant Load (1.3ms)[0m   [0mSELECT * FROM "restaurants" [0m
+Rendering template within layouts/application
+Rendering search/index
+Completed in 12ms (View: 2, DB: 1) | 200 OK [http://localhost/search?searchValue=thai&zipValue=zipcode]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-04-18 14:10:48) [GET]
+
+ActionController::RoutingError (No route matches "/stylesheets/images/map.jpg" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing MenuController#index (for 127.0.0.1 at 2010-04-18 14:10:49) [GET]
+  Parameters: {"id"=>"Thai Restaurant"}
+  [4;36;1mMenuItem Load (0.8ms)[0m   [0;1mSELECT * FROM "menu_items" [0m
+Rendering template within layouts/application
+Rendering menu/index
+Completed in 6ms (View: 2, DB: 1) | 200 OK [http://localhost/menu/Thai%20Restaurant]
+
+
+Processing MenuController#update (for 127.0.0.1 at 2010-04-18 14:10:52) [GET]
+  Parameters: {"restaurant"=>"Thai Restaurant", "count"=>"2", "item"=>"Noodles"}
+  [4;35;1mMenuItem Load (0.8ms)[0m   [0mSELECT * FROM "menu_items" [0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT * FROM "menu_items" [0m
+Redirected to http://localhost:3000/menu/Thai%20Restaurant
+Completed in 5ms (DB: 1) | 302 Found [http://localhost/menu/update/Thai%20Restaurant/Noodles/2]
+
+
+Processing MenuController#index (for 127.0.0.1 at 2010-04-18 14:10:52) [GET]
+  Parameters: {"id"=>"Thai Restaurant"}
+  [4;35;1mMenuItem Load (0.8ms)[0m   [0mSELECT * FROM "menu_items" [0m
+Rendering template within layouts/application
+Rendering menu/index
+Completed in 6ms (View: 2, DB: 1) | 200 OK [http://localhost/menu/Thai%20Restaurant]
+
+
+Processing OrderConfirmController#index (for 127.0.0.1 at 2010-04-18 14:10:54) [GET]
+Rendering template within layouts/application
+Rendering order_confirm/index
+Completed in 5ms (View: 2, DB: 0) | 200 OK [http://localhost/orderconfirm]
+
+
+Processing OrderConfirmController#update (for 127.0.0.1 at 2010-04-18 14:11:00) [GET]
+
+SocketError (getaddrinfo: nodename nor servname provided, or not known):
+  /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/net/imap.rb:886:in `initialize'
+  /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/net/imap.rb:886:in `open'
+  /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/net/imap.rb:886:in `initialize'
+  /Library/Ruby/Gems/1.8/gems/ruby-gmail-0.0.9/lib/gmail.rb:21:in `new'
+  /Library/Ruby/Gems/1.8/gems/ruby-gmail-0.0.9/lib/gmail.rb:21:in `initialize'
+  app/controllers/order_confirm_controller.rb:84:in `new'
+  app/controllers/order_confirm_controller.rb:84:in `send_email'
+  app/controllers/order_confirm_controller.rb:135:in `update'
+
+Rendered rescues/_trace (54.7ms)
+Rendered rescues/_request_and_response (0.4ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-04-18 14:13:54) [GET]
+
+ActionController::SessionRestoreError (Session contains objects whose class definition isn\'t available.
+Remember to require the classes for all objects kept in the session.
+(Original exception: #{const_error.message} [#{const_error.class}])
+):
+  app/controllers/application_controller.rb:10:in `generate_cart_id'
+
+Rendered rescues/_trace (60.5ms)
+Rendered rescues/_request_and_response (2.1ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-04-18 14:14:18) [GET]
+
+ActionController::SessionRestoreError (Session contains objects whose class definition isn\'t available.
+Remember to require the classes for all objects kept in the session.
+(Original exception: #{const_error.message} [#{const_error.class}])
+):
+  app/controllers/application_controller.rb:10:in `generate_cart_id'
+
+Rendered rescues/_trace (56.1ms)
+Rendered rescues/_request_and_response (2.5ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-04-18 14:14:38) [GET]
+
+ActionController::SessionRestoreError (Session contains objects whose class definition isn\'t available.
+Remember to require the classes for all objects kept in the session.
+(Original exception: #{const_error.message} [#{const_error.class}])
+):
+  app/controllers/application_controller.rb:10:in `generate_cart_id'
+
+Rendered rescues/_trace (56.2ms)
+Rendered rescues/_request_and_response (1.7ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-04-18 14:14:51) [GET]
+Rendering template within layouts/application
+Rendering home/index
+Completed in 96ms (View: 19, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-04-18 14:16:08) [GET]
+Rendering template within layouts/application
+Rendering home/index
+Completed in 22ms (View: 19, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing SearchController#index (for 127.0.0.1 at 2010-04-18 14:16:11) [GET]
+  Parameters: {"searchValue"=>"thai", "zipValue"=>"zipcode"}
+  [4;36;1mRestaurant Load (1.1ms)[0m   [0;1mSELECT * FROM "restaurants" [0m
+Rendering template within layouts/application
+Rendering search/index
+Completed in 24ms (View: 12, DB: 1) | 200 OK [http://localhost/search?searchValue=thai&zipValue=zipcode]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-04-18 14:16:11) [GET]
+
+ActionController::RoutingError (No route matches "/stylesheets/images/map.jpg" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing MenuController#index (for 127.0.0.1 at 2010-04-18 14:16:13) [GET]
+  Parameters: {"id"=>"Thai Restaurant"}
+  [4;35;1mMenuItem Load (0.8ms)[0m   [0mSELECT * FROM "menu_items" [0m
+Rendering template within layouts/application
+Rendering menu/index
+Completed in 22ms (View: 14, DB: 1) | 200 OK [http://localhost/menu/Thai%20Restaurant]
+
+
+Processing MenuController#update (for 127.0.0.1 at 2010-04-18 14:16:15) [GET]
+  Parameters: {"restaurant"=>"Thai Restaurant", "count"=>"1", "item"=>"Noodles"}
+  [4;36;1mMenuItem Load (0.8ms)[0m   [0;1mSELECT * FROM "menu_items" [0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM "menu_items" [0m
+Redirected to http://localhost:3000/menu/Thai%20Restaurant
+Completed in 6ms (DB: 1) | 302 Found [http://localhost/menu/update/Thai%20Restaurant/Noodles/1]
+
+
+Processing MenuController#index (for 127.0.0.1 at 2010-04-18 14:16:15) [GET]
+  Parameters: {"id"=>"Thai Restaurant"}
+  [4;36;1mMenuItem Load (0.9ms)[0m   [0;1mSELECT * FROM "menu_items" [0m
+Rendering template within layouts/application
+Rendering menu/index
+Completed in 6ms (View: 2, DB: 1) | 200 OK [http://localhost/menu/Thai%20Restaurant]
+
+
+Processing OrderConfirmController#index (for 127.0.0.1 at 2010-04-18 14:16:17) [GET]
+Rendering template within layouts/application
+Rendering order_confirm/index
+Completed in 15ms (View: 12, DB: 0) | 200 OK [http://localhost/orderconfirm]
+
+
+Processing OrderConfirmController#update (for 127.0.0.1 at 2010-04-18 14:16:22) [GET]
+Redirected to http://localhost:3000/orderconfirm
+Completed in 2627ms (DB: 0) | 302 Found [http://localhost/orderconfirm/update]
+
+
+Processing OrderConfirmController#index (for 127.0.0.1 at 2010-04-18 14:16:24) [GET]
+Rendering template within layouts/application
+Rendering order_confirm/index
+Completed in 5ms (View: 2, DB: 0) | 200 OK [http://localhost/orderconfirm]
+
+
+Processing OrderConfirmController#update (for 127.0.0.1 at 2010-04-18 14:16:29) [GET]
+Redirected to http://localhost:3000/orderconfirm
+Completed in 3ms (DB: 0) | 302 Found [http://localhost/orderconfirm/update]
+
+
+Processing OrderConfirmController#index (for 127.0.0.1 at 2010-04-18 14:16:30) [GET]
+Rendering template within layouts/application
+Rendering order_confirm/index
+Completed in 5ms (View: 2, DB: 0) | 200 OK [http://localhost/orderconfirm]
+
+
+Processing OrderConfirmController#update (for 127.0.0.1 at 2010-04-18 14:16:35) [GET]
+Redirected to http://localhost:3000/orderconfirm
+Completed in 1234ms (DB: 0) | 302 Found [http://localhost/orderconfirm/update]
+
+
+Processing OrderConfirmController#index (for 127.0.0.1 at 2010-04-18 14:16:36) [GET]
+Rendering template within layouts/application
+Rendering order_confirm/index
+Completed in 5ms (View: 2, DB: 0) | 200 OK [http://localhost/orderconfirm]
+
+
+Processing OrderConfirmController#update (for 127.0.0.1 at 2010-04-18 14:16:41) [GET]
+Redirected to http://localhost:3000/orderconfirm
+Completed in 1260ms (DB: 0) | 302 Found [http://localhost/orderconfirm/update]
+
+
+Processing OrderConfirmController#index (for 127.0.0.1 at 2010-04-18 14:16:42) [GET]
+Rendering template within layouts/application
+Rendering order_confirm/index
+Completed in 6ms (View: 2, DB: 0) | 200 OK [http://localhost/orderconfirm]
+
+
+Processing OrderConfirmController#update (for 127.0.0.1 at 2010-04-18 14:16:47) [GET]
+Redirected to http://localhost:3000/orderconfirm
+Completed in 1276ms (DB: 0) | 302 Found [http://localhost/orderconfirm/update]
+
+
+Processing OrderConfirmController#index (for 127.0.0.1 at 2010-04-18 14:16:49) [GET]
+Rendering template within layouts/application
+Rendering order_confirm/index
+Completed in 5ms (View: 2, DB: 0) | 200 OK [http://localhost/orderconfirm]
+
+
+Processing OrderConfirmController#update (for 127.0.0.1 at 2010-04-18 14:16:54) [GET]
+Redirected to http://localhost:3000/orderconfirm
+Completed in 1268ms (DB: 0) | 302 Found [http://localhost/orderconfirm/update]
+
+
+Processing OrderConfirmController#index (for 127.0.0.1 at 2010-04-18 14:16:55) [GET]
+Rendering template within layouts/application
+Rendering order_confirm/index
+Completed in 8ms (View: 3, DB: 0) | 200 OK [http://localhost/orderconfirm]
+
+
+Processing OrderConfirmController#update (for 127.0.0.1 at 2010-04-18 14:17:00) [GET]
+Redirected to http://localhost:3000/orderconfirm
+Completed in 1222ms (DB: 0) | 302 Found [http://localhost/orderconfirm/update]
+
+
+Processing OrderConfirmController#index (for 127.0.0.1 at 2010-04-18 14:17:02) [GET]
+Rendering template within layouts/application
+Rendering order_confirm/index
+Completed in 4ms (View: 1, DB: 0) | 200 OK [http://localhost/orderconfirm]
+
+
+Processing OrderConfirmController#update (for 127.0.0.1 at 2010-04-18 14:17:07) [GET]
+Redirected to http://localhost:3000/orderconfirm
+Completed in 1324ms (DB: 0) | 302 Found [http://localhost/orderconfirm/update]
+
+
+Processing OrderConfirmController#index (for 127.0.0.1 at 2010-04-18 14:17:08) [GET]
+Rendering template within layouts/application
+Rendering order_confirm/index
+Completed in 4ms (View: 1, DB: 0) | 200 OK [http://localhost/orderconfirm]
+
+
+Processing OrderConfirmController#update (for 127.0.0.1 at 2010-04-18 14:17:13) [GET]
+Redirected to http://localhost:3000/orderconfirm
+Completed in 1234ms (DB: 0) | 302 Found [http://localhost/orderconfirm/update]
+
+
+Processing OrderConfirmController#index (for 127.0.0.1 at 2010-04-18 14:17:15) [GET]
+Rendering template within layouts/application
+Rendering order_confirm/index
+Completed in 5ms (View: 2, DB: 0) | 200 OK [http://localhost/orderconfirm]
+
+
+Processing OrderConfirmController#update (for 127.0.0.1 at 2010-04-18 14:17:20) [GET]
+Redirected to http://localhost:3000/orderconfirm
+Completed in 1300ms (DB: 0) | 302 Found [http://localhost/orderconfirm/update]
+
+
+Processing OrderConfirmController#index (for 127.0.0.1 at 2010-04-18 14:17:21) [GET]
+Rendering template within layouts/application
+Rendering order_confirm/index
+Completed in 4ms (View: 2, DB: 0) | 200 OK [http://localhost/orderconfirm]
+
+
+Processing OrderConfirmController#update (for 127.0.0.1 at 2010-04-18 14:17:26) [GET]
+Redirected to http://localhost:3000/orderconfirm
+Completed in 2356ms (DB: 0) | 302 Found [http://localhost/orderconfirm/update]
+
+
+Processing OrderConfirmController#index (for 127.0.0.1 at 2010-04-18 14:17:29) [GET]
+Rendering template within layouts/application
+Rendering order_confirm/index
+Completed in 4ms (View: 2, DB: 0) | 200 OK [http://localhost/orderconfirm]
+
+
+Processing OrderConfirmController#update (for 127.0.0.1 at 2010-04-18 14:17:34) [GET]
+Redirected to http://localhost:3000/orderconfirm
+Completed in 1215ms (DB: 0) | 302 Found [http://localhost/orderconfirm/update]
+
+
+Processing OrderConfirmController#index (for 127.0.0.1 at 2010-04-18 14:17:35) [GET]
+Rendering template within layouts/application
+Rendering order_confirm/index
+Completed in 5ms (View: 2, DB: 0) | 200 OK [http://localhost/orderconfirm]
+
+
+Processing OrderConfirmController#update (for 127.0.0.1 at 2010-04-18 14:17:40) [GET]
+Redirected to http://localhost:3000/orderconfirm
+Completed in 1433ms (DB: 0) | 302 Found [http://localhost/orderconfirm/update]
+
+
+Processing OrderConfirmController#index (for 127.0.0.1 at 2010-04-18 14:17:42) [GET]
+Rendering template within layouts/application
+Rendering order_confirm/index
+Completed in 5ms (View: 2, DB: 0) | 200 OK [http://localhost/orderconfirm]
+
+
+Processing OrderConfirmController#update (for 127.0.0.1 at 2010-04-18 14:17:47) [GET]
+Redirected to http://localhost:3000/orderconfirm
+Completed in 1243ms (DB: 0) | 302 Found [http://localhost/orderconfirm/update]
+
+
+Processing OrderConfirmController#index (for 127.0.0.1 at 2010-04-18 14:17:48) [GET]
+Rendering template within layouts/application
+Rendering order_confirm/index
+Completed in 6ms (View: 2, DB: 0) | 200 OK [http://localhost/orderconfirm]
+
+
+Processing OrderConfirmController#update (for 127.0.0.1 at 2010-04-18 14:17:53) [GET]
+Redirected to http://localhost:3000/orderconfirm
+Completed in 1290ms (DB: 0) | 302 Found [http://localhost/orderconfirm/update]
+
+
+Processing OrderConfirmController#index (for 127.0.0.1 at 2010-04-18 14:17:54) [GET]
+Rendering template within layouts/application
+Rendering order_confirm/index
+Completed in 7ms (View: 4, DB: 0) | 200 OK [http://localhost/orderconfirm]
+
+
+Processing OrderConfirmController#update (for 127.0.0.1 at 2010-04-18 14:17:59) [GET]
+Redirected to http://localhost:3000/orderconfirm
+Completed in 1219ms (DB: 0) | 302 Found [http://localhost/orderconfirm/update]
+
+
+Processing OrderConfirmController#index (for 127.0.0.1 at 2010-04-18 14:18:01) [GET]
+Rendering template within layouts/application
+Rendering order_confirm/index
+Completed in 4ms (View: 2, DB: 0) | 200 OK [http://localhost/orderconfirm]
+
+
+Processing OrderConfirmController#update (for 127.0.0.1 at 2010-04-18 14:18:06) [GET]
+Redirected to http://localhost:3000/orderconfirm
+Completed in 1448ms (DB: 0) | 302 Found [http://localhost/orderconfirm/update]
+
+
+Processing OrderConfirmController#index (for 127.0.0.1 at 2010-04-18 14:18:07) [GET]
+Rendering template within layouts/application
+Rendering order_confirm/index
+Completed in 5ms (View: 2, DB: 0) | 200 OK [http://localhost/orderconfirm]
+
+
+Processing OrderConfirmController#update (for 127.0.0.1 at 2010-04-18 14:18:12) [GET]
+Redirected to http://localhost:3000/orderconfirm
+Completed in 1223ms (DB: 0) | 302 Found [http://localhost/orderconfirm/update]
+
+
+Processing OrderConfirmController#index (for 127.0.0.1 at 2010-04-18 14:18:14) [GET]
+Rendering template within layouts/application
+Rendering order_confirm/index
+Completed in 5ms (View: 1, DB: 0) | 200 OK [http://localhost/orderconfirm]
+
+
+Processing OrderConfirmController#update (for 127.0.0.1 at 2010-04-18 14:18:19) [GET]
+Redirected to http://localhost:3000/orderconfirm
+Completed in 1305ms (DB: 0) | 302 Found [http://localhost/orderconfirm/update]
+
+
+Processing OrderConfirmController#index (for 127.0.0.1 at 2010-04-18 14:18:20) [GET]
+Rendering template within layouts/application
+Rendering order_confirm/index
+Completed in 4ms (View: 2, DB: 0) | 200 OK [http://localhost/orderconfirm]
+
+
+Processing OrderConfirmController#update (for 127.0.0.1 at 2010-04-18 14:18:25) [GET]
+Redirected to http://localhost:3000/orderconfirm
+Completed in 1358ms (DB: 0) | 302 Found [http://localhost/orderconfirm/update]
+
+
+Processing OrderConfirmController#index (for 127.0.0.1 at 2010-04-18 14:18:27) [GET]
+Rendering template within layouts/application
+Rendering order_confirm/index
+Completed in 4ms (View: 1, DB: 0) | 200 OK [http://localhost/orderconfirm]
+
+
+Processing OrderConfirmController#update (for 127.0.0.1 at 2010-04-18 14:18:32) [GET]
+Redirected to http://localhost:3000/orderconfirm
+Completed in 9463ms (DB: 0) | 302 Found [http://localhost/orderconfirm/update]
+
+
+Processing OrderConfirmController#index (for 127.0.0.1 at 2010-04-18 14:18:41) [GET]
+Rendering template within layouts/application
+Rendering order_confirm/index
+Completed in 4ms (View: 1, DB: 0) | 200 OK [http://localhost/orderconfirm]
+
+
+Processing OrderConfirmController#update (for 127.0.0.1 at 2010-04-18 14:18:46) [GET]
+Redirected to http://localhost:3000/orderconfirm
+Completed in 1238ms (DB: 0) | 302 Found [http://localhost/orderconfirm/update]
+
+
+Processing OrderConfirmController#index (for 127.0.0.1 at 2010-04-18 14:18:48) [GET]
+Rendering template within layouts/application
+Rendering order_confirm/index
+Completed in 5ms (View: 2, DB: 0) | 200 OK [http://localhost/orderconfirm]
+
+
+Processing OrderConfirmController#update (for 127.0.0.1 at 2010-04-18 14:18:53) [GET]
+Redirected to http://localhost:3000/orderconfirm
+Completed in 1292ms (DB: 0) | 302 Found [http://localhost/orderconfirm/update]
+
+
+Processing OrderConfirmController#index (for 127.0.0.1 at 2010-04-18 14:18:54) [GET]
+Rendering template within layouts/application
+Rendering order_confirm/index
+Completed in 4ms (View: 2, DB: 0) | 200 OK [http://localhost/orderconfirm]
+
+
+Processing OrderConfirmController#update (for 127.0.0.1 at 2010-04-18 14:18:59) [GET]
+Redirected to http://localhost:3000/orderconfirm
+Completed in 1225ms (DB: 0) | 302 Found [http://localhost/orderconfirm/update]
+
+
+Processing OrderConfirmController#index (for 127.0.0.1 at 2010-04-18 14:19:00) [GET]
+Rendering template within layouts/application
+Rendering order_confirm/index
+Completed in 5ms (View: 2, DB: 0) | 200 OK [http://localhost/orderconfirm]
+
+
+Processing OrderConfirmController#update (for 127.0.0.1 at 2010-04-18 14:19:05) [GET]
+Redirected to http://localhost:3000/orderconfirm
+Completed in 1269ms (DB: 0) | 302 Found [http://localhost/orderconfirm/update]
+
+
+Processing OrderConfirmController#index (for 127.0.0.1 at 2010-04-18 14:19:07) [GET]
+Rendering template within layouts/application
+Rendering order_confirm/index
+Completed in 5ms (View: 1, DB: 0) | 200 OK [http://localhost/orderconfirm]
+
+
+Processing OrderConfirmController#update (for 127.0.0.1 at 2010-04-18 14:19:12) [GET]
+Redirected to http://localhost:3000/orderconfirm
+Completed in 1309ms (DB: 0) | 302 Found [http://localhost/orderconfirm/update]
+
+
+Processing OrderConfirmController#index (for 127.0.0.1 at 2010-04-18 14:19:13) [GET]
+Rendering template within layouts/application
+Rendering order_confirm/index
+Completed in 4ms (View: 1, DB: 0) | 200 OK [http://localhost/orderconfirm]
+
+
+Processing OrderConfirmController#update (for 127.0.0.1 at 2010-04-18 14:19:18) [GET]
+Redirected to http://localhost:3000/orderconfirm
+Completed in 2193ms (DB: 0) | 302 Found [http://localhost/orderconfirm/update]
+
+
+Processing OrderConfirmController#index (for 127.0.0.1 at 2010-04-18 14:19:21) [GET]
+Rendering template within layouts/application
+Rendering order_confirm/index
+Completed in 5ms (View: 2, DB: 0) | 200 OK [http://localhost/orderconfirm]
+
+
+Processing OrderConfirmController#update (for 127.0.0.1 at 2010-04-18 14:19:26) [GET]
+Redirected to http://localhost:3000/orderconfirm
+Completed in 1551ms (DB: 0) | 302 Found [http://localhost/orderconfirm/update]
+
+
+Processing OrderConfirmController#index (for 127.0.0.1 at 2010-04-18 14:19:27) [GET]
+Rendering template within layouts/application
+Rendering order_confirm/index
+Completed in 4ms (View: 1, DB: 0) | 200 OK [http://localhost/orderconfirm]
+
+
+Processing OrderConfirmController#update (for 127.0.0.1 at 2010-04-18 14:19:32) [GET]
+Redirected to http://localhost:3000/orderconfirm
+Completed in 1486ms (DB: 0) | 302 Found [http://localhost/orderconfirm/update]
+
+
+Processing OrderConfirmController#index (for 127.0.0.1 at 2010-04-18 14:19:34) [GET]
+Rendering template within layouts/application
+Rendering order_confirm/index
+Completed in 4ms (View: 1, DB: 0) | 200 OK [http://localhost/orderconfirm]
+
+
+Processing OrderConfirmController#update (for 127.0.0.1 at 2010-04-18 14:19:39) [GET]
+Redirected to http://localhost:3000/orderconfirm
+Completed in 2559ms (DB: 0) | 302 Found [http://localhost/orderconfirm/update]
+
+
+Processing OrderConfirmController#index (for 127.0.0.1 at 2010-04-18 14:19:42) [GET]
+Rendering template within layouts/application
+Rendering order_confirm/index
+Completed in 6ms (View: 3, DB: 0) | 200 OK [http://localhost/orderconfirm]
+
+
+Processing OrderConfirmController#update (for 127.0.0.1 at 2010-04-18 14:19:47) [GET]
+Redirected to http://localhost:3000/orderconfirm
+Completed in 2508ms (DB: 0) | 302 Found [http://localhost/orderconfirm/update]
+
+
+Processing OrderConfirmController#index (for 127.0.0.1 at 2010-04-18 14:19:49) [GET]
+Rendering template within layouts/application
+Rendering order_confirm/index
+Completed in 4ms (View: 2, DB: 0) | 200 OK [http://localhost/orderconfirm]
+
+
+Processing OrderConfirmController#update (for 127.0.0.1 at 2010-04-18 14:19:54) [GET]
+Redirected to http://localhost:3000/orderconfirm
+Completed in 2504ms (DB: 0) | 302 Found [http://localhost/orderconfirm/update]
+
+
+Processing OrderConfirmController#index (for 127.0.0.1 at 2010-04-18 14:19:57) [GET]
+Rendering template within layouts/application
+Rendering order_confirm/index
+Completed in 5ms (View: 2, DB: 0) | 200 OK [http://localhost/orderconfirm]
+
+
+Processing OrderConfirmController#update (for 127.0.0.1 at 2010-04-18 14:20:02) [GET]
+Redirected to http://localhost:3000/orderconfirm
+Completed in 1474ms (DB: 0) | 302 Found [http://localhost/orderconfirm/update]
+
+
+Processing OrderConfirmController#index (for 127.0.0.1 at 2010-04-18 14:20:04) [GET]
+Rendering template within layouts/application
+Rendering order_confirm/index
+Completed in 5ms (View: 2, DB: 0) | 200 OK [http://localhost/orderconfirm]
+
+
+Processing OrderConfirmController#update (for 127.0.0.1 at 2010-04-18 14:20:09) [GET]
+Redirected to http://localhost:3000/orderconfirm
+Completed in 1490ms (DB: 0) | 302 Found [http://localhost/orderconfirm/update]
+
+
+Processing OrderConfirmController#index (for 127.0.0.1 at 2010-04-18 14:20:10) [GET]
+Rendering template within layouts/application
+Rendering order_confirm/index
+Completed in 92ms (View: 2, DB: 0) | 200 OK [http://localhost/orderconfirm]
+
+
+Processing OrderConfirmController#update (for 127.0.0.1 at 2010-04-18 14:20:15) [GET]
+Redirected to http://localhost:3000/orderconfirm
+Completed in 1454ms (DB: 0) | 302 Found [http://localhost/orderconfirm/update]
+
+
+Processing OrderConfirmController#index (for 127.0.0.1 at 2010-04-18 14:20:17) [GET]
+Rendering template within layouts/application
+Rendering order_confirm/index
+Completed in 5ms (View: 2, DB: 0) | 200 OK [http://localhost/orderconfirm]
+
+
+Processing OrderConfirmController#update (for 127.0.0.1 at 2010-04-18 14:20:22) [GET]
+Redirected to http://localhost:3000/orderconfirm
+Completed in 1365ms (DB: 0) | 302 Found [http://localhost/orderconfirm/update]
+
+
+Processing OrderConfirmController#index (for 127.0.0.1 at 2010-04-18 14:20:23) [GET]
+Rendering template within layouts/application
+Rendering order_confirm/index
+Completed in 5ms (View: 2, DB: 0) | 200 OK [http://localhost/orderconfirm]
+
+
+Processing OrderConfirmController#update (for 127.0.0.1 at 2010-04-18 14:20:28) [GET]
+Redirected to http://localhost:3000/orderconfirm
+Completed in 2171ms (DB: 0) | 302 Found [http://localhost/orderconfirm/update]
+
+
+Processing OrderConfirmController#index (for 127.0.0.1 at 2010-04-18 14:20:31) [GET]
+Rendering template within layouts/application
+Rendering order_confirm/index
+Completed in 5ms (View: 2, DB: 0) | 200 OK [http://localhost/orderconfirm]
+
+
+Processing OrderConfirmController#update (for 127.0.0.1 at 2010-04-18 14:20:36) [GET]
+Redirected to http://localhost:3000/orderconfirm
+Completed in 1725ms (DB: 0) | 302 Found [http://localhost/orderconfirm/update]
+
+
+Processing OrderConfirmController#index (for 127.0.0.1 at 2010-04-18 14:20:37) [GET]
+Rendering template within layouts/application
+Rendering order_confirm/index
+Completed in 5ms (View: 2, DB: 0) | 200 OK [http://localhost/orderconfirm]
+
+
+Processing OrderConfirmController#update (for 127.0.0.1 at 2010-04-18 14:20:43) [GET]
+Redirected to http://localhost:3000/orderconfirm
+Completed in 1575ms (DB: 0) | 302 Found [http://localhost/orderconfirm/update]
+
+
+Processing OrderConfirmController#index (for 127.0.0.1 at 2010-04-18 14:20:44) [GET]
+Rendering template within layouts/application
+Rendering order_confirm/index
+Completed in 5ms (View: 2, DB: 0) | 200 OK [http://localhost/orderconfirm]
+
+
+Processing OrderConfirmController#update (for 127.0.0.1 at 2010-04-18 14:20:49) [GET]
+Redirected to http://localhost:3000/orderconfirm
+Completed in 1513ms (DB: 0) | 302 Found [http://localhost/orderconfirm/update]
+
+
+Processing OrderConfirmController#index (for 127.0.0.1 at 2010-04-18 14:20:51) [GET]
+Rendering template within layouts/application
+Rendering order_confirm/index
+Completed in 4ms (View: 1, DB: 0) | 200 OK [http://localhost/orderconfirm]
+
+
+Processing OrderConfirmController#update (for 127.0.0.1 at 2010-04-18 14:20:56) [GET]
+Redirected to http://localhost:3000/orderconfirm
+Completed in 1384ms (DB: 0) | 302 Found [http://localhost/orderconfirm/update]
+
+
+Processing OrderConfirmController#index (for 127.0.0.1 at 2010-04-18 14:20:57) [GET]
+Rendering template within layouts/application
+Rendering order_confirm/index
+Completed in 7ms (View: 2, DB: 0) | 200 OK [http://localhost/orderconfirm]
+
+
+Processing OrderConfirmController#update (for 127.0.0.1 at 2010-04-18 14:21:02) [GET]
+Redirected to http://localhost:3000/orderconfirm
+Completed in 1420ms (DB: 0) | 302 Found [http://localhost/orderconfirm/update]
+
+
+Processing OrderConfirmController#index (for 127.0.0.1 at 2010-04-18 14:21:04) [GET]
+Rendering template within layouts/application
+Rendering order_confirm/index
+Completed in 6ms (View: 2, DB: 0) | 200 OK [http://localhost/orderconfirm]
+
+
+Processing OrderConfirmController#update (for 127.0.0.1 at 2010-04-18 14:21:09) [GET]
+Redirected to http://localhost:3000/orderconfirm
+Completed in 1383ms (DB: 0) | 302 Found [http://localhost/orderconfirm/update]
+
+
+Processing OrderConfirmController#index (for 127.0.0.1 at 2010-04-18 14:21:10) [GET]
+Rendering template within layouts/application
+Rendering order_confirm/index
+Completed in 4ms (View: 1, DB: 0) | 200 OK [http://localhost/orderconfirm]
+
+
+Processing OrderConfirmController#update (for 127.0.0.1 at 2010-04-18 14:21:16) [GET]
+Redirected to http://localhost:3000/orderconfirm
+Completed in 1409ms (DB: 0) | 302 Found [http://localhost/orderconfirm/update]
+
+
+Processing OrderConfirmController#index (for 127.0.0.1 at 2010-04-18 14:21:17) [GET]
+Rendering template within layouts/application
+Rendering order_confirm/index
+Completed in 6ms (View: 2, DB: 0) | 200 OK [http://localhost/orderconfirm]
+
+
+Processing OrderConfirmController#update (for 127.0.0.1 at 2010-04-18 14:21:22) [GET]
+Redirected to http://localhost:3000/orderconfirm
+Completed in 1447ms (DB: 0) | 302 Found [http://localhost/orderconfirm/update]
+
+
+Processing OrderConfirmController#index (for 127.0.0.1 at 2010-04-18 14:21:24) [GET]
+Rendering template within layouts/application
+Rendering order_confirm/index
+Completed in 5ms (View: 2, DB: 0) | 200 OK [http://localhost/orderconfirm]
+
+
+Processing OrderConfirmController#update (for 127.0.0.1 at 2010-04-18 14:21:29) [GET]
+Redirected to http://localhost:3000/orderconfirm
+Completed in 1520ms (DB: 0) | 302 Found [http://localhost/orderconfirm/update]
+
+
+Processing OrderConfirmController#index (for 127.0.0.1 at 2010-04-18 14:21:30) [GET]
+Rendering template within layouts/application
+Rendering order_confirm/index
+Completed in 5ms (View: 2, DB: 0) | 200 OK [http://localhost/orderconfirm]
+
+
+Processing OrderConfirmController#update (for 127.0.0.1 at 2010-04-18 14:21:35) [GET]
+Redirected to http://localhost:3000/orderconfirm
+Completed in 1377ms (DB: 0) | 302 Found [http://localhost/orderconfirm/update]
+
+
+Processing OrderConfirmController#index (for 127.0.0.1 at 2010-04-18 14:21:37) [GET]
+Rendering template within layouts/application
+Rendering order_confirm/index
+Completed in 4ms (View: 2, DB: 0) | 200 OK [http://localhost/orderconfirm]
+
+
+Processing OrderConfirmController#update (for 127.0.0.1 at 2010-04-18 14:21:42) [GET]
+Redirected to http://localhost:3000/orderconfirm
+Completed in 1442ms (DB: 0) | 302 Found [http://localhost/orderconfirm/update]
+
+
+Processing OrderConfirmController#index (for 127.0.0.1 at 2010-04-18 14:21:43) [GET]
+Rendering template within layouts/application
+Rendering order_confirm/index
+Completed in 4ms (View: 2, DB: 0) | 200 OK [http://localhost/orderconfirm]
+
+
+Processing OrderConfirmController#update (for 127.0.0.1 at 2010-04-18 14:21:48) [GET]
+Redirected to http://localhost:3000/orderconfirm
+Completed in 1411ms (DB: 0) | 302 Found [http://localhost/orderconfirm/update]
+
+
+Processing OrderConfirmController#index (for 127.0.0.1 at 2010-04-18 14:21:50) [GET]
+Rendering template within layouts/application
+Rendering order_confirm/index
+Completed in 7ms (View: 2, DB: 0) | 200 OK [http://localhost/orderconfirm]
+
+
+Processing OrderConfirmController#update (for 127.0.0.1 at 2010-04-18 14:21:55) [GET]
+Redirected to http://localhost:3000/orderconfirm
+Completed in 1646ms (DB: 0) | 302 Found [http://localhost/orderconfirm/update]
+
+
+Processing OrderConfirmController#index (for 127.0.0.1 at 2010-04-18 14:21:57) [GET]
+Rendering template within layouts/application
+Rendering order_confirm/index
+Completed in 4ms (View: 1, DB: 0) | 200 OK [http://localhost/orderconfirm]
+
+
+Processing OrderConfirmController#update (for 127.0.0.1 at 2010-04-18 14:22:02) [GET]
+Redirected to http://localhost:3000/orderconfirm
+Completed in 1373ms (DB: 0) | 302 Found [http://localhost/orderconfirm/update]
+
+
+Processing OrderConfirmController#index (for 127.0.0.1 at 2010-04-18 14:22:03) [GET]
+Rendering template within layouts/application
+Rendering order_confirm/index
+Completed in 5ms (View: 2, DB: 0) | 200 OK [http://localhost/orderconfirm]
+
+
+Processing OrderConfirmController#update (for 127.0.0.1 at 2010-04-18 14:22:08) [GET]
+Redirected to http://localhost:3000/orderconfirm
+Completed in 1890ms (DB: 0) | 302 Found [http://localhost/orderconfirm/update]
+
+
+Processing OrderConfirmController#index (for 127.0.0.1 at 2010-04-18 14:22:10) [GET]
+Rendering template within layouts/application
+Rendering order_confirm/index
+Completed in 5ms (View: 2, DB: 0) | 200 OK [http://localhost/orderconfirm]
+
+
+Processing OrderConfirmController#update (for 127.0.0.1 at 2010-04-18 14:22:15) [GET]
+Redirected to http://localhost:3000/orderconfirm
+Completed in 3211ms (DB: 0) | 302 Found [http://localhost/orderconfirm/update]
+
+
+Processing OrderConfirmController#index (for 127.0.0.1 at 2010-04-18 14:22:19) [GET]
+Rendering template within layouts/application
+Rendering order_confirm/index
+Completed in 5ms (View: 2, DB: 0) | 200 OK [http://localhost/orderconfirm]
+
+
+Processing OrderConfirmController#update (for 127.0.0.1 at 2010-04-18 14:22:24) [GET]
+Redirected to http://localhost:3000/orderconfirm
+Completed in 1432ms (DB: 0) | 302 Found [http://localhost/orderconfirm/update]
+
+
+Processing OrderConfirmController#index (for 127.0.0.1 at 2010-04-18 14:22:25) [GET]
+Rendering template within layouts/application
+Rendering order_confirm/index
+Completed in 5ms (View: 2, DB: 0) | 200 OK [http://localhost/orderconfirm]
+
+
+Processing OrderConfirmController#update (for 127.0.0.1 at 2010-04-18 14:22:30) [GET]
+Redirected to http://localhost:3000/orderconfirm
+Completed in 1449ms (DB: 0) | 302 Found [http://localhost/orderconfirm/update]
+
+
+Processing OrderConfirmController#index (for 127.0.0.1 at 2010-04-18 14:22:32) [GET]
+Rendering template within layouts/application
+Rendering order_confirm/index
+Completed in 4ms (View: 1, DB: 0) | 200 OK [http://localhost/orderconfirm]
+
+
+Processing OrderConfirmController#update (for 127.0.0.1 at 2010-04-18 14:22:37) [GET]
+Redirected to http://localhost:3000/orderconfirm
+Completed in 1415ms (DB: 0) | 302 Found [http://localhost/orderconfirm/update]
+
+
+Processing OrderConfirmController#index (for 127.0.0.1 at 2010-04-18 14:22:38) [GET]
+Rendering template within layouts/application
+Rendering order_confirm/index
+Completed in 4ms (View: 1, DB: 0) | 200 OK [http://localhost/orderconfirm]
+
+
+Processing OrderConfirmController#update (for 127.0.0.1 at 2010-04-18 14:22:43) [GET]
+Redirected to http://localhost:3000/orderconfirm
+Completed in 1461ms (DB: 0) | 302 Found [http://localhost/orderconfirm/update]
+
+
+Processing OrderConfirmController#index (for 127.0.0.1 at 2010-04-18 14:22:45) [GET]
+Rendering template within layouts/application
+Rendering order_confirm/index
+Completed in 5ms (View: 2, DB: 0) | 200 OK [http://localhost/orderconfirm]
+
+
+Processing OrderConfirmController#update (for 127.0.0.1 at 2010-04-18 14:22:50) [GET]
+Redirected to http://localhost:3000/orderconfirm
+Completed in 1510ms (DB: 0) | 302 Found [http://localhost/orderconfirm/update]
+
+
+Processing OrderConfirmController#index (for 127.0.0.1 at 2010-04-18 14:22:51) [GET]
+Rendering template within layouts/application
+Rendering order_confirm/index
+Completed in 5ms (View: 2, DB: 0) | 200 OK [http://localhost/orderconfirm]
+
+
+Processing OrderConfirmController#update (for 127.0.0.1 at 2010-04-18 14:22:57) [GET]
+Redirected to http://localhost:3000/orderconfirm
+Completed in 1388ms (DB: 0) | 302 Found [http://localhost/orderconfirm/update]
+
+
+Processing OrderConfirmController#index (for 127.0.0.1 at 2010-04-18 14:22:58) [GET]
+Rendering template within layouts/application
+Rendering order_confirm/index
+Completed in 5ms (View: 2, DB: 0) | 200 OK [http://localhost/orderconfirm]
+
+
+Processing OrderConfirmController#update (for 127.0.0.1 at 2010-04-18 14:23:03) [GET]
+Redirected to http://localhost:3000/orderconfirm
+Completed in 1432ms (DB: 0) | 302 Found [http://localhost/orderconfirm/update]
+
+
+Processing OrderConfirmController#index (for 127.0.0.1 at 2010-04-18 14:23:05) [GET]
+Rendering template within layouts/application
+Rendering order_confirm/index
+Completed in 5ms (View: 2, DB: 0) | 200 OK [http://localhost/orderconfirm]
+
+
+Processing OrderConfirmController#update (for 127.0.0.1 at 2010-04-18 14:23:10) [GET]
+Redirected to http://localhost:3000/orderconfirm
+Completed in 1417ms (DB: 0) | 302 Found [http://localhost/orderconfirm/update]
+
+
+Processing OrderConfirmController#index (for 127.0.0.1 at 2010-04-18 14:23:11) [GET]
+Rendering template within layouts/application
+Rendering order_confirm/index
+Completed in 7ms (View: 2, DB: 0) | 200 OK [http://localhost/orderconfirm]
+
+
+Processing OrderConfirmController#update (for 127.0.0.1 at 2010-04-18 14:23:16) [GET]
+Redirected to http://localhost:3000/orderconfirm
+Completed in 1387ms (DB: 0) | 302 Found [http://localhost/orderconfirm/update]
+
+
+Processing OrderConfirmController#index (for 127.0.0.1 at 2010-04-18 14:23:18) [GET]
+Rendering template within layouts/application
+Rendering order_confirm/index
+Completed in 4ms (View: 1, DB: 0) | 200 OK [http://localhost/orderconfirm]
+
+
+Processing OrderConfirmController#update (for 127.0.0.1 at 2010-04-18 14:23:23) [GET]
+Redirected to http://localhost:3000/orderconfirm
+Completed in 1366ms (DB: 0) | 302 Found [http://localhost/orderconfirm/update]
+
+
+Processing OrderConfirmController#index (for 127.0.0.1 at 2010-04-18 14:23:24) [GET]
+Rendering template within layouts/application
+Rendering order_confirm/index
+Completed in 5ms (View: 2, DB: 0) | 200 OK [http://localhost/orderconfirm]
+
+
+Processing OrderConfirmController#update (for 127.0.0.1 at 2010-04-18 14:23:29) [GET]
+Redirected to http://localhost:3000/orderconfirm
+Completed in 2294ms (DB: 0) | 302 Found [http://localhost/orderconfirm/update]
+
+
+Processing OrderConfirmController#index (for 127.0.0.1 at 2010-04-18 14:23:32) [GET]
+Rendering template within layouts/application
+Rendering order_confirm/index
+Completed in 5ms (View: 2, DB: 0) | 200 OK [http://localhost/orderconfirm]
+
+
+Processing OrderConfirmController#update (for 127.0.0.1 at 2010-04-18 14:23:37) [GET]
+Redirected to http://localhost:3000/orderconfirm
+Completed in 1455ms (DB: 0) | 302 Found [http://localhost/orderconfirm/update]
+
+
+Processing OrderConfirmController#index (for 127.0.0.1 at 2010-04-18 14:23:38) [GET]
+Rendering template within layouts/application
+Rendering order_confirm/index
+Completed in 5ms (View: 2, DB: 0) | 200 OK [http://localhost/orderconfirm]
+
+
+Processing OrderConfirmController#update (for 127.0.0.1 at 2010-04-18 14:23:43) [GET]
+Redirected to http://localhost:3000/orderconfirm
+Completed in 1385ms (DB: 0) | 302 Found [http://localhost/orderconfirm/update]
+
+
+Processing OrderConfirmController#index (for 127.0.0.1 at 2010-04-18 14:23:45) [GET]
+Rendering template within layouts/application
+Rendering order_confirm/index
+Completed in 6ms (View: 2, DB: 0) | 200 OK [http://localhost/orderconfirm]
+
+
+Processing OrderConfirmController#update (for 127.0.0.1 at 2010-04-18 14:23:50) [GET]
+Redirected to http://localhost:3000/orderconfirm
+Completed in 2399ms (DB: 0) | 302 Found [http://localhost/orderconfirm/update]
+
+
+Processing OrderConfirmController#index (for 127.0.0.1 at 2010-04-18 14:23:52) [GET]
+Rendering template within layouts/application
+Rendering order_confirm/index
+Completed in 4ms (View: 2, DB: 0) | 200 OK [http://localhost/orderconfirm]
+
+
+Processing OrderConfirmController#update (for 127.0.0.1 at 2010-04-18 14:23:57) [GET]
+Redirected to http://localhost:3000/orderconfirm
+Completed in 1426ms (DB: 0) | 302 Found [http://localhost/orderconfirm/update]
+
+
+Processing OrderConfirmController#index (for 127.0.0.1 at 2010-04-18 14:23:59) [GET]
+Rendering template within layouts/application
+Rendering order_confirm/index
+Completed in 5ms (View: 2, DB: 0) | 200 OK [http://localhost/orderconfirm]
+
+
+Processing OrderConfirmController#update (for 127.0.0.1 at 2010-04-18 14:24:04) [GET]
+Redirected to http://localhost:3000/orderconfirm
+Completed in 1387ms (DB: 0) | 302 Found [http://localhost/orderconfirm/update]
+
+
+Processing OrderConfirmController#index (for 127.0.0.1 at 2010-04-18 14:24:05) [GET]
+Rendering template within layouts/application
+Rendering order_confirm/index
+Completed in 5ms (View: 2, DB: 0) | 200 OK [http://localhost/orderconfirm]
+
+
+Processing OrderConfirmController#update (for 127.0.0.1 at 2010-04-18 14:24:10) [GET]
+Redirected to http://localhost:3000/orderconfirm
+Completed in 2283ms (DB: 0) | 302 Found [http://localhost/orderconfirm/update]
+
+
+Processing OrderConfirmController#index (for 127.0.0.1 at 2010-04-18 14:24:13) [GET]
+Rendering template within layouts/application
+Rendering order_confirm/index
+Completed in 5ms (View: 2, DB: 0) | 200 OK [http://localhost/orderconfirm]
+
+
+Processing OrderConfirmController#update (for 127.0.0.1 at 2010-04-18 14:24:18) [GET]
+Redirected to http://localhost:3000/orderconfirm
+Completed in 1539ms (DB: 0) | 302 Found [http://localhost/orderconfirm/update]
+
+
+Processing OrderConfirmController#index (for 127.0.0.1 at 2010-04-18 14:24:19) [GET]
+Rendering template within layouts/application
+Rendering order_confirm/index
+Completed in 4ms (View: 1, DB: 0) | 200 OK [http://localhost/orderconfirm]
+
+
+Processing OrderConfirmController#update (for 127.0.0.1 at 2010-04-18 14:24:24) [GET]
+Redirected to http://localhost:3000/orderconfirm
+Completed in 1363ms (DB: 0) | 302 Found [http://localhost/orderconfirm/update]
+
+
+Processing OrderConfirmController#index (for 127.0.0.1 at 2010-04-18 14:24:26) [GET]
+Rendering template within layouts/application
+Rendering order_confirm/index
+Completed in 6ms (View: 2, DB: 0) | 200 OK [http://localhost/orderconfirm]
+
+
+Processing OrderConfirmController#update (for 127.0.0.1 at 2010-04-18 14:24:31) [GET]
+Redirected to http://localhost:3000/orderconfirm
+Completed in 1389ms (DB: 0) | 302 Found [http://localhost/orderconfirm/update]
+
+
+Processing OrderConfirmController#index (for 127.0.0.1 at 2010-04-18 14:24:32) [GET]
+Rendering template within layouts/application
+Rendering order_confirm/index
+Completed in 6ms (View: 2, DB: 0) | 200 OK [http://localhost/orderconfirm]
+
+
+Processing OrderConfirmController#update (for 127.0.0.1 at 2010-04-18 14:24:38) [GET]
+Redirected to http://localhost:3000/orderconfirm
+Completed in 1485ms (DB: 0) | 302 Found [http://localhost/orderconfirm/update]
+
+
+Processing OrderConfirmController#index (for 127.0.0.1 at 2010-04-18 14:24:39) [GET]
+Rendering template within layouts/application
+Rendering order_confirm/index
+Completed in 10ms (View: 2, DB: 0) | 200 OK [http://localhost/orderconfirm]
+
+
+Processing OrderConfirmController#update (for 127.0.0.1 at 2010-04-18 14:24:44) [GET]
+Redirected to http://localhost:3000/orderconfirm
+Completed in 1354ms (DB: 0) | 302 Found [http://localhost/orderconfirm/update]
+
+
+Processing OrderConfirmController#index (for 127.0.0.1 at 2010-04-18 14:24:46) [GET]
+Rendering template within layouts/application
+Rendering order_confirm/index
+Completed in 6ms (View: 1, DB: 0) | 200 OK [http://localhost/orderconfirm]
+
+
+Processing OrderConfirmController#update (for 127.0.0.1 at 2010-04-18 14:24:51) [GET]
+Redirected to http://localhost:3000/orderconfirm
+Completed in 1442ms (DB: 0) | 302 Found [http://localhost/orderconfirm/update]
+
+
+Processing OrderConfirmController#index (for 127.0.0.1 at 2010-04-18 14:24:52) [GET]
+Rendering template within layouts/application
+Rendering order_confirm/index
+Completed in 5ms (View: 2, DB: 0) | 200 OK [http://localhost/orderconfirm]
+
+
+Processing OrderConfirmController#update (for 127.0.0.1 at 2010-04-18 14:24:57) [GET]
+Redirected to http://localhost:3000/orderconfirm
+Completed in 1509ms (DB: 0) | 302 Found [http://localhost/orderconfirm/update]
+
+
+Processing OrderConfirmController#index (for 127.0.0.1 at 2010-04-18 14:24:59) [GET]
+Rendering template within layouts/application
+Rendering order_confirm/index
+Completed in 5ms (View: 2, DB: 0) | 200 OK [http://localhost/orderconfirm]
+
+
+Processing OrderConfirmController#update (for 127.0.0.1 at 2010-04-18 14:25:04) [GET]
+Redirected to http://localhost:3000/orderconfirm
+Completed in 1531ms (DB: 0) | 302 Found [http://localhost/orderconfirm/update]
+
+
+Processing OrderConfirmController#index (for 127.0.0.1 at 2010-04-18 14:25:05) [GET]
+Rendering template within layouts/application
+Rendering order_confirm/index
+Completed in 8ms (View: 2, DB: 0) | 200 OK [http://localhost/orderconfirm]
+
+
+Processing OrderConfirmController#update (for 127.0.0.1 at 2010-04-18 14:25:10) [GET]
+Redirected to http://localhost:3000/orderconfirm
+Completed in 2339ms (DB: 0) | 302 Found [http://localhost/orderconfirm/update]
+
+
+Processing OrderConfirmController#index (for 127.0.0.1 at 2010-04-18 14:25:13) [GET]
+Rendering template within layouts/application
+Rendering order_confirm/index
+Completed in 5ms (View: 2, DB: 0) | 200 OK [http://localhost/orderconfirm]
+
+
+Processing OrderConfirmController#update (for 127.0.0.1 at 2010-04-18 14:25:18) [GET]
+Redirected to http://localhost:3000/orderconfirm
+Completed in 1366ms (DB: 0) | 302 Found [http://localhost/orderconfirm/update]
+
+
+Processing OrderConfirmController#index (for 127.0.0.1 at 2010-04-18 14:25:19) [GET]
+Rendering template within layouts/application
+Rendering order_confirm/index
+Completed in 7ms (View: 2, DB: 0) | 200 OK [http://localhost/orderconfirm]
+
+
+Processing OrderConfirmController#update (for 127.0.0.1 at 2010-04-18 14:25:24) [GET]
+Redirected to http://localhost:3000/orderconfirm
+Completed in 1366ms (DB: 0) | 302 Found [http://localhost/orderconfirm/update]
+
+
+Processing OrderConfirmController#index (for 127.0.0.1 at 2010-04-18 14:25:26) [GET]
+Rendering template within layouts/application
+Rendering order_confirm/index
+Completed in 4ms (View: 1, DB: 0) | 200 OK [http://localhost/orderconfirm]
+
+
+Processing OrderConfirmController#update (for 127.0.0.1 at 2010-04-18 14:25:31) [GET]
+Redirected to http://localhost:3000/orderconfirm
+Completed in 1385ms (DB: 0) | 302 Found [http://localhost/orderconfirm/update]
+
+
+Processing OrderConfirmController#index (for 127.0.0.1 at 2010-04-18 14:25:32) [GET]
+Rendering template within layouts/application
+Rendering order_confirm/index
+Completed in 4ms (View: 1, DB: 0) | 200 OK [http://localhost/orderconfirm]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-04-18 14:25:49) [GET]
+
+ActionController::SessionRestoreError (Session contains objects whose class definition isn\'t available.
+Remember to require the classes for all objects kept in the session.
+(Original exception: #{const_error.message} [#{const_error.class}])
+):
+  app/controllers/application_controller.rb:10:in `generate_cart_id'
+
+Rendered rescues/_trace (62.1ms)
+Rendered rescues/_request_and_response (1.8ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-04-18 14:25:57) [GET]
+Rendering template within layouts/application
+Rendering home/index
+Completed in 29ms (View: 19, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing SearchController#index (for 127.0.0.1 at 2010-04-18 14:26:00) [GET]
+  Parameters: {"searchValue"=>"thai", "zipValue"=>"zipcode"}
+  [4;36;1mRestaurant Load (1.2ms)[0m   [0;1mSELECT * FROM "restaurants" [0m
+Rendering template within layouts/application
+Rendering search/index
+Completed in 24ms (View: 12, DB: 1) | 200 OK [http://localhost/search?searchValue=thai&zipValue=zipcode]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-04-18 14:26:00) [GET]
+
+ActionController::RoutingError (No route matches "/stylesheets/images/map.jpg" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing MenuController#index (for 127.0.0.1 at 2010-04-18 14:26:01) [GET]
+  Parameters: {"id"=>"Thai Restaurant"}
+  [4;35;1mMenuItem Load (0.8ms)[0m   [0mSELECT * FROM "menu_items" [0m
+Rendering template within layouts/application
+Rendering menu/index
+Completed in 21ms (View: 13, DB: 1) | 200 OK [http://localhost/menu/Thai%20Restaurant]
+
+
+Processing MenuController#update (for 127.0.0.1 at 2010-04-18 14:26:08) [GET]
+  Parameters: {"restaurant"=>"Thai Restaurant", "count"=>"1", "item"=>"Noodles"}
+  [4;36;1mMenuItem Load (0.8ms)[0m   [0;1mSELECT * FROM "menu_items" [0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM "menu_items" [0m
+Redirected to http://localhost:3000/menu/Thai%20Restaurant
+Completed in 5ms (DB: 1) | 302 Found [http://localhost/menu/update/Thai%20Restaurant/Noodles/1]
+
+
+Processing MenuController#index (for 127.0.0.1 at 2010-04-18 14:26:08) [GET]
+  Parameters: {"id"=>"Thai Restaurant"}
+  [4;36;1mMenuItem Load (0.8ms)[0m   [0;1mSELECT * FROM "menu_items" [0m
+Rendering template within layouts/application
+Rendering menu/index
+Completed in 7ms (View: 2, DB: 1) | 200 OK [http://localhost/menu/Thai%20Restaurant]
+
+
+Processing OrderConfirmController#index (for 127.0.0.1 at 2010-04-18 14:26:12) [GET]
+Rendering template within layouts/application
+Rendering order_confirm/index
+Completed in 16ms (View: 13, DB: 0) | 200 OK [http://localhost/orderconfirm]
+
+
+Processing OrderConfirmController#update (for 127.0.0.1 at 2010-04-18 14:26:17) [GET]
+
+Net::SMTPFatalError (555 5.5.2 Syntax error. 21sm4206945iwn.11
+):
+  /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/net/smtp.rb:930:in `check_response'
+  /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/net/smtp.rb:899:in `getok'
+  /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/net/smtp.rb:842:in `rcptto'
+  /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/net/smtp.rb:834:in `rcptto_list'
+  /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/net/smtp.rb:833:in `each'
+  /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/net/smtp.rb:833:in `rcptto_list'
+  /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/net/smtp.rb:654:in `send_message'
+  /Library/Ruby/Gems/1.8/gems/ruby-gmail-0.0.9/lib/gmail.rb:91:in `open_smtp'
+  /Library/Ruby/Gems/1.8/gems/ruby-gmail-0.0.9/lib/gmail.rb:112:in `call'
+  /Library/Ruby/Gems/1.8/gems/ruby-gmail-0.0.9/lib/gmail.rb:112:in `send_email'
+  /Library/Ruby/Gems/1.8/gems/ruby-gmail-0.0.9/lib/gmail.rb:88:in `call'
+  /Library/Ruby/Gems/1.8/gems/ruby-gmail-0.0.9/lib/gmail.rb:88:in `open_smtp'
+  /Library/Ruby/Gems/1.8/gems/ruby-gmail-0.0.9/lib/smtp_tls.rb:19:in `start'
+  /Library/Ruby/Gems/1.8/gems/ruby-gmail-0.0.9/lib/smtp_tls.rb:10:in `start'
+  /Library/Ruby/Gems/1.8/gems/ruby-gmail-0.0.9/lib/gmail.rb:86:in `open_smtp'
+  /Library/Ruby/Gems/1.8/gems/ruby-gmail-0.0.9/lib/gmail.rb:111:in `send_email'
+  app/controllers/order_confirm_controller.rb:97:in `send_email'
+  app/controllers/order_confirm_controller.rb:87:in `each'
+  app/controllers/order_confirm_controller.rb:87:in `send_email'
+  app/controllers/order_confirm_controller.rb:142:in `update'
+
+Rendered rescues/_trace (154.3ms)
+Rendered rescues/_request_and_response (0.4ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-04-18 14:27:16) [GET]
+Rendering template within layouts/application
+Rendering home/index
+Completed in 4ms (View: 2, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing SearchController#index (for 127.0.0.1 at 2010-04-18 14:27:18) [GET]
+  Parameters: {"searchValue"=>"thai", "zipValue"=>"zipcode"}
+  [4;35;1mRestaurant Load (1.2ms)[0m   [0mSELECT * FROM "restaurants" [0m
+Rendering template within layouts/application
+Rendering search/index
+Completed in 12ms (View: 2, DB: 1) | 200 OK [http://localhost/search?searchValue=thai&zipValue=zipcode]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-04-18 14:27:18) [GET]
+
+ActionController::RoutingError (No route matches "/stylesheets/images/map.jpg" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing MenuController#index (for 127.0.0.1 at 2010-04-18 14:27:20) [GET]
+  Parameters: {"id"=>"Thai Restaurant"}
+  [4;36;1mMenuItem Load (0.8ms)[0m   [0;1mSELECT * FROM "menu_items" [0m
+Rendering template within layouts/application
+Rendering menu/index
+Completed in 6ms (View: 2, DB: 1) | 200 OK [http://localhost/menu/Thai%20Restaurant]
+
+
+Processing OrderConfirmController#index (for 127.0.0.1 at 2010-04-18 14:27:21) [GET]
+Rendering template within layouts/application
+Rendering order_confirm/index
+Completed in 5ms (View: 2, DB: 0) | 200 OK [http://localhost/orderconfirm]
+
+
+Processing OrderConfirmController#update (for 127.0.0.1 at 2010-04-18 14:27:26) [GET]
+
+Net::SMTPFatalError (555 5.5.2 Syntax error. 20sm4205335iwn.5
+):
+  /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/net/smtp.rb:930:in `check_response'
+  /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/net/smtp.rb:899:in `getok'
+  /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/net/smtp.rb:842:in `rcptto'
+  /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/net/smtp.rb:834:in `rcptto_list'
+  /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/net/smtp.rb:833:in `each'
+  /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/net/smtp.rb:833:in `rcptto_list'
+  /System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/net/smtp.rb:654:in `send_message'
+  /Library/Ruby/Gems/1.8/gems/ruby-gmail-0.0.9/lib/gmail.rb:91:in `open_smtp'
+  /Library/Ruby/Gems/1.8/gems/ruby-gmail-0.0.9/lib/gmail.rb:112:in `call'
+  /Library/Ruby/Gems/1.8/gems/ruby-gmail-0.0.9/lib/gmail.rb:112:in `send_email'
+  /Library/Ruby/Gems/1.8/gems/ruby-gmail-0.0.9/lib/gmail.rb:88:in `call'
+  /Library/Ruby/Gems/1.8/gems/ruby-gmail-0.0.9/lib/gmail.rb:88:in `open_smtp'
+  /Library/Ruby/Gems/1.8/gems/ruby-gmail-0.0.9/lib/smtp_tls.rb:19:in `start'
+  /Library/Ruby/Gems/1.8/gems/ruby-gmail-0.0.9/lib/smtp_tls.rb:10:in `start'
+  /Library/Ruby/Gems/1.8/gems/ruby-gmail-0.0.9/lib/gmail.rb:86:in `open_smtp'
+  /Library/Ruby/Gems/1.8/gems/ruby-gmail-0.0.9/lib/gmail.rb:111:in `send_email'
+  app/controllers/order_confirm_controller.rb:96:in `send_email'
+  app/controllers/order_confirm_controller.rb:86:in `each'
+  app/controllers/order_confirm_controller.rb:86:in `send_email'
+  app/controllers/order_confirm_controller.rb:140:in `update'
+
+Rendered rescues/_trace (160.7ms)
+Rendered rescues/_request_and_response (0.4ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing ApplicationController#update (for 127.0.0.1 at 2010-04-18 14:29:56) [GET]
+
+SyntaxError (/Users/zachdicklin/www/grubbinit/app/controllers/order_confirm_controller.rb:86: odd number list for Hash):
+  
+
+Rendered rescues/_trace (48.7ms)
+Rendered rescues/_request_and_response (0.4ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing OrderConfirmController#update (for 127.0.0.1 at 2010-04-18 14:30:25) [GET]
+Redirected to http://localhost:3000/orderconfirm
+Completed in 14223ms (DB: 0) | 302 Found [http://localhost/orderconfirm/update]
+
+
+Processing OrderConfirmController#index (for 127.0.0.1 at 2010-04-18 14:30:39) [GET]
+Rendering template within layouts/application
+Rendering order_confirm/index
+Completed in 5ms (View: 2, DB: 0) | 200 OK [http://localhost/orderconfirm]
+
+
+Processing OrderConfirmController#update (for 127.0.0.1 at 2010-04-18 14:30:44) [GET]
+Redirected to http://localhost:3000/orderconfirm
+Completed in 3ms (DB: 0) | 302 Found [http://localhost/orderconfirm/update]
+
+
+Processing OrderConfirmController#index (for 127.0.0.1 at 2010-04-18 14:30:44) [GET]
+Rendering template within layouts/application
+Rendering order_confirm/index
+Completed in 6ms (View: 2, DB: 0) | 200 OK [http://localhost/orderconfirm]
+
+
+Processing OrderConfirmController#update (for 127.0.0.1 at 2010-04-18 14:30:49) [GET]
+Redirected to http://localhost:3000/orderconfirm
+Completed in 1163ms (DB: 0) | 302 Found [http://localhost/orderconfirm/update]
+
+
+Processing OrderConfirmController#index (for 127.0.0.1 at 2010-04-18 14:30:50) [GET]
+Rendering template within layouts/application
+Rendering order_confirm/index
+Completed in 5ms (View: 2, DB: 0) | 200 OK [http://localhost/orderconfirm]
+
+
+Processing OrderConfirmController#update (for 127.0.0.1 at 2010-04-18 14:30:55) [GET]
+Redirected to http://localhost:3000/orderconfirm
+Completed in 15447ms (DB: 0) | 302 Found [http://localhost/orderconfirm/update]
+
+
+Processing OrderConfirmController#index (for 127.0.0.1 at 2010-04-18 14:31:11) [GET]
+Rendering template within layouts/application
+Rendering order_confirm/index
+Completed in 4ms (View: 1, DB: 0) | 200 OK [http://localhost/orderconfirm]
+
+
+Processing OrderConfirmController#update (for 127.0.0.1 at 2010-04-18 14:31:16) [GET]
+Redirected to http://localhost:3000/orderconfirm
+Completed in 1395ms (DB: 0) | 302 Found [http://localhost/orderconfirm/update]
+
+
+Processing OrderConfirmController#index (for 127.0.0.1 at 2010-04-18 14:31:17) [GET]
+Rendering template within layouts/application
+Rendering order_confirm/index
+Completed in 5ms (View: 2, DB: 0) | 200 OK [http://localhost/orderconfirm]
+
+
+Processing OrderConfirmController#update (for 127.0.0.1 at 2010-04-18 14:31:22) [GET]
+Redirected to http://localhost:3000/orderconfirm
+Completed in 2116ms (DB: 0) | 302 Found [http://localhost/orderconfirm/update]
+
+
+Processing OrderConfirmController#index (for 127.0.0.1 at 2010-04-18 14:31:25) [GET]
+Rendering template within layouts/application
+Rendering order_confirm/index
+Completed in 5ms (View: 2, DB: 0) | 200 OK [http://localhost/orderconfirm]
+
+
+Processing OrderConfirmController#update (for 127.0.0.1 at 2010-04-18 14:31:30) [GET]
+Redirected to http://localhost:3000/orderconfirm
+Completed in 1203ms (DB: 0) | 302 Found [http://localhost/orderconfirm/update]
+
+
+Processing OrderConfirmController#index (for 127.0.0.1 at 2010-04-18 14:31:31) [GET]
+Rendering template within layouts/application
+Rendering order_confirm/index
+Completed in 4ms (View: 2, DB: 0) | 200 OK [http://localhost/orderconfirm]
+
+
+Processing OrderConfirmController#update (for 127.0.0.1 at 2010-04-18 14:31:36) [GET]
+Redirected to http://localhost:3000/orderconfirm
+Completed in 1172ms (DB: 0) | 302 Found [http://localhost/orderconfirm/update]
+
+
+Processing OrderConfirmController#index (for 127.0.0.1 at 2010-04-18 14:31:37) [GET]
+Rendering template within layouts/application
+Rendering order_confirm/index
+Completed in 7ms (View: 2, DB: 0) | 200 OK [http://localhost/orderconfirm]
+
+
+Processing OrderConfirmController#update (for 127.0.0.1 at 2010-04-18 14:31:42) [GET]
+Redirected to http://localhost:3000/orderconfirm
+Completed in 1269ms (DB: 0) | 302 Found [http://localhost/orderconfirm/update]
+
+
+Processing OrderConfirmController#index (for 127.0.0.1 at 2010-04-18 14:31:44) [GET]
+Rendering template within layouts/application
+Rendering order_confirm/index
+Completed in 4ms (View: 2, DB: 0) | 200 OK [http://localhost/orderconfirm]
+
+
+Processing OrderConfirmController#update (for 127.0.0.1 at 2010-04-18 14:31:49) [GET]
+Redirected to http://localhost:3000/orderconfirm
+Completed in 1201ms (DB: 0) | 302 Found [http://localhost/orderconfirm/update]
+
+
+Processing OrderConfirmController#index (for 127.0.0.1 at 2010-04-18 14:31:50) [GET]
+Rendering template within layouts/application
+Rendering order_confirm/index
+Completed in 5ms (View: 2, DB: 0) | 200 OK [http://localhost/orderconfirm]
+
+
+Processing OrderConfirmController#update (for 127.0.0.1 at 2010-04-18 14:31:55) [GET]
+Redirected to http://localhost:3000/orderconfirm
+Completed in 1276ms (DB: 0) | 302 Found [http://localhost/orderconfirm/update]
+
+
+Processing OrderConfirmController#index (for 127.0.0.1 at 2010-04-18 14:31:56) [GET]
+Rendering template within layouts/application
+Rendering order_confirm/index
+Completed in 4ms (View: 1, DB: 0) | 200 OK [http://localhost/orderconfirm]
+
+
+Processing OrderConfirmController#update (for 127.0.0.1 at 2010-04-18 14:32:02) [GET]
+Redirected to http://localhost:3000/orderconfirm
+Completed in 17817ms (DB: 0) | 302 Found [http://localhost/orderconfirm/update]
+
+
+Processing OrderConfirmController#index (for 127.0.0.1 at 2010-04-18 14:32:19) [GET]
+Rendering template within layouts/application
+Rendering order_confirm/index
+Completed in 5ms (View: 2, DB: 0) | 200 OK [http://localhost/orderconfirm]
+
+
+Processing OrderConfirmController#update (for 127.0.0.1 at 2010-04-18 14:32:25) [GET]
+Redirected to http://localhost:3000/orderconfirm
+Completed in 1609ms (DB: 0) | 302 Found [http://localhost/orderconfirm/update]
+
+
+Processing OrderConfirmController#index (for 127.0.0.1 at 2010-04-18 14:32:26) [GET]
+Rendering template within layouts/application
+Rendering order_confirm/index
+Completed in 6ms (View: 2, DB: 0) | 200 OK [http://localhost/orderconfirm]
+
+
+Processing OrderConfirmController#update (for 127.0.0.1 at 2010-04-18 14:32:31) [GET]
+Redirected to http://localhost:3000/orderconfirm
+Completed in 1284ms (DB: 0) | 302 Found [http://localhost/orderconfirm/update]
+
+
+Processing OrderConfirmController#index (for 127.0.0.1 at 2010-04-18 14:32:33) [GET]
+Rendering template within layouts/application
+Rendering order_confirm/index
+Completed in 5ms (View: 2, DB: 0) | 200 OK [http://localhost/orderconfirm]
+
+
+Processing OrderConfirmController#update (for 127.0.0.1 at 2010-04-18 14:32:38) [GET]
+Redirected to http://localhost:3000/orderconfirm
+Completed in 1195ms (DB: 0) | 302 Found [http://localhost/orderconfirm/update]
+
+
+Processing OrderConfirmController#index (for 127.0.0.1 at 2010-04-18 14:32:39) [GET]
+Rendering template within layouts/application
+Rendering order_confirm/index
+Completed in 5ms (View: 2, DB: 0) | 200 OK [http://localhost/orderconfirm]
+
+
+Processing OrderConfirmController#update (for 127.0.0.1 at 2010-04-18 14:32:44) [GET]
+Redirected to http://localhost:3000/orderconfirm
+Completed in 1725ms (DB: 0) | 302 Found [http://localhost/orderconfirm/update]
+
+
+Processing OrderConfirmController#index (for 127.0.0.1 at 2010-04-18 14:32:46) [GET]
+Rendering template within layouts/application
+Rendering order_confirm/index
+Completed in 4ms (View: 1, DB: 0) | 200 OK [http://localhost/orderconfirm]
+
+
+Processing OrderConfirmController#update (for 127.0.0.1 at 2010-04-18 14:32:51) [GET]
+Redirected to http://localhost:3000/orderconfirm
+Completed in 3ms (DB: 0) | 302 Found [http://localhost/orderconfirm/update]
+
+
+Processing OrderConfirmController#index (for 127.0.0.1 at 2010-04-18 14:32:51) [GET]
+Rendering template within layouts/application
+Rendering order_confirm/index
+Completed in 4ms (View: 2, DB: 0) | 200 OK [http://localhost/orderconfirm]
+
+
+Processing OrderConfirmController#update (for 127.0.0.1 at 2010-04-18 14:32:56) [GET]
+Redirected to http://localhost:3000/orderconfirm
+Completed in 3ms (DB: 0) | 302 Found [http://localhost/orderconfirm/update]
+
+
+Processing OrderConfirmController#index (for 127.0.0.1 at 2010-04-18 14:32:56) [GET]
+Rendering template within layouts/application
+Rendering order_confirm/index
+Completed in 6ms (View: 2, DB: 0) | 200 OK [http://localhost/orderconfirm]
+
+
+Processing OrderConfirmController#update (for 127.0.0.1 at 2010-04-18 14:33:01) [GET]
+Redirected to http://localhost:3000/orderconfirm
+Completed in 3ms (DB: 0) | 302 Found [http://localhost/orderconfirm/update]
+
+
+Processing OrderConfirmController#index (for 127.0.0.1 at 2010-04-18 14:33:01) [GET]
+Rendering template within layouts/application
+Rendering order_confirm/index
+Completed in 5ms (View: 2, DB: 0) | 200 OK [http://localhost/orderconfirm]
+
+
+Processing OrderConfirmController#update (for 127.0.0.1 at 2010-04-18 14:33:06) [GET]
+Redirected to http://localhost:3000/orderconfirm
+Completed in 3ms (DB: 0) | 302 Found [http://localhost/orderconfirm/update]
+
+
+Processing OrderConfirmController#index (for 127.0.0.1 at 2010-04-18 14:33:06) [GET]
+Rendering template within layouts/application
+Rendering order_confirm/index
+Completed in 5ms (View: 2, DB: 0) | 200 OK [http://localhost/orderconfirm]
+
+
+Processing OrderConfirmController#update (for 127.0.0.1 at 2010-04-18 14:33:12) [GET]
+Redirected to http://localhost:3000/orderconfirm
+Completed in 3ms (DB: 0) | 302 Found [http://localhost/orderconfirm/update]
+
+
+Processing OrderConfirmController#index (for 127.0.0.1 at 2010-04-18 14:33:12) [GET]
+Rendering template within layouts/application
+Rendering order_confirm/index
+Completed in 5ms (View: 2, DB: 0) | 200 OK [http://localhost/orderconfirm]
+
+
+Processing OrderConfirmController#update (for 127.0.0.1 at 2010-04-18 14:33:17) [GET]
+Redirected to http://localhost:3000/orderconfirm
+Completed in 3ms (DB: 0) | 302 Found [http://localhost/orderconfirm/update]
+
+
+Processing OrderConfirmController#index (for 127.0.0.1 at 2010-04-18 14:33:17) [GET]
+Rendering template within layouts/application
+Rendering order_confirm/index
+Completed in 5ms (View: 2, DB: 0) | 200 OK [http://localhost/orderconfirm]
+
+
+Processing OrderConfirmController#update (for 127.0.0.1 at 2010-04-18 14:33:22) [GET]
+Redirected to http://localhost:3000/orderconfirm
+Completed in 3ms (DB: 0) | 302 Found [http://localhost/orderconfirm/update]
+
+
+Processing OrderConfirmController#index (for 127.0.0.1 at 2010-04-18 14:33:22) [GET]
+Rendering template within layouts/application
+Rendering order_confirm/index
+Completed in 93ms (View: 2, DB: 0) | 200 OK [http://localhost/orderconfirm]
+
+
+Processing OrderConfirmController#update (for 127.0.0.1 at 2010-04-18 14:33:27) [GET]
+Redirected to http://localhost:3000/orderconfirm
+Completed in 3ms (DB: 0) | 302 Found [http://localhost/orderconfirm/update]
+
+
+Processing OrderConfirmController#index (for 127.0.0.1 at 2010-04-18 14:33:27) [GET]
+Rendering template within layouts/application
+Rendering order_confirm/index
+Completed in 5ms (View: 2, DB: 0) | 200 OK [http://localhost/orderconfirm]
+
+
+Processing OrderConfirmController#update (for 127.0.0.1 at 2010-04-18 14:33:32) [GET]
+Redirected to http://localhost:3000/orderconfirm
+Completed in 3ms (DB: 0) | 302 Found [http://localhost/orderconfirm/update]
+
+
+Processing OrderConfirmController#index (for 127.0.0.1 at 2010-04-18 14:33:32) [GET]
+Rendering template within layouts/application
+Rendering order_confirm/index
+Completed in 7ms (View: 2, DB: 0) | 200 OK [http://localhost/orderconfirm]
+
+
+Processing OrderConfirmController#update (for 127.0.0.1 at 2010-04-18 14:33:37) [GET]
+Redirected to http://localhost:3000/orderconfirm
+Completed in 3ms (DB: 0) | 302 Found [http://localhost/orderconfirm/update]
+
+
+Processing OrderConfirmController#index (for 127.0.0.1 at 2010-04-18 14:33:37) [GET]
+Rendering template within layouts/application
+Rendering order_confirm/index
+Completed in 5ms (View: 2, DB: 0) | 200 OK [http://localhost/orderconfirm]
+
+
+Processing OrderConfirmController#update (for 127.0.0.1 at 2010-04-18 14:33:42) [GET]
+Redirected to http://localhost:3000/orderconfirm
+Completed in 3ms (DB: 0) | 302 Found [http://localhost/orderconfirm/update]
+
+
+Processing OrderConfirmController#index (for 127.0.0.1 at 2010-04-18 14:33:42) [GET]
+Rendering template within layouts/application
+Rendering order_confirm/index
+Completed in 4ms (View: 2, DB: 0) | 200 OK [http://localhost/orderconfirm]
+
+
+Processing OrderConfirmController#update (for 127.0.0.1 at 2010-04-18 14:33:47) [GET]
+Redirected to http://localhost:3000/orderconfirm
+Completed in 3ms (DB: 0) | 302 Found [http://localhost/orderconfirm/update]
+
+
+Processing OrderConfirmController#index (for 127.0.0.1 at 2010-04-18 14:33:48) [GET]
+Rendering template within layouts/application
+Rendering order_confirm/index
+Completed in 5ms (View: 2, DB: 0) | 200 OK [http://localhost/orderconfirm]
+
+
+Processing OrderConfirmController#update (for 127.0.0.1 at 2010-04-18 14:33:53) [GET]
+Redirected to http://localhost:3000/orderconfirm
+Completed in 3ms (DB: 0) | 302 Found [http://localhost/orderconfirm/update]
+
+
+Processing OrderConfirmController#index (for 127.0.0.1 at 2010-04-18 14:33:53) [GET]
+Rendering template within layouts/application
+Rendering order_confirm/index
+Completed in 5ms (View: 2, DB: 0) | 200 OK [http://localhost/orderconfirm]
+
+
+Processing OrderConfirmController#update (for 127.0.0.1 at 2010-04-18 14:33:58) [GET]
+Redirected to http://localhost:3000/orderconfirm
+Completed in 3ms (DB: 0) | 302 Found [http://localhost/orderconfirm/update]
+
+
+Processing OrderConfirmController#index (for 127.0.0.1 at 2010-04-18 14:33:58) [GET]
+Rendering template within layouts/application
+Rendering order_confirm/index
+Completed in 5ms (View: 2, DB: 0) | 200 OK [http://localhost/orderconfirm]
+
+
+Processing OrderConfirmController#update (for 127.0.0.1 at 2010-04-18 14:34:03) [GET]
+Redirected to http://localhost:3000/orderconfirm
+Completed in 3ms (DB: 0) | 302 Found [http://localhost/orderconfirm/update]
+
+
+Processing OrderConfirmController#index (for 127.0.0.1 at 2010-04-18 14:34:03) [GET]
+Rendering template within layouts/application
+Rendering order_confirm/index
+Completed in 5ms (View: 2, DB: 0) | 200 OK [http://localhost/orderconfirm]
+
+
+Processing OrderConfirmController#update (for 127.0.0.1 at 2010-04-18 14:34:08) [GET]
+Redirected to http://localhost:3000/orderconfirm
+Completed in 3ms (DB: 0) | 302 Found [http://localhost/orderconfirm/update]
+
+
+Processing OrderConfirmController#index (for 127.0.0.1 at 2010-04-18 14:34:08) [GET]
+Rendering template within layouts/application
+Rendering order_confirm/index
+Completed in 5ms (View: 2, DB: 0) | 200 OK [http://localhost/orderconfirm]
+
+
+Processing OrderConfirmController#update (for 127.0.0.1 at 2010-04-18 14:34:13) [GET]
+Redirected to http://localhost:3000/orderconfirm
+Completed in 3ms (DB: 0) | 302 Found [http://localhost/orderconfirm/update]
+
+
+Processing OrderConfirmController#index (for 127.0.0.1 at 2010-04-18 14:34:13) [GET]
+Rendering template within layouts/application
+Rendering order_confirm/index
+Completed in 6ms (View: 3, DB: 0) | 200 OK [http://localhost/orderconfirm]
+
+
+Processing SearchController#index (for 127.0.0.1 at 2010-04-18 14:34:15) [GET]
+  Parameters: {"searchValue"=>"thai", "zipValue"=>"zipcode"}
+  [4;35;1mRestaurant Load (1.1ms)[0m   [0mSELECT * FROM "restaurants" [0m
+Rendering template within layouts/application
+Rendering search/index
+Completed in 14ms (View: 2, DB: 1) | 200 OK [http://localhost/search?searchValue=thai&zipValue=zipcode]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-04-18 14:34:15) [GET]
+
+ActionController::RoutingError (No route matches "/stylesheets/images/map.jpg" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing MenuController#index (for 127.0.0.1 at 2010-04-18 14:34:18) [GET]
+  Parameters: {"id"=>"Thai Restaurant"}
+  [4;36;1mMenuItem Load (0.8ms)[0m   [0;1mSELECT * FROM "menu_items" [0m
+Rendering template within layouts/application
+Rendering menu/index
+Completed in 6ms (View: 2, DB: 1) | 200 OK [http://localhost/menu/Thai%20Restaurant]
+
+
+Processing OrderConfirmController#index (for 127.0.0.1 at 2010-04-18 14:34:20) [GET]
+Rendering template within layouts/application
+Rendering order_confirm/index
+Completed in 4ms (View: 2, DB: 0) | 200 OK [http://localhost/orderconfirm]
+
+
+Processing OrderConfirmController#update (for 127.0.0.1 at 2010-04-18 14:34:25) [GET]
+Redirected to http://localhost:3000/orderconfirm
+Completed in 11723ms (DB: 0) | 302 Found [http://localhost/orderconfirm/update]
+
+
+Processing OrderConfirmController#index (for 127.0.0.1 at 2010-04-18 14:34:37) [GET]
+Rendering template within layouts/application
+Rendering order_confirm/index
+Completed in 4ms (View: 2, DB: 0) | 200 OK [http://localhost/orderconfirm]
+
+
+Processing OrderConfirmController#update (for 127.0.0.1 at 2010-04-18 14:34:42) [GET]
+Redirected to http://localhost:3000/orderconfirm
+Completed in 87ms (DB: 0) | 302 Found [http://localhost/orderconfirm/update]
+
+
+Processing OrderConfirmController#index (for 127.0.0.1 at 2010-04-18 14:34:42) [GET]
+Rendering template within layouts/application
+Rendering order_confirm/index
+Completed in 5ms (View: 2, DB: 0) | 200 OK [http://localhost/orderconfirm]
+
+
+Processing OrderConfirmController#update (for 127.0.0.1 at 2010-04-18 14:34:47) [GET]
+Redirected to http://localhost:3000/orderconfirm
+Completed in 1237ms (DB: 0) | 302 Found [http://localhost/orderconfirm/update]
+
+
+Processing OrderConfirmController#index (for 127.0.0.1 at 2010-04-18 14:34:49) [GET]
+Rendering template within layouts/application
+Rendering order_confirm/index
+Completed in 5ms (View: 2, DB: 0) | 200 OK [http://localhost/orderconfirm]
+
+
+Processing OrderConfirmController#update (for 127.0.0.1 at 2010-04-18 14:34:54) [GET]
+Redirected to http://localhost:3000/orderconfirm
+Completed in 8808ms (DB: 0) | 302 Found [http://localhost/orderconfirm/update]
+
+
+Processing OrderConfirmController#index (for 127.0.0.1 at 2010-04-18 14:35:03) [GET]
+Rendering template within layouts/application
+Rendering order_confirm/index
+Completed in 4ms (View: 2, DB: 0) | 200 OK [http://localhost/orderconfirm]
+
+
+Processing OrderConfirmController#update (for 127.0.0.1 at 2010-04-18 14:35:08) [GET]
+Redirected to http://localhost:3000/orderconfirm
+Completed in 1269ms (DB: 0) | 302 Found [http://localhost/orderconfirm/update]
+
+
+Processing OrderConfirmController#index (for 127.0.0.1 at 2010-04-18 14:35:09) [GET]
+Rendering template within layouts/application
+Rendering order_confirm/index
+Completed in 89ms (View: 87, DB: 0) | 200 OK [http://localhost/orderconfirm]
+
+
+Processing OrderConfirmController#update (for 127.0.0.1 at 2010-04-18 14:35:14) [GET]
+Redirected to http://localhost:3000/orderconfirm
+Completed in 1570ms (DB: 0) | 302 Found [http://localhost/orderconfirm/update]
+
+
+Processing OrderConfirmController#index (for 127.0.0.1 at 2010-04-18 14:35:16) [GET]
+Rendering template within layouts/application
+Rendering order_confirm/index
+Completed in 5ms (View: 2, DB: 0) | 200 OK [http://localhost/orderconfirm]
+
+
+Processing OrderConfirmController#update (for 127.0.0.1 at 2010-04-18 14:35:21) [GET]
+Redirected to http://localhost:3000/orderconfirm
+Completed in 1441ms (DB: 0) | 302 Found [http://localhost/orderconfirm/update]
+
+
+Processing OrderConfirmController#index (for 127.0.0.1 at 2010-04-18 14:35:22) [GET]
+Rendering template within layouts/application
+Rendering order_confirm/index
+Completed in 5ms (View: 2, DB: 0) | 200 OK [http://localhost/orderconfirm]
+
+
+Processing OrderConfirmController#update (for 127.0.0.1 at 2010-04-18 14:35:27) [GET]
+Redirected to http://localhost:3000/orderconfirm
+Completed in 1310ms (DB: 0) | 302 Found [http://localhost/orderconfirm/update]
+
+
+Processing OrderConfirmController#index (for 127.0.0.1 at 2010-04-18 14:35:29) [GET]
+Rendering template within layouts/application
+Rendering order_confirm/index
+Completed in 5ms (View: 1, DB: 0) | 200 OK [http://localhost/orderconfirm]
+
+
+Processing OrderConfirmController#update (for 127.0.0.1 at 2010-04-18 14:35:34) [GET]
+Redirected to http://localhost:3000/orderconfirm
+Completed in 1275ms (DB: 0) | 302 Found [http://localhost/orderconfirm/update]
+
+
+Processing OrderConfirmController#index (for 127.0.0.1 at 2010-04-18 14:35:35) [GET]
+Rendering template within layouts/application
+Rendering order_confirm/index
+Completed in 5ms (View: 2, DB: 0) | 200 OK [http://localhost/orderconfirm]
+
+
+Processing OrderConfirmController#update (for 127.0.0.1 at 2010-04-18 14:35:40) [GET]
+Redirected to http://localhost:3000/orderconfirm
+Completed in 2220ms (DB: 0) | 302 Found [http://localhost/orderconfirm/update]
+
+
+Processing OrderConfirmController#index (for 127.0.0.1 at 2010-04-18 14:35:43) [GET]
+Rendering template within layouts/application
+Rendering order_confirm/index
+Completed in 5ms (View: 2, DB: 0) | 200 OK [http://localhost/orderconfirm]
+
+
+Processing OrderConfirmController#update (for 127.0.0.1 at 2010-04-18 14:35:48) [GET]
+Redirected to http://localhost:3000/orderconfirm
+Completed in 1374ms (DB: 0) | 302 Found [http://localhost/orderconfirm/update]
+
+
+Processing OrderConfirmController#index (for 127.0.0.1 at 2010-04-18 14:35:49) [GET]
+Rendering template within layouts/application
+Rendering order_confirm/index
+Completed in 5ms (View: 2, DB: 0) | 200 OK [http://localhost/orderconfirm]
+
+
+Processing OrderConfirmController#update (for 127.0.0.1 at 2010-04-18 14:35:54) [GET]
+Redirected to http://localhost:3000/orderconfirm
+Completed in 1138ms (DB: 0) | 302 Found [http://localhost/orderconfirm/update]
+
+
+Processing OrderConfirmController#index (for 127.0.0.1 at 2010-04-18 14:35:55) [GET]
+Rendering template within layouts/application
+Rendering order_confirm/index
+Completed in 4ms (View: 2, DB: 0) | 200 OK [http://localhost/orderconfirm]
+
+
+Processing OrderConfirmController#update (for 127.0.0.1 at 2010-04-18 14:36:00) [GET]
+Redirected to http://localhost:3000/orderconfirm
+Completed in 1220ms (DB: 0) | 302 Found [http://localhost/orderconfirm/update]
+
+
+Processing OrderConfirmController#index (for 127.0.0.1 at 2010-04-18 14:36:02) [GET]
+Rendering template within layouts/application
+Rendering order_confirm/index
+Completed in 5ms (View: 2, DB: 0) | 200 OK [http://localhost/orderconfirm]
+
+
+Processing OrderConfirmController#update (for 127.0.0.1 at 2010-04-18 14:36:07) [GET]
+Redirected to http://localhost:3000/orderconfirm
+Completed in 1308ms (DB: 0) | 302 Found [http://localhost/orderconfirm/update]
+
+
+Processing OrderConfirmController#index (for 127.0.0.1 at 2010-04-18 14:36:08) [GET]
+Rendering template within layouts/application
+Rendering order_confirm/index
+Completed in 5ms (View: 2, DB: 0) | 200 OK [http://localhost/orderconfirm]
+
+
+Processing OrderConfirmController#update (for 127.0.0.1 at 2010-04-18 14:36:13) [GET]
+Redirected to http://localhost:3000/orderconfirm
+Completed in 1310ms (DB: 0) | 302 Found [http://localhost/orderconfirm/update]
+
+
+Processing OrderConfirmController#index (for 127.0.0.1 at 2010-04-18 14:36:15) [GET]
+Rendering template within layouts/application
+Rendering order_confirm/index
+Completed in 5ms (View: 2, DB: 0) | 200 OK [http://localhost/orderconfirm]
+
+
+Processing OrderConfirmController#update (for 127.0.0.1 at 2010-04-18 14:36:20) [GET]
+Redirected to http://localhost:3000/orderconfirm
+Completed in 1221ms (DB: 0) | 302 Found [http://localhost/orderconfirm/update]
+
+
+Processing OrderConfirmController#index (for 127.0.0.1 at 2010-04-18 14:36:21) [GET]
+Rendering template within layouts/application
+Rendering order_confirm/index
+Completed in 4ms (View: 1, DB: 0) | 200 OK [http://localhost/orderconfirm]
+
+
+Processing OrderConfirmController#update (for 127.0.0.1 at 2010-04-18 14:36:26) [GET]
+Redirected to http://localhost:3000/orderconfirm
+Completed in 1212ms (DB: 0) | 302 Found [http://localhost/orderconfirm/update]
+
+
+Processing OrderConfirmController#index (for 127.0.0.1 at 2010-04-18 14:36:27) [GET]
+Rendering template within layouts/application
+Rendering order_confirm/index
+Completed in 5ms (View: 1, DB: 0) | 200 OK [http://localhost/orderconfirm]
+
+
+Processing OrderConfirmController#update (for 127.0.0.1 at 2010-04-18 14:36:32) [GET]
+Redirected to http://localhost:3000/orderconfirm
+Completed in 1256ms (DB: 0) | 302 Found [http://localhost/orderconfirm/update]
+
+
+Processing OrderConfirmController#index (for 127.0.0.1 at 2010-04-18 14:36:34) [GET]
+Rendering template within layouts/application
+Rendering order_confirm/index
+Completed in 5ms (View: 2, DB: 0) | 200 OK [http://localhost/orderconfirm]
+
+
+Processing OrderConfirmController#update (for 127.0.0.1 at 2010-04-18 14:36:39) [GET]
+Redirected to http://localhost:3000/orderconfirm
+Completed in 12551ms (DB: 0) | 302 Found [http://localhost/orderconfirm/update]
+
+
+Processing OrderConfirmController#index (for 127.0.0.1 at 2010-04-18 14:36:51) [GET]
+Rendering template within layouts/application
+Rendering order_confirm/index
+Completed in 5ms (View: 1, DB: 0) | 200 OK [http://localhost/orderconfirm]
+
+
+Processing OrderConfirmController#update (for 127.0.0.1 at 2010-04-18 14:36:56) [GET]
+Redirected to http://localhost:3000/orderconfirm
+Completed in 1228ms (DB: 0) | 302 Found [http://localhost/orderconfirm/update]
+
+
+Processing OrderConfirmController#index (for 127.0.0.1 at 2010-04-18 14:36:58) [GET]
+Rendering template within layouts/application
+Rendering order_confirm/index
+Completed in 5ms (View: 2, DB: 0) | 200 OK [http://localhost/orderconfirm]
+
+
+Processing OrderConfirmController#update (for 127.0.0.1 at 2010-04-18 14:37:03) [GET]
+Redirected to http://localhost:3000/orderconfirm
+Completed in 1221ms (DB: 0) | 302 Found [http://localhost/orderconfirm/update]
+
+
+Processing OrderConfirmController#index (for 127.0.0.1 at 2010-04-18 14:37:04) [GET]
+Rendering template within layouts/application
+Rendering order_confirm/index
+Completed in 5ms (View: 2, DB: 0) | 200 OK [http://localhost/orderconfirm]
+
+
+Processing OrderConfirmController#update (for 127.0.0.1 at 2010-04-18 14:37:09) [GET]
+Redirected to http://localhost:3000/orderconfirm
+Completed in 1387ms (DB: 0) | 302 Found [http://localhost/orderconfirm/update]
+
+
+Processing OrderConfirmController#index (for 127.0.0.1 at 2010-04-18 14:37:11) [GET]
+Rendering template within layouts/application
+Rendering order_confirm/index
+Completed in 4ms (View: 2, DB: 0) | 200 OK [http://localhost/orderconfirm]
+
+
+Processing OrderConfirmController#update (for 127.0.0.1 at 2010-04-18 14:37:16) [GET]
+Redirected to http://localhost:3000/orderconfirm
+Completed in 1716ms (DB: 0) | 302 Found [http://localhost/orderconfirm/update]
+
+
+Processing OrderConfirmController#index (for 127.0.0.1 at 2010-04-18 14:37:18) [GET]
+Rendering template within layouts/application
+Rendering order_confirm/index
+Completed in 5ms (View: 2, DB: 0) | 200 OK [http://localhost/orderconfirm]
+
+
+Processing OrderConfirmController#update (for 127.0.0.1 at 2010-04-18 14:37:23) [GET]
+Redirected to http://localhost:3000/orderconfirm
+Completed in 3ms (DB: 0) | 302 Found [http://localhost/orderconfirm/update]
+
+
+Processing OrderConfirmController#index (for 127.0.0.1 at 2010-04-18 14:37:23) [GET]
+Rendering template within layouts/application
+Rendering order_confirm/index
+Completed in 6ms (View: 2, DB: 0) | 200 OK [http://localhost/orderconfirm]
+
+
+Processing OrderConfirmController#update (for 127.0.0.1 at 2010-04-18 14:37:28) [GET]
+Redirected to http://localhost:3000/orderconfirm
+Completed in 3ms (DB: 0) | 302 Found [http://localhost/orderconfirm/update]
+
+
+Processing OrderConfirmController#index (for 127.0.0.1 at 2010-04-18 14:37:28) [GET]
+Rendering template within layouts/application
+Rendering order_confirm/index
+Completed in 6ms (View: 2, DB: 0) | 200 OK [http://localhost/orderconfirm]
+
+
+Processing OrderConfirmController#update (for 127.0.0.1 at 2010-04-18 14:37:33) [GET]
+Redirected to http://localhost:3000/orderconfirm
+Completed in 3ms (DB: 0) | 302 Found [http://localhost/orderconfirm/update]
+
+
+Processing OrderConfirmController#index (for 127.0.0.1 at 2010-04-18 14:37:33) [GET]
+Rendering template within layouts/application
+Rendering order_confirm/index
+Completed in 5ms (View: 2, DB: 0) | 200 OK [http://localhost/orderconfirm]
+
+
+Processing OrderConfirmController#update (for 127.0.0.1 at 2010-04-18 14:37:38) [GET]
+Redirected to http://localhost:3000/orderconfirm
+Completed in 3ms (DB: 0) | 302 Found [http://localhost/orderconfirm/update]
+
+
+Processing OrderConfirmController#index (for 127.0.0.1 at 2010-04-18 14:37:38) [GET]
+Rendering template within layouts/application
+Rendering order_confirm/index
+Completed in 4ms (View: 1, DB: 0) | 200 OK [http://localhost/orderconfirm]
+
+
+Processing OrderConfirmController#update (for 127.0.0.1 at 2010-04-18 14:37:43) [GET]
+Redirected to http://localhost:3000/orderconfirm
+Completed in 3ms (DB: 0) | 302 Found [http://localhost/orderconfirm/update]
+
+
+Processing OrderConfirmController#index (for 127.0.0.1 at 2010-04-18 14:37:43) [GET]
+Rendering template within layouts/application
+Rendering order_confirm/index
+Completed in 5ms (View: 1, DB: 0) | 200 OK [http://localhost/orderconfirm]
+
+
+Processing OrderConfirmController#update (for 127.0.0.1 at 2010-04-18 14:37:48) [GET]
+Redirected to http://localhost:3000/orderconfirm
+Completed in 3ms (DB: 0) | 302 Found [http://localhost/orderconfirm/update]
+
+
+Processing OrderConfirmController#index (for 127.0.0.1 at 2010-04-18 14:37:48) [GET]
+Rendering template within layouts/application
+Rendering order_confirm/index
+Completed in 4ms (View: 2, DB: 0) | 200 OK [http://localhost/orderconfirm]
+
+
+Processing OrderConfirmController#update (for 127.0.0.1 at 2010-04-18 14:37:53) [GET]
+Redirected to http://localhost:3000/orderconfirm
+Completed in 3ms (DB: 0) | 302 Found [http://localhost/orderconfirm/update]
+
+
+Processing OrderConfirmController#index (for 127.0.0.1 at 2010-04-18 14:37:53) [GET]
+Rendering template within layouts/application
+Rendering order_confirm/index
+Completed in 4ms (View: 2, DB: 0) | 200 OK [http://localhost/orderconfirm]
+
+
+Processing OrderConfirmController#update (for 127.0.0.1 at 2010-04-18 14:37:59) [GET]
+Redirected to http://localhost:3000/orderconfirm
+Completed in 3ms (DB: 0) | 302 Found [http://localhost/orderconfirm/update]
+
+
+Processing OrderConfirmController#index (for 127.0.0.1 at 2010-04-18 14:37:59) [GET]
+Rendering template within layouts/application
+Rendering order_confirm/index
+Completed in 5ms (View: 2, DB: 0) | 200 OK [http://localhost/orderconfirm]
+
+
+Processing OrderConfirmController#update (for 127.0.0.1 at 2010-04-18 14:38:04) [GET]
+Redirected to http://localhost:3000/orderconfirm
+Completed in 94ms (DB: 0) | 302 Found [http://localhost/orderconfirm/update]
+
+
+Processing OrderConfirmController#index (for 127.0.0.1 at 2010-04-18 14:38:04) [GET]
+Rendering template within layouts/application
+Rendering order_confirm/index
+Completed in 5ms (View: 2, DB: 0) | 200 OK [http://localhost/orderconfirm]
+
+
+Processing OrderConfirmController#update (for 127.0.0.1 at 2010-04-18 14:38:09) [GET]
+Redirected to http://localhost:3000/orderconfirm
+Completed in 3ms (DB: 0) | 302 Found [http://localhost/orderconfirm/update]
+
+
+Processing OrderConfirmController#index (for 127.0.0.1 at 2010-04-18 14:38:09) [GET]
+Rendering template within layouts/application
+Rendering order_confirm/index
+Completed in 5ms (View: 2, DB: 0) | 200 OK [http://localhost/orderconfirm]
+
+
+Processing OrderConfirmController#update (for 127.0.0.1 at 2010-04-18 14:38:14) [GET]
+Redirected to http://localhost:3000/orderconfirm
+Completed in 3ms (DB: 0) | 302 Found [http://localhost/orderconfirm/update]
+
+
+Processing OrderConfirmController#index (for 127.0.0.1 at 2010-04-18 14:38:14) [GET]
+Rendering template within layouts/application
+Rendering order_confirm/index
+Completed in 4ms (View: 2, DB: 0) | 200 OK [http://localhost/orderconfirm]
+
+
+Processing OrderConfirmController#update (for 127.0.0.1 at 2010-04-18 14:38:19) [GET]
+Redirected to http://localhost:3000/orderconfirm
+Completed in 4ms (DB: 0) | 302 Found [http://localhost/orderconfirm/update]
+
+
+Processing OrderConfirmController#index (for 127.0.0.1 at 2010-04-18 14:38:19) [GET]
+Rendering template within layouts/application
+Rendering order_confirm/index
+Completed in 4ms (View: 1, DB: 0) | 200 OK [http://localhost/orderconfirm]
+
+
+Processing OrderConfirmController#update (for 127.0.0.1 at 2010-04-18 14:38:24) [GET]
+Redirected to http://localhost:3000/orderconfirm
+Completed in 3ms (DB: 0) | 302 Found [http://localhost/orderconfirm/update]
+
+
+Processing OrderConfirmController#index (for 127.0.0.1 at 2010-04-18 14:38:24) [GET]
+Rendering template within layouts/application
+Rendering order_confirm/index
+Completed in 5ms (View: 2, DB: 0) | 200 OK [http://localhost/orderconfirm]
+
+
+Processing OrderConfirmController#update (for 127.0.0.1 at 2010-04-18 14:38:29) [GET]
+Redirected to http://localhost:3000/orderconfirm
+Completed in 3ms (DB: 0) | 302 Found [http://localhost/orderconfirm/update]
+
+
+Processing OrderConfirmController#index (for 127.0.0.1 at 2010-04-18 14:38:30) [GET]
+Rendering template within layouts/application
+Rendering order_confirm/index
+Completed in 4ms (View: 1, DB: 0) | 200 OK [http://localhost/orderconfirm]
+
+
+Processing OrderConfirmController#update (for 127.0.0.1 at 2010-04-18 14:38:35) [GET]
+Redirected to http://localhost:3000/orderconfirm
+Completed in 3ms (DB: 0) | 302 Found [http://localhost/orderconfirm/update]
+
+
+Processing OrderConfirmController#index (for 127.0.0.1 at 2010-04-18 14:38:35) [GET]
+Rendering template within layouts/application
+Rendering order_confirm/index
+Completed in 5ms (View: 2, DB: 0) | 200 OK [http://localhost/orderconfirm]
+
+
+Processing OrderConfirmController#update (for 127.0.0.1 at 2010-04-18 14:38:40) [GET]
+Redirected to http://localhost:3000/orderconfirm
+Completed in 3ms (DB: 0) | 302 Found [http://localhost/orderconfirm/update]
+
+
+Processing OrderConfirmController#index (for 127.0.0.1 at 2010-04-18 14:38:40) [GET]
+Rendering template within layouts/application
+Rendering order_confirm/index
+Completed in 5ms (View: 2, DB: 0) | 200 OK [http://localhost/orderconfirm]
+
+
+Processing OrderConfirmController#update (for 127.0.0.1 at 2010-04-18 14:38:45) [GET]
+Redirected to http://localhost:3000/orderconfirm
+Completed in 3ms (DB: 0) | 302 Found [http://localhost/orderconfirm/update]
+
+
+Processing OrderConfirmController#index (for 127.0.0.1 at 2010-04-18 14:38:45) [GET]
+Rendering template within layouts/application
+Rendering order_confirm/index
+Completed in 4ms (View: 1, DB: 0) | 200 OK [http://localhost/orderconfirm]
+
+
+Processing OrderConfirmController#update (for 127.0.0.1 at 2010-04-18 14:38:50) [GET]
+Redirected to http://localhost:3000/orderconfirm
+Completed in 3ms (DB: 0) | 302 Found [http://localhost/orderconfirm/update]
+
+
+Processing OrderConfirmController#index (for 127.0.0.1 at 2010-04-18 14:38:50) [GET]
+Rendering template within layouts/application
+Rendering order_confirm/index
+Completed in 5ms (View: 1, DB: 0) | 200 OK [http://localhost/orderconfirm]
+
+
+Processing OrderConfirmController#update (for 127.0.0.1 at 2010-04-18 14:38:55) [GET]
+Redirected to http://localhost:3000/orderconfirm
+Completed in 3ms (DB: 0) | 302 Found [http://localhost/orderconfirm/update]
+
+
+Processing OrderConfirmController#index (for 127.0.0.1 at 2010-04-18 14:38:55) [GET]
+Rendering template within layouts/application
+Rendering order_confirm/index
+Completed in 5ms (View: 2, DB: 0) | 200 OK [http://localhost/orderconfirm]
+
+
+Processing OrderConfirmController#update (for 127.0.0.1 at 2010-04-18 14:39:00) [GET]
+Redirected to http://localhost:3000/orderconfirm
+Completed in 3ms (DB: 0) | 302 Found [http://localhost/orderconfirm/update]
+
+
+Processing OrderConfirmController#index (for 127.0.0.1 at 2010-04-18 14:39:00) [GET]
+Rendering template within layouts/application
+Rendering order_confirm/index
+Completed in 4ms (View: 2, DB: 0) | 200 OK [http://localhost/orderconfirm]
+
+
+Processing OrderConfirmController#update (for 127.0.0.1 at 2010-04-18 14:39:05) [GET]
+Redirected to http://localhost:3000/orderconfirm
+Completed in 4ms (DB: 0) | 302 Found [http://localhost/orderconfirm/update]
+
+
+Processing OrderConfirmController#index (for 127.0.0.1 at 2010-04-18 14:39:05) [GET]
+Rendering template within layouts/application
+Rendering order_confirm/index
+Completed in 6ms (View: 3, DB: 0) | 200 OK [http://localhost/orderconfirm]
+
+
+Processing OrderConfirmController#update (for 127.0.0.1 at 2010-04-18 14:39:11) [GET]
+Redirected to http://localhost:3000/orderconfirm
+Completed in 3ms (DB: 0) | 302 Found [http://localhost/orderconfirm/update]
+
+
+Processing OrderConfirmController#index (for 127.0.0.1 at 2010-04-18 14:39:11) [GET]
+Rendering template within layouts/application
+Rendering order_confirm/index
+Completed in 6ms (View: 3, DB: 0) | 200 OK [http://localhost/orderconfirm]
+
+
+Processing OrderConfirmController#update (for 127.0.0.1 at 2010-04-18 14:39:16) [GET]
+Redirected to http://localhost:3000/orderconfirm
+Completed in 3ms (DB: 0) | 302 Found [http://localhost/orderconfirm/update]
+
+
+Processing OrderConfirmController#index (for 127.0.0.1 at 2010-04-18 14:39:16) [GET]
+Rendering template within layouts/application
+Rendering order_confirm/index
+Completed in 4ms (View: 2, DB: 0) | 200 OK [http://localhost/orderconfirm]
+
+
+Processing OrderConfirmController#update (for 127.0.0.1 at 2010-04-18 14:39:21) [GET]
+Redirected to http://localhost:3000/orderconfirm
+Completed in 3ms (DB: 0) | 302 Found [http://localhost/orderconfirm/update]
+
+
+Processing OrderConfirmController#index (for 127.0.0.1 at 2010-04-18 14:39:21) [GET]
+Rendering template within layouts/application
+Rendering order_confirm/index
+Completed in 5ms (View: 2, DB: 0) | 200 OK [http://localhost/orderconfirm]
+
+
+Processing OrderConfirmController#update (for 127.0.0.1 at 2010-04-18 14:39:26) [GET]
+Redirected to http://localhost:3000/orderconfirm
+Completed in 3ms (DB: 0) | 302 Found [http://localhost/orderconfirm/update]
+
+
+Processing OrderConfirmController#index (for 127.0.0.1 at 2010-04-18 14:39:26) [GET]
+Rendering template within layouts/application
+Rendering order_confirm/index
+Completed in 6ms (View: 2, DB: 0) | 200 OK [http://localhost/orderconfirm]
+
+
+Processing OrderConfirmController#update (for 127.0.0.1 at 2010-04-18 14:39:31) [GET]
+Redirected to http://localhost:3000/orderconfirm
+Completed in 3ms (DB: 0) | 302 Found [http://localhost/orderconfirm/update]
+
+
+Processing OrderConfirmController#index (for 127.0.0.1 at 2010-04-18 14:39:31) [GET]
+Rendering template within layouts/application
+Rendering order_confirm/index
+Completed in 4ms (View: 1, DB: 0) | 200 OK [http://localhost/orderconfirm]
