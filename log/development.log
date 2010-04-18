@@ -10410,3 +10410,49 @@ Processing MenuController#index (for 127.0.0.1 at 2010-04-17 21:01:22) [GET]
 Rendering template within layouts/application
 Rendering menu/index
 Completed in 15ms (View: 10, DB: 1) | 200 OK [http://localhost/menu?restaurant=Thai+Restaurant]
+
+
+Processing MenuController#index (for 127.0.0.1 at 2010-04-17 21:05:41) [GET]
+  Parameters: {"restaurant"=>"Thai Restaurant"}
+  [4;35;1mMenuItem Load (0.8ms)[0m   [0mSELECT * FROM "menu_items" [0m
+Rendering template within layouts/application
+Rendering menu/index
+Completed in 5ms (View: 2, DB: 1) | 200 OK [http://localhost/menu?restaurant=Thai+Restaurant]
+
+
+Processing HomeController#index (for 127.0.0.1 at 2010-04-17 21:07:01) [GET]
+Rendering template within layouts/application
+Rendering home/index
+Completed in 4ms (View: 1, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing SearchController#index (for 127.0.0.1 at 2010-04-17 21:07:05) [GET]
+  Parameters: {"searchValue"=>"thai", "zipValue"=>"zipcode"}
+  [4;36;1mRestaurant Load (1.1ms)[0m   [0;1mSELECT * FROM "restaurants" [0m
+Rendering template within layouts/application
+Rendering search/index
+Completed in 11ms (View: 2, DB: 1) | 200 OK [http://localhost/search?searchValue=thai&zipValue=zipcode]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-04-17 21:07:05) [GET]
+
+ActionController::RoutingError (No route matches "/stylesheets/images/map.jpg" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing MenuController#index (for 127.0.0.1 at 2010-04-17 21:07:06) [GET]
+  Parameters: {"restaurant"=>"Thai Restaurant"}
+  [4;35;1mMenuItem Load (0.8ms)[0m   [0mSELECT * FROM "menu_items" [0m
+Rendering template within layouts/application
+Rendering menu/index
+Completed in 94ms (View: 90, DB: 1) | 200 OK [http://localhost/menu?restaurant=Thai+Restaurant]
+
+
+Processing MenuController#index (for 127.0.0.1 at 2010-04-17 21:07:10) [GET]
+  Parameters: {"restaurant"=>"Fancy Restaurant"}
+  [4;36;1mMenuItem Load (0.8ms)[0m   [0;1mSELECT * FROM "menu_items" [0m
+Rendering template within layouts/application
+Rendering menu/index
+Completed in 5ms (View: 1, DB: 1) | 200 OK [http://localhost/menu?restaurant=Fancy+Restaurant]
