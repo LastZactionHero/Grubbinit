@@ -362,14 +362,14 @@ div#outerWrapper {
 			padding: 10px 15px 0;
 			width: 261px;
 		}
-		input.placeOrderBtn {
+		.placeOrderBtn {
 			background-position: -139px -1px;
 			display: block;
 			float: right;
 			height: 30px;
 			width: 125px;
 		}
-			input.placeOrderBtn:hover {background-position: -139px -32px;}
+			.placeOrderBtn:hover {background-position: -139px -32px;}
 		a.startOverBtn {
 			color: #333;
 			cursor: pointer;
@@ -382,6 +382,16 @@ div#outerWrapper {
 			a.startOverBtn:hover {color: #a10000; text-decoration: underline;}
 	
 	
+	/* ========================= */
+	/* order status messages */
+	
+	.confirmations ol {list-style: decimal inside none;}
+		.confirmations ol li {
+			color: #333;
+			font: 16px "Trebuchet MS", Helvetica, sans-serif;
+			margin-bottom: 10px;
+		}
+			.confirmations ol li span.blue {color: #54c3d6;}
 	
 	
 	

@@ -61,16 +61,15 @@
 									<li class="menuItemTitle"><%= "#{item.name}" %></li>
 									<li class="menuItemDescription"><%= "#{item.description}" %></li>
 									<li class="menuItemPrice">
-									<!-- <a class="sprite_buttons deleteBtn" href="#">&nbsp;</a> -->
 									<%= "<a class=\"sprite_buttons deleteBtn\" onclick=\'javascript:updateCountClear(\"#{item.name}\")\'>&nbsp;</a>" %>
 									<%= "<a class=\"sprite_buttons updateBtn\" onclick=\'javascript:updateCount(\"#{item.name}\")\'>&nbsp;</a>" %>
-									<!-- <input type="text" id="menuPrice" /> -->
 									<%= "<input type=\"text\" id=\"count#{item.name}\" value=\"#{item.getSessionCount( session )}\">" %>
 									<span class="menuPriceText"><%= "$#{item.price}" %></span>
 								</li>
 								</div>
 							<% end %>
 						</ul>
+					</form>
 						
 						<div class="totalsContainer clearfix">
 							<span class="subTotal">Total Items: <span class="subItems"><%= "#{@itemCount}" %></span> Subtotal: <span class="subPrice"><%= "#{@costSubtotal}" %></span></span>
@@ -79,7 +78,7 @@
 						</div>
 						<div class="totalContainerButtons clearfix">
 							<a class="registerBubble" href="#">Register now &amp; save this for the future!</a>
-							<input type="submit" id="placeSubmit" class="sprite_buttons placeOrderBtn" value=" " />
+							<a class="sprite_buttons placeOrderBtn" href="/orderconfirm"> </a>
 							<span class="clearfix">&nbsp;</span>
 							<%= "<a class=\"startOverBtn\" href=\"/menu/clearcart/\">Start Over</a>" %>
 						</div>
