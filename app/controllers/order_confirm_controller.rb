@@ -83,7 +83,8 @@ class OrderConfirmController < ApplicationController
   def send_email( message_text )
     gmail = Gmail.new("grubbinit", "lulusthai") 
     new_email = MIME::Message.generate
-    new_email.to"18168077599@tmomail.net"
+    new_email.to "mcdaniel.jacob@gmail.com, haricane00@gmail.com"
+	#new_email.to"18168077599@tmomail.net"
     #new_email.subject "This is a system email"
     new_email.subject message_text
 	plain, html = new_email.generate_multipart('text/plain', 'text/html')
