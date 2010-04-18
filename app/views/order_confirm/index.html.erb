@@ -3,7 +3,7 @@ function refreshPage()
 {
   window.location = "orderconfirm/update"
 }
-setTimeout('refreshPage()', 10000)
+setTimeout('refreshPage()', 5000)
 </script>
 
 
@@ -27,9 +27,28 @@ setTimeout('refreshPage()', 10000)
 					<div class="confirmations">
 						<ol>
 							<li>Your order has been <span class="blue">submitted&hellip;</span></li>
-							<li>Your driver has been <span class="blue">dispatched&hellip;</span></li>
-							<li>Your order is in <span class="blue">route&hellip;</span></li>
-							<li style="list-style:none;color: #4f9906;">Thank you!</li>
+							
+							<% if @display_state == :display_contacted or 
+							      @display_state == :display_in_route or 
+								  @display_state == :display_done %>
+							  <li>Your driver has been <span class="blue">dispatched&hellip;</span></li>
+							<% else %>
+							  <li>Your driver has been dispatched&hellip;</li>
+							<% end %>
+
+							<% if @display_state == :display_in_route or 
+								  @display_state == :display_done %>							
+							  <li>Your order is in <span class="blue">route&hellip;</span></li>
+							<% else %>
+							  <li>Your order is in route&hellip;</li>
+							<% end %>
+							
+							<% if @display_state == :display_done %>	
+							  <li>Your order has <span class="blue">arrived!&hellip;</span></li>
+							  <li style="list-style:none;color: #4f9906;">Thank you!</li>
+							<% else %>
+							  <li>Your order has arrived!&hellip;</li>						
+							<% end %>
 						</ol>
 					</div>
 					

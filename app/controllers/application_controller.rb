@@ -9,6 +9,7 @@ class ApplicationController < ActionController::Base
   def generate_cart_id
     session[:cart_id] ||= "id" + rand(10000).to_s + "e"
 	session[:items] ||= []
+	session[:order_state] ||= :none
   end
   # Scrub sensitive parameters from your log
   # filter_parameter_logging :password

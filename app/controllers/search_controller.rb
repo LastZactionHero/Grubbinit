@@ -2,6 +2,7 @@
 
 class SearchController < ApplicationController
   def index
+    session[:order_state] = :none
 	@search_term = ""
 	@search_zip = ""
 	

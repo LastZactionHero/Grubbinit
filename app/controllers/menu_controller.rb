@@ -40,6 +40,7 @@ class MenuController < ApplicationController
   
   
   def index
+    session[:order_state] = :none
     @restaurant_name = params[:id].to_s
 	
 	params.each do |key,value|
