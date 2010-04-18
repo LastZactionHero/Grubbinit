@@ -1,43 +1,42 @@
-			<div class="subContent clearfix">
-				<p>Mauris mollis eleifend erat nec ullamcorper. Quisque porta laoreet tellus quis commodo. Aliquam volutpat, nisl at elementum elementum, tellus eros viverra erat, sit amet sagittis nunc tortor vel nulla. Nam velit sapien, suscipit ut ornare nec, pretium eu magna.</p>
-			</div> 
-		</div>
-		
-		
-		<!-- 
-			<div id="contentBlock" class="clearfix">
-				<div id="homepageSearch" class="clearfix">
-					<h2>search here:</h2>
+			<div class="innerSearch clearfix">
+				<h2>search here:</h2>
 					<div class="searchRow">
-					<form name="index" action="search" method="get">
-						<input type="text" name="searchValue" id="searchValue" class="searchField" value="e.g. Thai, $15.99, Westport" />
-						<input type="text" name="zipValue" id="zipValue" class="zipcodeField" value="zipcode" />
-						<input type="submit" id="submit" class="sprite_buttons submitBtn" value="" />
-						<!-- <input type="text" name="user" />
-						<input type="submit" value="Submit" />
-					</form>
+						<form name="index" action="search" method="get">
+							<input type="text" name="searchValue" id="searchValue" class="searchField" value="e.g. Thai, $15.99, Westport" />
+							<input type="text" name="zipValue" id="zipValue" class="zipcodeField" value="zipcode" />
+							<input type="submit" id="submit" class="sprite_buttons goBtn" value="" />
+						</form>
 					</div>
-				</div>
-				<div id="homepageSignInBlock">&nbsp;</div>
-			</div> -->
-			
-		<div id="lowerContentBlock" class="clearfix">
-			<div id="homepageSearch" class="clearfix">
-			
-		Your search for <%= "#{@search_term}" %> found <%= "#{@restaurants.size}" %> 
-		<% if @restaurants.size == 1 %>
-		  <%= "result." %>
-		<% else %>
-		  <%= "results." %>
-		<% end %>
-		
-		<br><br>
-		<% @restaurants.each do |restaurant| %>
-			<%= "#{restaurant.name}" %>
-		<br><br>
-		<% end %>
-		
-		
 			</div>
 		</div>
+		
+		<div id="lowerContentBlock" class="clearfix">
+			<div id="contentBlock" class="clearfix">
+				<div class="searchResults">
+				
+					<h3>your results:</h3>
+					<ol class="searchListing">
+					
+						<% @restaurants.each do |restaurant| %>
+							<li>
+								<div class="leftResult">
+									<a class="businessName" href="#"><%= "#{restaurant.name}" %></a>
+									<span class="description"><%= "#{restaurant.description}" %></span>
+								</div>
+								<div class="rightResult">
+									<a class="sprite_buttons viewMenu" href="#">View Menu</a>
+									<span class="sprite_buttons ratings pos">&nbsp;</span>
+									<span class="sprite_buttons ratings pos">&nbsp;</span>
+									<span class="sprite_buttons ratings pos">&nbsp;</span>
+									<span class="sprite_buttons ratings pos">&nbsp;</span>
+									<span class="sprite_buttons ratings">&nbsp;</span>
+								</div>
+							</li>	
+						<% end %>						
+					</ol>
+					
+					<div class="mapBlock">&nbsp;</div>
+					
+				</div>
+			</div>
 		</div>

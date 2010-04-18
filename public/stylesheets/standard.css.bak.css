@@ -15,11 +15,6 @@ h2 {
 	font: 40px Tahoma, Arial, Helvetica, sans-serif;
 	margin: 10px 0;
 }
-h3 {
-	color: #000;
-	font: 32px "Trebuchet MS", Helvetica, sans-serif;
-	margin: 10px 0;
-}
 p {margin: 10px 0;}
 div#outerWrapper {
 	background: transparent url(/images/top.gif) repeat-x scroll 0 0;
@@ -110,28 +105,6 @@ div#outerWrapper {
 		}
 			input.submitBtn:hover {background-position: 0px -41px;}
 			
-		input.goBtn {
-			background-position: 0px 0px;
-			float: left;
-			height: 40px;
-			padding: 0;
-			width: 55px;
-		}
-			input.goBtn:hover {background-position: 0px -41px;}
-		a.helpBtn, a.homeBtn {
-			cursor: pointer;
-			display: block;
-			float: left;
-			height: 40px;
-			text-indent: -9999px;
-			width: 40px;
-		}
-		a.helpBtn {background-position: -56px 0px; margin: 0 10px 0 354px;}
-			a.helpBtn:hover {background-position: -56px -41px;}
-		a.homeBtn {background-position: -97px 0px;}
-			a.homeBtn:hover {background-position: -97px -41px;}
-		
-		
 		div#homepageSignInBlock {
 			background: transparent url(/images/signin_block.png) no-repeat scroll 0 0;
 			float: right;
@@ -146,75 +119,3 @@ div#outerWrapper {
 			position: relative;
 			width: 960px;
 		}
-		
-		
-
-	/* Inner Page styles */
-	.innerSearch {float: left; margin: 70px 0 35px 50px;}
-	.searchResults {margin: 50px 0 0 50px;}
-		ol.searchListing {
-			float: left;
-			list-style: decimal outside none; 
-			margin-left: 30px;
-			position: relative;
-			width: 541px;
-		}
-			ol.searchListing li {
-				color: #777;
-				float: left;
-				font: bold 24px "Trebuchet MS", Helvetica, sans-serif;
-				margin-bottom: 20px;
-				position: relative;
-			}
-				
-				.leftResult {float: left; width: 300px;}
-				.leftResult a.businessName {
-					color: #54c3d6;
-					float: left;
-					width: 100%;
-				}
-					.leftResult a.businessName:hover {color: #555; text-decoration: underline;}
-				.leftResult span.description {
-					display: block;
-					float: left;
-					font: 13px Tahoma, Arial, Helvetica, sans-serif;
-					width: 100%;
-				}
-				
-				.rightResult {
-					float: right; 
-					position: relative;
-					width: 115px;
-				}
-					.viewMenu {
-						background-position: -1px -83px;
-						cursor: pointer;
-						display: block;
-						float: left;
-						height: 30px;
-						margin: 0 0 10px 0;
-						text-indent: -9999px;
-						width: 115px;
-					}
-						.viewMenu:hover {background-position: -1px -115px;}
-					span.ratings {
-						background-position: -284px -2px;
-						display: block;
-						float: left;
-						height: 15px;
-						width: 15px;
-					}
-						span.pos {background-position: -267px -2px;}
-	
-			.mapBlock {
-				background: transparent url(images/map.jpg) no-repeat scroll 0 0;
-				float: right;
-				height: 339px;
-				margin-bottom: 50px;
-				width: 339px;
-			}
-	
-	
-	
-	
-	

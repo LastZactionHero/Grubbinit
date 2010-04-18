@@ -5,19 +5,21 @@
 <%= stylesheet_link_tag 'standard' %>
 </head>
 
+
 <body>
 
-<div id="outerWrapper">
+	<div id="outerWrapper">
+	
 		<div id="innerWrapper" class="clearfix">
 			<span class="utility">&nbsp;</span>
 			<a class="logo" href="index.html">Grubbin.it</a>
-		
-<%= yield %>
-
-	<div id="footer" class="clearfix">
-		copyright &copy; 2010 Grubbin.it All rights Reserved.
+			
+			<%= yield %>
+			
+		<div id="footer" class="clearfix">
+			copyright &copy; 2010 Grubbin.it All rights Reserved.
+		</div>
 	</div>
-</div>
+
 </body>
 </html>
-
